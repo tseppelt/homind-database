@@ -10,6 +10,11 @@
                 "references" : ["lovasz_operations_1967"]
             },
             {
+                "claim"      : "characterised as",
+                "value"      : "existence of a permutation matrix $X$ such that $XA_G = A_H X$",
+                "references" : ["lovasz_operations_1967"]
+            },
+            {
                 "claim"      : "complexity",
                 "value"      : "GI-complete",
                 "wikidata"   : "Q1137573",
@@ -25,6 +30,33 @@
                 "value"      : true,
                 "wikidata"   : "Q1137573",
                 "references" : ["trivial"]
+            }
+        ]
+    },
+    {
+        "name": "Planar graphs",
+        "wikidata": "Q547823",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "quantum isomorphism",
+                "references" : ["mancinska_quantum_2022"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of a quantum permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "references" : ["lupini_nonlocal_2020"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "undecidable",
+                "wikidata"   : "Q3502995",
+                "references" : ["atserias_quantum_2019"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "references" : ["roberson_oddomorphisms_2022"]
             }
         ]
     },
@@ -83,6 +115,11 @@
                 "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "subclass of",
+                "value"      : "pathwidth $\\leq k-1$",
+                "references" : []
             }
         ]
     },
@@ -93,6 +130,13 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished by the $k$-dimensional Weisfeiler–Leman algorithm",
                 "tag"        : "logic",
                 "wikidata"   : null,
                 "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
@@ -121,6 +165,44 @@
         ]
     },
     {
+        "name": "Pathwidth $\\leq k$",
+        "wikidata": "Q7144893",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without negativity constraints",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["dell_lovasz_2018", "grohe_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers and restricted conjunction",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["montacute_pebble_2024"]
+            },
+            
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["grohe_homomorphism_2025"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "references" : ["seppelt_homomorphism_2024"]
+            },
+            {
+                "claim"      : "subclass of",
+                "value"      : "treewidth $\\leq k$",
+                "references" : []
+            }
+        ]
+    },
+    {
         "name": "Maximal degree $\\leq \\Delta$",
         "wikidata": "Q141488",
         "statements": [
@@ -129,7 +211,7 @@
                 "value"      : true,
                 "tag"        : null,
                 "wikidata"   : null,
-                "references" : ["roberson"]
+                "references" : ["roberson_oddomorphisms_2022"]
             }
         ]
     },
@@ -144,11 +226,25 @@
                 "references" : ["folklore"]
             },
             {
+                "claim"      : "characterised as",
+                "value"      : "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["folklore"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an invertible matrix $X$ such that $XA_G = A_HX$",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["folklore"]
+            },
+            {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "tag"        : "logic",
                 "wikidata"   : "Q1137573",
-                "references" : ["dvorak"]
+                "references" : ["folklore"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
@@ -156,11 +252,136 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["seppelt_homomorphism_2024"]
+            },
+            {
+                "claim"      : "subclass of",
+                "value"      : "outerplanar graphs",
+                "references" : []
+            }
+        ]
+    },
+    {
+        "name": "Paths",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["dell_lovasz_2018"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["seppelt_algorithmic_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_oddomorphisms_2022"]
+            },
+            {
+                "claim"      : "subclass of",
+                "value"      : "pathwidth $\\leq 1$",
+                "references" : []
+            }
+        ]
+    },
+    {
+        "name": "Paths and Cycles",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "cospectral with cospectral complements",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : []
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_oddomorphisms_2022"]
+            },
+            {
+                "claim"      : "coincides with",
+                "value"      : "maximum degree $\\leq 2$",
+                "references" : []
+            },
+            {
+                "claim"      : "subclass of",
+                "value"      : "treewidth $\\leq 2$",
+                "references" : []
+            }
+        ]
+    },
+    {
+        "name": "Trees",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["dvorak_recognizing_2010", "dell_lovasz_2018"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "equivalence in two-variable first-order logic with counting quantifiers",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["dvorak_recognizing_2010"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler–Leman algorithm)",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["cai_optimal_1992"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["cai_optimal_1992"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_oddomorphisms_2022"]
+            },
+            {
+                "claim"      : "coincides with",
+                "value"      : "treewidth $\\leq 1$",
+                "references" : []
             }
         ]
     },
     {
         "name": "Stars",
+        "wikidata": "Q2589168",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -233,6 +454,105 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : []
+            }
+        ]
+    },
+    {
+        "name": "$\\mathcal{P}_k$",
+        "note": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["nar_npa_2024"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "coRP",
+                "wikidata"   : "Q1137573",
+                "references" : ["nar_npa_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : "unknown",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "planar graphs",
+				"references" : ["nar_npa_2024"]
+			},
+			{
+				"claim"		 : "subclass of",
+				"value"		 : "$\\mathcal{L}_k$",
+				"references" : ["nar_npa_2024"]
+			}
+        ]
+    },
+    {
+        "name": "Outerplanar graphs",
+        "wikidata": "Q3115604",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the first level of the Lasserre semidefinite programming hierarchy",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_lasserre_2024"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "coRP",
+                "wikidata"   : "Q1137573",
+                "references" : ["seppelt_algorithmic_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["seppelt_homomorphism_2024"]
+            }
+        ]
+    },
+    {
+        "name": "$(K_4, K_{2,h})$-minor-free graphs",
+        "wikidata": "Q3115604",
+        "note" : "family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
+        "statements": [
+            {
+                "claim"      : "complexity",
+                "value"      : "coRP",
+                "wikidata"   : "Q1137573",
+                "references" : ["seppelt_algorithmic_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["seppelt_homomorphism_2024"]
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "treewidth $\\leq 2$",
+				"references" : []
+			}
+        ]
+    },
+    {
+        "name": "$k$-colourable graphs for $k \\geq 3$",
+        "statements": [
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : false,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["dvorak_recognizing_2010"]
             }
         ]
     }

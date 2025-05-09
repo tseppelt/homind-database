@@ -1,4 +1,8 @@
 {
+    "atserias_quantum_2019" : {
+		"short" : "Atserias, Mančinska, Roberson, Šámal, Severini, & Varvitsiotis (2019)",
+		"long" : "A. Atserias, L. Mančinska, D. E. Roberson, R. Šámal, S. Severini, and A. Varvitsiotis, ‘Quantum and non-signalling graph isomorphisms’, <i>J. Comb. Theory, Ser. B</i>, vol. 136, pp. 289–328, 2019, doi: <a href='https://doi.org/10.1016/j.jctb.2018.11.002'>10.1016/j.jctb.2018.11.002</a>."
+	},
     "babai_graph_2016" : {
         "short" : "Babai (2016)",
         "long" : "L. Babai, “Graph Isomorphism in Quasipolynomial Time [Extended Abstract],” in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
@@ -15,14 +19,38 @@
         "short" : "Dvořák (2010)",
         "long"  : "Z. Dvořák, “On recognizing graphs by numbers of homomorphisms,” <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
     },
+    "grohe_homomorphism_2025": {
+		"short" : "Grohe, Rattan, & Seppelt (2025)",
+		"long" : "M. Grohe, G. Rattan, and T. Seppelt, ‘Homomorphism Tensors and Linear Equations’, <i>AiC</i>, Apr. 2025, doi: <a href='https://doi.org/10.19086/aic.2025.4'>10.19086/aic.2025.4</a>."
+	},
     "lovasz_operations_1967" : {
         "short" : "Lovász (1967)",
         "long" : "L. Lovász, “Operations with structures,” <i>Acta Mathematica Academiae Scientiarum Hungarica</i>, vol. 18, no. 3, pp. 321–328, Sep. 1967, doi: <a href='https://doi.org/10.1007/BF02280291'>10.1007/BF02280291</a>"
     },
+    "lupini_nonlocal_2020" :{
+		"short" : "Lupini, Mančinska, & Roberson (2020)",
+		"long" : "M. Lupini, L. Mančinska, and D. E. Roberson, ‘Nonlocal games and quantum permutation groups’, <i>Journal of Functional Analysis</i>, vol. 279, no. 5, p. 108592, Sep. 2020, doi: <a href='https://doi.org/10.1016/j.jfa.2020.108592'>10.1016/j.jfa.2020.108592</a>."
+	},
+    "mancinska_quantum_2022" : {
+		"short" : "Mančinska and Roberson (2020)",
+		"long" : "L. Mančinska and D. E. Roberson, ‘Quantum isomorphism is equivalent to equality of homomorphism counts from planar graphs’, in <i>2020 IEEE 61st Annual Symposium on Foundations of Computer Science (FOCS)</i>, 2020, pp. 661–672. doi: <a href='https://doi.org/10.1109/FOCS46700.2020.00067'>10.1109/FOCS46700.2020.00067</a>."
+	},
+    "montacute_pebble_2024": {
+		"short" : "Montacute and Shah (2024)",
+		"long": "Y. Montacute and N. Shah, ‘The Pebble-Relation Comonad in Finite Model Theory’, <i>Logical Methods in Computer Science</i>, vol. Volume 20, Issue 2, May 2024, doi: <a href='https://doi.org/10.46298/lmcs-20(2:9)2024'>10.46298/lmcs-20(2:9)2024</a>."
+	},
+	"nar_npa_2024": {
+		"short" : "Nar, Roberson, Seppelt, & Zeman (2024)",
+		"long" : "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
+	},
     "neuen_homomorphism_2024" : {
         "short" : "Neuen (2024)",
         "long" : "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, 2024, doi: <a href='https://doi.org/10.4230/LIPICS.STACS.2024.53'>10.4230/LIPICS.STACS.2024.53</a>"
     },
+    "roberson_oddomorphisms_2022" : {
+		"short" : "Roberson (2022)",
+		"long" : "D. E. Roberson, ‘Oddomorphisms and homomorphism indistinguishability over graphs of bounded degree’, Jun. 21, 2022, <i>arXiv</i>: arXiv:2206.10321  <a href='http://arxiv.org/abs/2206.10321'>http://arxiv.org/abs/2206.10321</a>"
+	},
     "roberson_lasserre_2024" : {
         "short" : "Roberson and Seppelt (2024)",
         "long" : "D. E. Roberson and T. Seppelt, ‘Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability’, <i>TheoretiCS</i>, vol. Volume 3, p. 12321, Sep. 2024, doi: <a href='https://doi.org/10.46298/theoretics.24.20'>10.46298/theoretics.24.20</a>"
