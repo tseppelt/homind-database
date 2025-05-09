@@ -96,13 +96,6 @@ MathJax = {
             $.each(data, function(index, item) {
                 content = `<h2>${item.name} ${wikidataLink(item.wikidata)}</h2>`
                 
-                /* switch(item.hd_closed) {
-                    case true : content += `<p>Homomorphism distinguishing closed.</p>`
-                                break
-                    case false: content += `<p>Not homomorphism distinguishing closed.</p>`
-                                break 
-                    default :  content += `<p>Homomorphism distinguishing closure unknown.</p>`
-                }*/
                 if(item.note != null) {
                     content += `<p>${item.note}</p>`
                 }
@@ -114,59 +107,19 @@ MathJax = {
                         content += `<li>
                                 <b>${statement.claim}</b>
                                 ${statement.value}
-                                ${wikidataLink(statement.wikidata)}
-                                ${citations(statement.references)}
-                            </li>`
+                                ${wikidataLink(statement.wikidata)}`
+					    if(statement.note != null) {
+							content += `<br/>${statement.note}`
+						}
+                        if(statement.references != null && statement.references.length > 0) {
+							content += `<br/>${citations(statement.references)}`
+						}
+   
+                        content += `</li>`
                     });
                     content += `</ul>`
                 }
-                /*
-                if( item.characterisations == null || item.characterisations.length == 0){
-                    content += "<p>No characterisations found.</p>";
-                } else {
-                    content += `<table>
-                        <thead>
-                            <tr>
-                                <th>Characterised as</th>
-                                <th>Category</th>
-                                <th>Reference</th>
-                            </tr>
-                        </thead>`
-                    item.characterisations.forEach(charac => {
-                        content += `
-                            <tr>    
-                                <td>${charac.statement} ${wikidataLink(charac.wikidata)}</td>
-                                <td>${charac.category}</td>
-                                <td>${charac.references}</td>
-                            </tr>
-                        `
-                    });
-                    content += `
-                        </table>
-                    `
-                }
-                if( item.complexity == null || item.complexity.length == 0){
-                    content += "<p>Complexity-theoretic status unknown.</p>";
-                } else {
-                    content += `<table>
-                        <thead>
-                            <tr>
-                                <th>Characterised as</th>
-                                <th>Reference</th>
-                            </tr>
-                        </thead>`
-                    item.complexity.forEach(charac => {
-                        content += `
-                            <tr>    
-                                <td>${charac.statement} ${wikidataLink(charac.wikidata)}</td>
-                                <td>${charac.references}</td>
-                            </tr>
-                        `
-                    });
-                    content += `
-                        </table>
-                    `
-                }*/
+  
                 $("#jsonData").append(content);
             });
             
@@ -197,7 +150,7 @@ MathJax = {
             if(keys.length == 0) {
                 return ""
             }
-            return `<br/><span class="references"><i class="bi bi-eyeglasses"></i> ` + keys.map(citation).join(", ") +`</span>`;
+            return `<span class="references"><i class="bi bi-eyeglasses"></i> ` + keys.map(citation).join(", ") +`</span>`;
         }
 
         function citation(key) {

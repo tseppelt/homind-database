@@ -156,6 +156,11 @@
                 "references" : ["cai_optimal_1992"]
             },
             {
+                "claim"      : "complexity",
+                "value"      : "complete for polynomial time under uniform $\\mathsf{AC}_0$-reductions",
+                "references" : ["grohe_equivalence_1999"]
+            },
+            {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
                 "tag"        : "logic",
@@ -545,14 +550,35 @@
         ]
     },
     {
-        "name": "$k$-colourable graphs for $k \\geq 3$",
+        "name": "$2$-degenerate graphs",
         "statements": [
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : false,
                 "tag"        : null,
                 "wikidata"   : null,
-                "references" : ["dvorak_recognizing_2010"]
+                "references" : ["dvorak_recognizing_2010"],
+                "note"		 : "The homomorphism distinguishing closure is the class of all graphs."
+            }
+        ]
+    },
+    {
+        "name": "Complete graphs",
+        "wikidata": "Q45715",
+        "statements": [
+            {
+                "claim"      : "complexity",
+                "value"      : "$\\mathsf{C}_=\\mathsf{P}$-complete",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["boeker_complexity_2019"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_oddomorphisms_2022"]
             }
         ]
     }

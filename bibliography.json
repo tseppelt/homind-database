@@ -7,6 +7,10 @@
         "short" : "Babai (2016)",
         "long" : "L. Babai, “Graph Isomorphism in Quasipolynomial Time [Extended Abstract],” in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
     },
+    "boeker_complexity_2019" : {
+		"short" : "Böker, Chen, Grohe, & Rattan (2019)",
+		"long" : "J. Böker, Y. Chen, M. Grohe, and G. Rattan, ‘The Complexity of Homomorphism Indistinguishability’, p. 13 pages, 2019, doi: <a href='https://doi.org/10.4230/LIPICS.MFCS.2019.54'>10.4230/LIPICS.MFCS.2019.54</a>."
+	},
     "cai_optimal_1992" : {
         "short" : "Cai, Fürer, & Immerman (1992)",
         "long" : "J.-Y. Cai, M. Fürer, and N. Immerman, “An optimal lower bound on the number of variables for graph identification,” <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
@@ -19,6 +23,10 @@
         "short" : "Dvořák (2010)",
         "long"  : "Z. Dvořák, “On recognizing graphs by numbers of homomorphisms,” <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
     },
+    "grohe_equivalence_1999" : {
+		"short" : "Grohe (1999)",
+		"long" : "M. Grohe, ‘Equivalence in Finite-Variable Logics is Complete for Polynomial Time’, <i>Combinatorica</i>, vol. 19, no. 4, pp. 507–532, Oct. 1999, doi: <a href='https://doi.org/10.1007/s004939970004'>10.1007/s004939970004</a>."
+	},
     "grohe_homomorphism_2025": {
 		"short" : "Grohe, Rattan, & Seppelt (2025)",
 		"long" : "M. Grohe, G. Rattan, and T. Seppelt, ‘Homomorphism Tensors and Linear Equations’, <i>AiC</i>, Apr. 2025, doi: <a href='https://doi.org/10.19086/aic.2025.4'>10.19086/aic.2025.4</a>."
