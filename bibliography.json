@@ -1,0 +1,14 @@
+{
+    "babai_graph_2016" : {
+        "short" : "Babai (2016)",
+        "long" : "L. Babai, “Graph Isomorphism in Quasipolynomial Time [Extended Abstract],” in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
+    },
+    "dvorak_recognizing_2010" : {
+        "short" : "Dvořák (2010)",
+        "long"  : "Z. Dvořák, “On recognizing graphs by numbers of homomorphisms,” <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
+    },
+    "lovasz_operations_1967" : {
+        "short" : "Lovász (1967)",
+        "long" : "L. Lovász, “Operations with structures,” <i>Acta Mathematica Academiae Scientiarum Hungarica</i>, vol. 18, no. 3, pp. 321–328, Sep. 1967, doi: <a href='https://doi.org/10.1007/BF02280291'>10.1007/BF02280291</a>"
+    }
+}

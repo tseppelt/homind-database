@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homomorphism Indistinguishability Zoo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+    <style>
+        .wikidata-link {
+            height: .7em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Homomorphism Indistinguishability Zoo</h1>
+
+    <div class="form-group">
+        <label for="ageFilter">Search:</label>
+        <input type="text" class="form-control" id="textSearch" placeholder="Search phrase">
+    </div>
+    
+    <div id="jsonData"></div>
+
+    <div id="bibliography"></div>
+
+    <script>
+
+        let allData = [];
+        let bibliography = [];
+
+        $(document).ready(function() {
+            /*$.get('bibliography.bib', function(data) {
+                bibtexEntries = bibtex.parseBibFile(data);
+                const htmlOutput = bibtex.toHTML(bibtexEntries);
+                $('#bibliography').append(htmlOutput);
+            });*/
+
+            $.getJSON('bibliography.json', function(data) {
+                bibliography = data; 
+                populateBibliography();
+            }).fail(function() {
+                console.error('Error fetching bibliography');
+            });
+
+
+            $.getJSON('data.json', function(data) {
+                allData = data; // Store the fetched data
+                populateView(allData); // Populate the table with all data
+            }).fail(function() {
+                console.error('Error fetching data');
+            });
+            
+
+            $('#textSearch').on('input', function() {
+                applyFilters();
+            });
+        });     
+
+        function applyFilters() {
+            const textSearch = $('#textSearch').val().toLowerCase();
+            const filteredData = allData.filter(item => {
+                //const matchesAge = isNaN(ageFilter) || item.age === ageFilter;
+                matchesName = item.name.toLowerCase().includes(textSearch);
+                if(item.statements != null){
+                    item.statements.forEach(statement => {
+                        try{
+                             matchesName = matchesName || statement.value.toLowerCase().includes(textSearch);
+                        }catch(e){}
+                    });
+                }
+                // const matchesIncome = !showIncomeGreaterThan1000 || item.income > 1000;
+                return matchesName;
+            });
+
+            populateView(filteredData);
+        }
+
+        function populateView(data) {  
+            $("#jsonData").empty();
+            $.each(data, function(index, item) {
+                content = `<h2>${item.name} ${wikidataLink(item.wikidata)}</h2>`
+                
+                /* switch(item.hd_closed) {
+                    case true : content += `<p>Homomorphism distinguishing closed.</p>`
+                                break
+                    case false: content += `<p>Not homomorphism distinguishing closed.</p>`
+                                break 
+                    default :  content += `<p>Homomorphism distinguishing closure unknown.</p>`
+                }*/
+                if( item.statements == null || item.statements.length == 0){
+                    content += "<p>No statements found.</p>";
+                }else{
+                    content += `<ul>`
+                    item.statements.forEach(statement => {
+                        content += `<li>
+                                <b>${statement.claim}</b>
+                                ${statement.value}
+                                ${wikidataLink(statement.wikidata)}
+                                ${citations(statement.references)}
+                            </li>`
+                    });
+                    content += `</ul>`
+                }
+                /*
+                if( item.characterisations == null || item.characterisations.length == 0){
+                    content += "<p>No characterisations found.</p>";
+                } else {
+                    content += `<table>
+                        <thead>
+                            <tr>
+                                <th>Characterised as</th>
+                                <th>Category</th>
+                                <th>Reference</th>
+                            </tr>
+                        </thead>`
+                    item.characterisations.forEach(charac => {
+                        content += `
+                            <tr>    
+                                <td>${charac.statement} ${wikidataLink(charac.wikidata)}</td>
+                                <td>${charac.category}</td>
+                                <td>${charac.references}</td>
+                            </tr>
+                        `
+                    });
+                    content += `
+                        </table>
+                    `
+                }
+                if( item.complexity == null || item.complexity.length == 0){
+                    content += "<p>Complexity-theoretic status unknown.</p>";
+                } else {
+                    content += `<table>
+                        <thead>
+                            <tr>
+                                <th>Characterised as</th>
+                                <th>Reference</th>
+                            </tr>
+                        </thead>`
+                    item.complexity.forEach(charac => {
+                        content += `
+                            <tr>    
+                                <td>${charac.statement} ${wikidataLink(charac.wikidata)}</td>
+                                <td>${charac.references}</td>
+                            </tr>
+                        `
+                    });
+                    content += `
+                        </table>
+                    `
+                }*/
+                $("#jsonData").append(content);
+            });
+            
+            MathJax.typeset();
+            
+        }
+
+        function populateBibliography() {
+            $("#bibliography").empty();
+
+            content = "<h1>Bibliography</h1><ul>"
+            $.each(bibliography, function(index, item) {
+                content += `<li><a name="citation_${index}">${item.short}</a>: ${item.long}</li>`
+            });
+            $("#bibliography").append(content)
+        }
+
+        function wikidataLink(wikidata) {
+            if(wikidata == null) {
+                return "";
+            }else{
+                return `<a href="https://www.wikidata.org/wiki/${wikidata}"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/60px-Wikidata-logo.svg.png'></a>`;
+            }
+        }
+
+        function citations(keys) {
+            return keys.map(citation).join(", ");
+        }
+
+        function citation(key) {
+            if(key == "folklore") {
+                return "Folklore";
+            }
+            if(key == "trivial") {
+                return "Trivial"
+            }
+            if(bibliography[key] == null) {
+                return `<b>Unknown reference ${key}</b>`;
+            }else{
+                return `<a href="#citation_${key}">${bibliography[key].short}</a>`;
+            }
+        }
+    </script>
+</body>
+</html>

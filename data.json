@@ -1,0 +1,138 @@
+[
+    {
+        "name": "All graphs",
+        "wikidata": "Q141488",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "isomorphism",
+                "wikidata"   : "Q303100",
+                "references" : ["lovasz_operations_1967"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "GI-complete",
+                "wikidata"   : "Q1137573",
+                "references" : ["trivial"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "quasi-polynomial time",
+                "references" : ["babai_graph_2016"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "wikidata"   : "Q1137573",
+                "references" : ["trivial"]
+            }
+        ]
+    },
+    {
+        "name": "Treedepth $\\leq q$",
+        "wikidata": "Q5067368",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["dvorak_recognizing_2010"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak"]
+            }
+        ]
+    },
+    {
+        "name": "Treewidth $\\leq k$",
+        "wikidata": "Q5067368",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["dvorak_recognizing_2010"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak"]
+            }
+        ]
+    },
+    {
+        "name": "Bounded degree",
+        "wikidata": "Q141488",
+        "statements": [
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson"]
+            }
+        ]
+    },
+    {
+        "name": "Cycles",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "cospectrality",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "tag"        : "logic",
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["seppelt"]
+            }
+        ]
+    }
+]
