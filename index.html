@@ -6,6 +6,7 @@
     <title>Homomorphism Indistinguishability Zoo</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script>
 MathJax = {
@@ -102,6 +103,9 @@ MathJax = {
                                 break 
                     default :  content += `<p>Homomorphism distinguishing closure unknown.</p>`
                 }*/
+                if(item.note != null) {
+                    content += `<p>${item.note}</p>`
+                }
                 if( item.statements == null || item.statements.length == 0){
                     content += "<p>No statements found.</p>";
                 }else{
@@ -189,7 +193,10 @@ MathJax = {
         }
 
         function citations(keys) {
-            return keys.map(citation).join(", ");
+            if(keys.length == 0) {
+                return ""
+            }
+            return `<br/><span class="references"><i class="bi bi-eyeglasses"></i> ` + keys.map(citation).join(", ") +`</span>`;
         }
 
         function citation(key) {

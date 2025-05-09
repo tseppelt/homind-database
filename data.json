@@ -29,6 +29,30 @@
         ]
     },
     {
+        "name": "Bipartite graphs",
+        "wikidata": "Q141488",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "isomorphic bipartite double covers",
+                "wikidata"   : "Q303100",
+                "references" : ["dvorak_recognizing_2010"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "GI-complete",
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak_recognizing_2010"]
+            }
+        ]
+    },
+    {
         "name": "Treedepth $\\leq q$",
         "wikidata": "Q5067368",
         "statements":[
@@ -71,33 +95,33 @@
                 "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
                 "tag"        : "logic",
                 "wikidata"   : null,
-                "references" : ["dvorak_recognizing_2010"]
+                "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
                 "tag"        : "logic",
                 "wikidata"   : null,
-                "references" : ["dvorak"]
+                "references" : ["dell_lovasz_2018"]
             },
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "tag"        : "logic",
                 "wikidata"   : "Q1137573",
-                "references" : ["dvorak"]
+                "references" : ["cai_optimal_1992"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
                 "tag"        : "logic",
                 "wikidata"   : "Q1137573",
-                "references" : ["dvorak"]
+                "references" : ["neuen_homomorphism_2024"]
             }
         ]
     },
     {
-        "name": "Bounded degree",
+        "name": "Maximal degree $\\leq \\Delta$",
         "wikidata": "Q141488",
         "statements": [
             {
@@ -117,7 +141,7 @@
                 "value"      : "cospectrality",
                 "tag"        : null,
                 "wikidata"   : null,
-                "references" : ["dvorak"]
+                "references" : ["folklore"]
             },
             {
                 "claim"      : "complexity",
@@ -131,7 +155,84 @@
                 "value"      : true,
                 "tag"        : null,
                 "wikidata"   : null,
+                "references" : ["seppelt_homomorphism_2024"]
+            }
+        ]
+    },
+    {
+        "name": "Stars",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "equal degree sequence",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["folklore"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "wikidata"   : "Q1137573",
+                "references" : ["trivial"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : "unknown",
+                "tag"        : null,
+                "wikidata"   : null,
                 "references" : ["seppelt"]
+            }
+        ]
+    },
+    {
+        "name": "$\\mathcal{L}_k$",
+        "note": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation of the graph isomorphism integer quadratic program",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_lasserre_2024"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "coRP",
+                "wikidata"   : "Q1137573",
+                "references" : ["seppelt_algorithmic_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : "unknown",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
+            }
+        ]
+    },
+    {
+        "name": "$\\mathcal{L}_k^+$",
+        "note": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation with non-negativity constraints",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["roberson_lasserre_2024"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "wikidata"   : "Q1137573",
+                "references" : ["roberson_lasserre_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : "unknown",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
             }
         ]
     }

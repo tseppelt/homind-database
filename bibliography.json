@@ -3,6 +3,14 @@
         "short" : "Babai (2016)",
         "long" : "L. Babai, “Graph Isomorphism in Quasipolynomial Time [Extended Abstract],” in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
     },
+    "cai_optimal_1992" : {
+        "short" : "Cai, Fürer, & Immerman (1992)",
+        "long" : "J.-Y. Cai, M. Fürer, and N. Immerman, “An optimal lower bound on the number of variables for graph identification,” <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
+    },
+    "dell_lovasz_2018":{
+        "short" : "Dell, Grohe, & Rattan (2018)",
+        "long" : "H. Dell, M. Grohe, and G. Rattan, “Lovász Meets Weisfeiler and Leman,” <i>45th International Colloquium on Automata, Languages, and Programming (ICALP 2018)</i>, p. 40:1-40:14, 2018, doi: <a href='https://doi.org/10.4230/LIPICS.ICALP.2018.40'>10.4230/LIPICS.ICALP.2018.40</a>"
+    },
     "dvorak_recognizing_2010" : {
         "short" : "Dvořák (2010)",
         "long"  : "Z. Dvořák, “On recognizing graphs by numbers of homomorphisms,” <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
@@ -10,5 +18,21 @@
     "lovasz_operations_1967" : {
         "short" : "Lovász (1967)",
         "long" : "L. Lovász, “Operations with structures,” <i>Acta Mathematica Academiae Scientiarum Hungarica</i>, vol. 18, no. 3, pp. 321–328, Sep. 1967, doi: <a href='https://doi.org/10.1007/BF02280291'>10.1007/BF02280291</a>"
+    },
+    "neuen_homomorphism_2024" : {
+        "short" : "Neuen (2024)",
+        "long" : "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, 2024, doi: <a href='https://doi.org/10.4230/LIPICS.STACS.2024.53'>10.4230/LIPICS.STACS.2024.53</a>"
+    },
+    "roberson_lasserre_2024" : {
+        "short" : "Roberson and Seppelt (2024)",
+        "long" : "D. E. Roberson and T. Seppelt, ‘Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability’, <i>TheoretiCS</i>, vol. Volume 3, p. 12321, Sep. 2024, doi: <a href='https://doi.org/10.46298/theoretics.24.20'>10.46298/theoretics.24.20</a>"
+    },
+    "seppelt_algorithmic_2024" : {
+        "short": "Seppelt (2024a)",
+        "long": "T. Seppelt, ‘An Algorithmic Meta Theorem for Homomorphism Indistinguishability’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 82:1-82:19. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.82'>10.4230/LIPIcs.MFCS.2024.82</a>"
+    },
+    "seppelt_homomorphism_2024" : {
+        "short" : "Seppelt (2024b)",
+        "long" : "T. F. Seppelt, ‘Homomorphism Indistinguishability’, Dissertation, RWTH Aachen University, Aachen, 2024. doi: <a href='https://doi.org/10.18154/RWTH-2024-11629'>10.18154/RWTH-2024-11629</a>."
     }
 }
