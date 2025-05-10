@@ -1,0 +1,894 @@
+[
+    {
+        "name": "All graphs",
+        "wikidata": "Q141488",
+        "description": "The class of all finite simple undirected graphs, i.e. tuples $(V, E)$ where $V$ is a finite set and $E \\subseteq \\binom{V}{2}.$",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "isomorphism",
+                "wikidata": "Q303100",
+                "references": [
+                    "lovasz_operations_1967"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of a permutation matrix $X$ such that $XA_G = A_H X$",
+                "references": [
+                    "lovasz_operations_1967"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "GI-complete",
+                "wikidata": "Q115425721",
+                "references": [
+                    "trivial"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "quasi-polynomial time",
+                "references": [
+                    "babai_graph_2016"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "references": [
+                    "trivial"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "references": [
+                    "trivial"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Planar graphs",
+        "wikidata": "Q547823",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "quantum isomorphism",
+                "references": [
+                    "mancinska_quantum_2022"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of a quantum permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "references": [
+                    "lupini_nonlocal_2020"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "undecidable",
+                "wikidata": "Q3502995",
+                "references": [
+                    "atserias_quantum_2019"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "graph that can be embedded in the plane (from Wikidata)",
+        "graphclassesorg": "gc_43"
+    },
+    {
+        "name": "Bipartite graphs",
+        "wikidata": "Q174733",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "isomorphic bipartite double covers",
+                "wikidata": "Q303100",
+                "references": [
+                    "dvorak_recognizing_2010"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "GI-complete",
+                "wikidata": "Q115425721",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone"
+            }
+        ],
+        "description": "graph whose vertices can be divided into two disjoint and independent sets (from Wikidata)",
+        "graphclassesorg": "gc_69"
+    },
+    {
+        "name": "Treedepth $\\leq q$",
+        "wikidata": "Q5067368",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "grohe_counting_2020"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
+                "wikidata": null,
+                "references": [
+                    "grohe_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to Ehrenfeucht\u2013Fra\u00efss\u00e9 comonad",
+                "tag": "category theory",
+                "wikidata": null,
+                "references": [
+                    "dawar_lovasz_2021"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "references": [
+                    "grohe_counting_2020"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "references": [
+                    "fluck_going_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "pathwidth $\\leq q-1$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
+        "graphclassesorg": "par_10"
+    },
+    {
+        "name": "Treewidth $\\leq k$",
+        "wikidata": "Q5067368",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "dell_lovasz_2018"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "not distinguished by the $k$-dimensional Weisfeiler\u2013Leman algorithm",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "dell_lovasz_2018"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ Sherali-Adams system of equations",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "dell_lovasz_2018"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to pebbling comonad",
+                "tag": "category theory",
+                "wikidata": null,
+                "references": [
+                    "dawar_lovasz_2021"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": [
+                    "cai_optimal_1992"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "complete for polynomial time under uniform $\\mathsf{AC}_0$-reductions",
+                "references": [
+                    "grohe_equivalence_1999"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": [
+                    "neuen_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
+        "graphclassesorg": "par_10"
+    },
+    {
+        "name": "Pathwidth $\\leq k$",
+        "wikidata": "Q7144893",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without negativity constraints",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "dell_lovasz_2018",
+                    "grohe_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "equivalence in $(k+1)$-variable first-order logic with counting quantifiers and restricted conjunction",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "montacute_pebble_2024"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to pebble-relation comonad",
+                "tag": "category theory",
+                "wikidata": null,
+                "references": [
+                    "montacute_pebble_2024"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": [
+                    "grohe_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq k$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "term in graph theory (from Wikidata)",
+        "graphclassesorg": "par_9"
+    },
+    {
+        "name": "Maximal degree $\\leq \\Delta$",
+        "wikidata": "Q9346061",
+        "statements": [
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone"
+            }
+        ],
+        "description": "maximum number of edges that a vertex is adjacent to (from Wikidata)",
+        "graphclassesorg": "par_28"
+    },
+    {
+        "name": "Cycles",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "cospectrality",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "folklore"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "folklore"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of an invertible matrix $X$ such that $XA_G = A_HX$",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "folklore"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": [
+                    "folklore"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "outerplanar graphs",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "closed under edge contraction"
+            }
+        ]
+    },
+    {
+        "name": "Paths",
+        "wikidata": "Q917421",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "dell_lovasz_2018"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "pathwidth $\\leq 1$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "graph with nodes connected linearly (from Wikidata)"
+    },
+    {
+        "name": "Paths and Cycles",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "cospectral with cospectral complements",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": []
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "coincides with",
+                "value": "maximum degree $\\leq 2$",
+                "references": []
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ]
+    },
+    {
+        "name": "Trees",
+        "wikidata": "Q272735",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "dell_lovasz_2018"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "equivalence in two-variable first-order logic with counting quantifiers",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "dvorak_recognizing_2010"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler\u2013Leman algorithm)",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "cai_optimal_1992"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "tag": "logic",
+                "wikidata": "Q1137573",
+                "references": [
+                    "cai_optimal_1992"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "coincides with",
+                "value": "treewidth $\\leq 1$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "undirected, connected and acyclic graph (from Wikidata)",
+        "graphclassesorg": "gc_342"
+    },
+    {
+        "name": "Stars",
+        "wikidata": "Q2589168",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equal degree sequence",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "folklore"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "references": [
+                    "trivial"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "seppelt"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "description": "node-link graph in which one central node is the only neighbor of all the other nodes (from Wikidata)"
+    },
+    {
+        "name": "$\\mathcal{L}_k$",
+        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ Lasserre semidefinite programming relaxation of the graph isomorphism integer quadratic program",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "coRP",
+                "wikidata": "Q1137573",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "$\\mathcal{L}_k^+$",
+        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ Lasserre semidefinite programming relaxation with non-negativity constraints",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "$\\mathcal{P}_k$",
+        "description": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "nar_npa_2024"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "coRP",
+                "wikidata": "Q1137573",
+                "references": [
+                    "nar_npa_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
+            {
+                "claim": "subclass of",
+                "value": "planar graphs",
+                "references": [
+                    "nar_npa_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "$\\mathcal{L}_k$",
+                "references": [
+                    "nar_npa_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "references": [
+                    "nar_npa_2024"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outerplanar graphs",
+        "wikidata": "Q3115604",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the first level of the Lasserre semidefinite programming hierarchy",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "coRP",
+                "wikidata": "Q1137573",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "references": [
+                    "nar_npa_2024"
+                ]
+            }
+        ],
+        "description": "graph that can be drawn without crossings in the plane with all vertices on the outer face (from Wikidata)",
+        "graphclassesorg": "gc_110"
+    },
+    {
+        "name": "$(K_4, K_{2,h})$-minor-free graphs",
+        "wikidata": "Q3115604",
+        "description": "family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
+        "statements": [
+            {
+                "claim": "complexity",
+                "value": "coRP",
+                "wikidata": "Q1137573",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            }
+        ],
+        "graphclassesorg": "gc_110"
+    },
+    {
+        "name": "$2$-degenerate graphs",
+        "statements": [
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": false,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "dvorak_recognizing_2010"
+                ],
+                "description": "The homomorphism distinguishing closure is the class of all graphs."
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone"
+            }
+        ]
+    },
+    {
+        "name": "Complete graphs",
+        "wikidata": "Q45715",
+        "statements": [
+            {
+                "claim": "complexity",
+                "value": "$\\mathsf{C}_=\\mathsf{P}$-complete",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "boeker_complexity_2019"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "hereditary"
+            }
+        ],
+        "description": "simple undirected graph in which every pair of distinct vertices is connected by a unique edge (from Wikidata)",
+        "graphclassesorg": "gc_1241"
+    },
+    {
+        "name": "Graphs with $k$-pebble forest cover of depth $\\leq q$",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equivalence in the $k$-variable quantifier-depth-$d$ fragement of first-order logic with counting quantifiers",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "dawar_lovasz_2021",
+                    "fluck_going_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "adler_monotonicity_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq k-1$",
+                "references": [
+                    "dawar_lovasz_2021",
+                    "fluck_going_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treedepth $\\leq q$",
+                "references": [
+                    "dawar_lovasz_2021",
+                    "fluck_going_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "reference": [
+                    "fluck_going_2024"
+                ]
+            }
+        ]
+    }
+]

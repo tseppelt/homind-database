@@ -2,6 +2,7 @@
     {
         "name": "All graphs",
         "wikidata": "Q141488",
+        "description" : "The class of all finite simple undirected graphs, i.e. tuples $(V, E)$ where $V$ is a finite set and $E \\subseteq \\binom{V}{2}.$",
         "statements":[
             {
                 "claim"      : "characterised as",
@@ -17,7 +18,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "GI-complete",
-                "wikidata"   : "Q1137573",
+                "wikidata"   : "Q115425721",
                 "references" : ["trivial"]
             },
             {
@@ -28,8 +29,11 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "wikidata"   : "Q1137573",
                 "references" : ["trivial"]
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
@@ -57,78 +61,17 @@
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
                 "references" : ["roberson_oddomorphisms_2022"]
-            }
-        ]
-    },
-    {
-        "name": "Bipartite graphs",
-        "wikidata": "Q141488",
-        "statements":[
-            {
-                "claim"      : "characterised as",
-                "value"      : "isomorphic bipartite double covers",
-                "wikidata"   : "Q303100",
-                "references" : ["dvorak_recognizing_2010"]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "GI-complete",
-                "wikidata"   : "Q1137573",
-                "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
-            },
-            {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "wikidata"   : "Q1137573",
-                "references" : ["dvorak_recognizing_2010"]
-            }
-        ]
-    },
-    {
-        "name": "Treedepth $\\leq q$",
-        "wikidata": "Q5067368",
-        "statements":[
-            {
-                "claim"      : "characterised as",
-                "value"      : "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
-                "tag"        : "logic",
-                "wikidata"   : null,
-                "references" : ["grohe_counting_2020"]
-            },
-            {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
-                "wikidata"   : null,
-                "references" : ["grohe_homomorphism_2025"]
-            },
-            {
-                "claim"      : "characterised as",
-                "value"      : "coKleisli isomorphism with respect to Ehrenfeucht–Fraïssé comonad",
-                "tag"        : "category theory",
-                "wikidata"   : null,
-                "references" : ["dawar_lovasz_2021"]
-            },
-            {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "references" : ["grohe_counting_2020"]
-            },
-            {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "references" : ["fluck_going_2024"]
-            },
-            {
-                "claim"      : "subclass of",
-                "value"      : "pathwidth $\\leq q-1$",
-                "references" : []
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
         "name": "Treewidth $\\leq k$",
         "wikidata": "Q5067368",
+        "family" : true,
         "statements":[
             {
                 "claim"      : "characterised as",
@@ -176,12 +119,97 @@
                 "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["neuen_homomorphism_2024"]
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
+            }
+        ]
+    },
+    {
+        "name": "Bipartite graphs",
+        "wikidata": "Q174733",
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "isomorphic bipartite double covers",
+                "wikidata"   : "Q303100",
+                "references" : ["dvorak_recognizing_2010"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
+                "references" : ["ramana_fractional_1994"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "GI-complete",
+                "wikidata"   : "Q115425721",
+                "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "wikidata"   : "Q1137573",
+                "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "monotone"
+            }
+        ]
+    },
+    {
+        "name": "Treedepth $\\leq q$",
+        "wikidata": "Q5067368",
+        "family" : true,
+        "statements":[
+            {
+                "claim"      : "characterised as",
+                "value"      : "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
+                "tag"        : "logic",
+                "wikidata"   : null,
+                "references" : ["grohe_counting_2020"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
+                "wikidata"   : null,
+                "references" : ["grohe_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "coKleisli isomorphism with respect to Ehrenfeucht–Fraïssé comonad",
+                "tag"        : "category theory",
+                "wikidata"   : null,
+                "references" : ["dawar_lovasz_2021"]
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "polynomial time",
+                "wikidata"   : "Q1137573",
+                "references" : ["grohe_counting_2020"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "references" : ["fluck_going_2024"]
+            },
+            {
+                "claim"      : "subclass of",
+                "value"      : "pathwidth $\\leq q-1$",
+                "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
         "name": "Pathwidth $\\leq k$",
         "wikidata": "Q7144893",
+        "family" : true,
         "statements":[
             {
                 "claim"      : "characterised as",
@@ -220,12 +248,17 @@
                 "claim"      : "subclass of",
                 "value"      : "treewidth $\\leq k$",
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
         "name": "Maximal degree $\\leq \\Delta$",
-        "wikidata": "Q141488",
+        "wikidata": "Q9346061",
+        "family" : true,
         "statements": [
             {
                 "claim"      : "homomorphism distinguishing closed",
@@ -233,11 +266,15 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["roberson_oddomorphisms_2022"]
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "monotone"
             }
         ]
     },
     {
-        "name": "Cycles",
+        "name": "Disjoint unions of cycles",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -278,11 +315,16 @@
                 "claim"      : "subclass of",
                 "value"      : "outerplanar graphs",
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "closed under edge contraction"
             }
         ]
     },
     {
-        "name": "Paths",
+        "name": "Disjoint unions of paths",
+        "wikidata": "Q917421",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -309,11 +351,15 @@
                 "claim"      : "subclass of",
                 "value"      : "pathwidth $\\leq 1$",
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
-        "name": "Paths and Cycles",
+        "name": "Disjoint unions of paths and cycles",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -352,11 +398,17 @@
                 "claim"      : "subclass of",
                 "value"      : "treewidth $\\leq 2$",
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
-        "name": "Trees",
+        "name": "Forests",
+        "wikidata": "Q272735",
+        "description" : "Disjoint unions of trees, aka acyclic graphs",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -397,11 +449,15 @@
                 "claim"      : "coincides with",
                 "value"      : "treewidth $\\leq 1$",
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
-        "name": "Stars",
+        "name": "Disjoint unions of stars",
         "wikidata": "Q2589168",
         "statements": [
             {
@@ -423,12 +479,17 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["seppelt"]
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
             }
         ]
     },
     {
         "name": "$\\mathcal{L}_k$",
-        "note": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
+        "family" : true,
+        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -449,12 +510,18 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "references" : ["roberson_lasserre_2024"]
             }
         ]
     },
     {
         "name": "$\\mathcal{L}_k^+$",
-        "note": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
+        "family" : true,
+        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -475,12 +542,18 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : []
+            },
+            {
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "references" : ["roberson_lasserre_2024"]
             }
         ]
     },
     {
         "name": "$\\mathcal{P}_k$",
-        "note": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
+        "family" : true,
+        "description": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -511,7 +584,12 @@
 				"claim"		 : "subclass of",
 				"value"		 : "$\\mathcal{L}_k$",
 				"references" : ["nar_npa_2024"]
-			}
+			},
+			{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "references" : ["nar_npa_2024"]
+            }
         ]
     },
     {
@@ -537,13 +615,22 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["seppelt_homomorphism_2024"]
-            }
+            },
+			{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "treewidth $\\leq 2$"
+			}
         ]
     },
     {
         "name": "$(K_4, K_{2,h})$-minor-free graphs",
+        "family" : true,
         "wikidata": "Q3115604",
-        "note" : "family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
+        "description" : "family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
         "statements": [
             {
                 "claim"      : "complexity",
@@ -562,11 +649,16 @@
 				"claim"		 : "subclass of",
 				"value"		 : "treewidth $\\leq 2$",
 				"references" : []
-			}
+			},
+			{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed"
+            }
         ]
     },
     {
         "name": "$2$-degenerate graphs",
+        "wikidata":"Q5251771",
         "statements": [
             {
                 "claim"      : "homomorphism distinguishing closed",
@@ -574,12 +666,16 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["dvorak_recognizing_2010"],
-                "note"		 : "The homomorphism distinguishing closure is the class of all graphs."
+                "description": "The homomorphism distinguishing closure is the class of all graphs."
+            },
+			{
+                "claim"      : "has closure property",
+                "value"      : "monotone"
             }
         ]
     },
     {
-        "name": "Complete graphs",
+        "name": "Disjoint unions of complete graphs",
         "wikidata": "Q45715",
         "statements": [
             {
@@ -595,11 +691,16 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["roberson_oddomorphisms_2022"]
+            },
+			{
+                "claim"      : "has closure property",
+                "value"      : "hereditary"
             }
         ]
     },
     {
         "name": "Graphs with $k$-pebble forest cover of depth $\\leq q$",
+        "family" : true,
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -624,6 +725,35 @@
 				"claim"		 : "subclass of",
 				"value"		 : "treedepth $\\leq q$",
 				"references" : ["dawar_lovasz_2021","fluck_going_2024"]
+			},
+			{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "reference"  : ["fluck_going_2024"]
+            }
+        ]
+    },
+    {
+        "name": "Pseudoforests",
+        "wikidata" : "Q7254793",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished by any Subgraph GNN",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["zhang_beyong_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["zhang_beyong_2024"]
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "outerplanar graphs"
 			}
         ]
     }
