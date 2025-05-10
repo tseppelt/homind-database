@@ -15,10 +15,12 @@ graph_classes_prop = client.get('P13104')
 def loadInfo(cl):
     entity = client.get(cl['wikidata'], load=True)    
     if(entity.description is not None and 'description' not in cl):
-        cl['description'] = str(entity.description) + ' (from Wikidata)'
+        cl['description'] = str(entity.description).capitalize() + ' (from Wikidata)'
     graph_classes_org = entity.get(graph_classes_prop)
     if (graph_classes_org is not None):
         cl['graphclassesorg'] = graph_classes_org
+    if('enwiki' in entity.attributes['sitelinks'] and 'wikipedia' not in cl):
+        cl['wikipedia'] = entity.attributes['sitelinks']['enwiki']['url']
 
 with open('data.json', 'r') as file:
     # Load the JSON data

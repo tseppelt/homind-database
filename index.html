@@ -27,7 +27,7 @@
 </head>
 <body>
  
-
+<!--
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -63,41 +63,64 @@
       </form>
     </div>
   </div>
-</nav>
+</nav> -->
 
 
 	
 	
-	<header class="bg-primary text-white text-center py-5">
+	<header class="bg-secondary text-white text-center py-5">
         <h1>Welcome to the Homomorphism Indistinguishability Zoo</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <a href="#" class="btn btn-light btn-lg">Learn more</a>
+        <p class="lead">Two graphs $G$ and $H$ are <i>homomorphism indistinguishable</i> over a graph class $\mathcal{F}$ iff $G$ and $H$ admit the same number of homomorphisms from every $F \in \mathcal{F}$.</p>
+        <p class="lead">Many well-studied graph isomorphism relaxation can be characterised as homomorphism indistinguishability relations over natural graph classes.</p>
+		<p class="lead">This website lists properties of graph classes and their homomorphism indistinguishability relations.</p>
+        <a href="https://publications.rwth-aachen.de/record/998785/files/998785.pdf" target="_blank" class="btn btn-light btn-lg">Learn more about homomorphism indistinguishability</a>
     </header>
     
    <div class="container my-5">
         <div class="row">
             <div class="col-md-8">
+				<h1>Graph classes</h1>
                 <div id="jsonData"></div>
 
 				
 				
             </div>
             <div class="col-md-4">
-                <h2>Filter</h2>
-                <div class="form-group">
-					<label for="ageFilter">Search:</label>
-					<input type="text" class="form-control" id="textSearch" placeholder="Search phrase">
+				<div style="margin-bottom:20px">
+					<a href="#" onclick="$('.references').toggle()" class="btn btn-outline-secondary"><i class="bi bi-eyeglasses"></i> Toggle references</a>
+				
+				</div>
+				<div style="margin-bottom:20px">
+					<h2>Filter</h2>
+					<div class="form-group">
+						<label for="ageFilter">Search:</label>
+						<input type="text" class="form-control" id="textSearch" placeholder="Search phrase">
+					</div>
+					<div class="form-group">
+						<label>Characterisations</label>
+						<input type="checkbox" class="btn-check" id="filter-characterisation-logic" autocomplete="off">
+						<label class="btn btn-secondary" for="filter-characterisation-logic">logic</label>
+						
+						<input type="checkbox" class="btn-check" id="btn-check2" autocomplete="off">
+						<label class="btn btn-secondary" for="btn-check2">system of equations</label>
+					</div>
 				</div>
 				
-				<div class="form-group">
-					<label>Characterisations</label>
-					<input type="checkbox" class="btn-check" id="filter-characterisation-logic" autocomplete="off">
-					<label class="btn btn-secondary" for="filter-characterisation-logic">logic</label>
+				
+				
+				<div style="margin-bottom:20px">
+				
+					<h2>Glossary</h2>
 					
-					<input type="checkbox" class="btn-check" id="btn-check2" autocomplete="off">
-					<label class="btn btn-secondary" for="btn-check2">system of equations</label>
+
+					What do the properties of a graph class $\mathcal{F}$ mean?
+					
+					<ul>
+						<li><b>characterised as</b> characterisation of the homomorphism indistinguishability relation $\equiv_{\mathcal{F}}$</li>
+						<li><b>complexity</b> complexity of deciding $\equiv_{\mathcal{F}}$</li>
+						<li><b>homomorphism distinguishing closed</b></li>
+					</ul>
 				</div>
-				<h2>Glossary</h2>
             </div>
         </div>
         <div class="row">

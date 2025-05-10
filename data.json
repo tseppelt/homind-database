@@ -543,10 +543,11 @@
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
-                "value"      : "unknown",
+                "value"      : true,
                 "tag"        : null,
                 "wikidata"   : null,
-                "references" : ["seppelt"]
+                "references" : [],
+                "description": "Unpublished"
             },
             {
                 "claim"      : "witness function",
@@ -634,13 +635,13 @@
                 "value"      : "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
                 "tag"        : null,
                 "wikidata"   : null,
-                "references" : ["nar_npa_2024"]
+                "references" : ["kar_npa_2024"]
             },
             {
                 "claim"      : "complexity",
                 "value"      : "coRP",
                 "wikidata"   : "Q1137573",
-                "references" : ["nar_npa_2024"]
+                "references" : ["kar_npa_2024"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
@@ -652,17 +653,17 @@
             {
 				"claim"		 : "subclass of",
 				"value"		 : "planar graphs",
-				"references" : ["nar_npa_2024"]
+				"references" : ["kar_npa_2024"]
 			},
 			{
 				"claim"		 : "subclass of",
 				"value"		 : "$\\mathcal{L}_k$",
-				"references" : ["nar_npa_2024"]
+				"references" : ["kar_npa_2024"]
 			},
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
-                "references" : ["nar_npa_2024"]
+                "references" : ["kar_npa_2024"]
             }
         ]
     },
@@ -694,9 +695,17 @@
                 "claim"      : "has closure property",
                 "value"      : "minor-closed"
             },
+             {
+				"claim"		 : "coincides with",
+				"value"		 : "$(K_4, K_{2,3})$-minor-free graphs"
+			},
             {
 				"claim"		 : "subclass of",
 				"value"		 : "treewidth $\\leq 2$"
+			},
+			{
+				"claim"		 : "subclass of",
+				"value"		 : "planar graphs"
 			}
         ]
     },
@@ -709,7 +718,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "coRP",
-                "wikidata"   : "Q1137573",
+                "wikidata"   : "Q1190846",
                 "references" : ["seppelt_algorithmic_2024"]
             },
             {
@@ -732,6 +741,7 @@
     },
     {
         "name": "$2$-degenerate graphs",
+        "description": "Graphs all whose subgraphs contain a vertex of degree at most $2$.",
         "wikidata":"Q5251771",
         "statements": [
             {
@@ -834,7 +844,7 @@
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
+                "value"      : "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the vertex-individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["rattan_weisfeiler_2022"]

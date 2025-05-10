@@ -16,7 +16,7 @@ $(document).ready(function() {
 	});
 
 
-	$.getJSON('data.json', function(data) {
+	$.getJSON('data_augmented.json', function(data) {
 		allData = data; // Store the fetched data
 		populateView(allData); // Populate the table with all data
 	}).fail(function() {
@@ -34,7 +34,9 @@ function applyFilters() {
 	const filteredData = allData.filter(item => {
 		//const matchesAge = isNaN(ageFilter) || item.age === ageFilter;
 		matches = item.name.toLowerCase().includes(textSearch);
-		matches = matches || item.description.toLowerCase().includes(textSearch);
+		if(item.description != null){
+			matches = matches || item.description.toLowerCase().includes(textSearch);
+		}
 		if(item.statements != null){
 			item.statements.forEach(statement => {
 				try{
@@ -60,7 +62,7 @@ function populateView(data) {
 		if(item.family == true) {
 			content += ` <span class="badge text-bg-light" title="This is a family of graph classes."><i class="bi bi-collection"></i></span>`
 		}
-		content += ` ${wikidataLink(item.wikidata)} ${graphclassesLink(item.graphclassesorg)}</h2>`
+		content += ` ${wikidataLink(item.wikidata)} ${wikipediaLink(item.wikipedia)} ${graphclassesLink(item.graphclassesorg)}</h2>`
 		
 		if(item.description != null) {
 			content += `<p>${item.description}</p>`
@@ -110,8 +112,14 @@ function wikidataLink(wikidata) {
 	if(wikidata == null) {
 		return "";
 	}else{
-		return `<a href="https://www.wikidata.org/wiki/${wikidata}" target="_blank"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/f/ff/Wikidata-logo.svg'></a> `
-				+ `<a href="https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/${wikidata}" target="_blank"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/d/d6/Antu_wikipedia.svg'></a>`;
+		return `<a href="https://www.wikidata.org/wiki/${wikidata}" target="_blank"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/f/ff/Wikidata-logo.svg'></a>`;
+	}
+}
+function wikipediaLink(wikipedia) {
+	if(wikipedia == null) {
+		return "";
+	}else{
+		return `<a href="${wikipedia}" target="_blank"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/d/d6/Antu_wikipedia.svg'></a>`;
 	}
 }
 

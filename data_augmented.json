@@ -43,12 +43,18 @@
             },
             {
                 "claim": "has closure property",
-                "value": "minor-closed",
+                "value": "minor-closed"
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto n$",
+                "tag": "polynomial",
                 "references": [
-                    "trivial"
+                    "lovasz_operations_1967"
                 ]
             }
-        ]
+        ],
+        "wikipedia": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)"
     },
     {
         "name": "Planar graphs",
@@ -86,110 +92,24 @@
             {
                 "claim": "has closure property",
                 "value": "minor-closed"
+            },
+            {
+                "claim": "witness function",
+                "value": "no computable witness function exists",
+                "tag": "uncomputable",
+                "references": [
+                    "mancinska_quantum_2022"
+                ]
             }
         ],
-        "description": "graph that can be embedded in the plane (from Wikidata)",
-        "graphclassesorg": "gc_43"
-    },
-    {
-        "name": "Bipartite graphs",
-        "wikidata": "Q174733",
-        "statements": [
-            {
-                "claim": "characterised as",
-                "value": "isomorphic bipartite double covers",
-                "wikidata": "Q303100",
-                "references": [
-                    "dvorak_recognizing_2010"
-                ]
-            },
-            {
-                "claim": "complexity",
-                "value": "GI-complete",
-                "wikidata": "Q115425721",
-                "references": [
-                    "dvorak_recognizing_2010",
-                    "seppelt_homomorphism_2024"
-                ]
-            },
-            {
-                "claim": "homomorphism distinguishing closed",
-                "value": true,
-                "wikidata": "Q1137573",
-                "references": [
-                    "dvorak_recognizing_2010",
-                    "seppelt_homomorphism_2024"
-                ]
-            },
-            {
-                "claim": "has closure property",
-                "value": "monotone"
-            }
-        ],
-        "description": "graph whose vertices can be divided into two disjoint and independent sets (from Wikidata)",
-        "graphclassesorg": "gc_69"
-    },
-    {
-        "name": "Treedepth $\\leq q$",
-        "wikidata": "Q5067368",
-        "statements": [
-            {
-                "claim": "characterised as",
-                "value": "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
-                "tag": "logic",
-                "wikidata": null,
-                "references": [
-                    "grohe_counting_2020"
-                ]
-            },
-            {
-                "claim": "characterised as",
-                "value": "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
-                "wikidata": null,
-                "references": [
-                    "grohe_homomorphism_2025"
-                ]
-            },
-            {
-                "claim": "characterised as",
-                "value": "coKleisli isomorphism with respect to Ehrenfeucht\u2013Fra\u00efss\u00e9 comonad",
-                "tag": "category theory",
-                "wikidata": null,
-                "references": [
-                    "dawar_lovasz_2021"
-                ]
-            },
-            {
-                "claim": "complexity",
-                "value": "polynomial time",
-                "wikidata": "Q1137573",
-                "references": [
-                    "grohe_counting_2020"
-                ]
-            },
-            {
-                "claim": "homomorphism distinguishing closed",
-                "value": true,
-                "references": [
-                    "fluck_going_2024"
-                ]
-            },
-            {
-                "claim": "subclass of",
-                "value": "pathwidth $\\leq q-1$",
-                "references": []
-            },
-            {
-                "claim": "has closure property",
-                "value": "minor-closed"
-            }
-        ],
-        "description": "integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
-        "graphclassesorg": "par_10"
+        "description": "Graph that can be embedded in the plane (from Wikidata)",
+        "graphclassesorg": "gc_43",
+        "wikipedia": "https://en.wikipedia.org/wiki/Planar_graph"
     },
     {
         "name": "Treewidth $\\leq k$",
         "wikidata": "Q5067368",
+        "family": true,
         "statements": [
             {
                 "claim": "characterised as",
@@ -257,14 +177,146 @@
             {
                 "claim": "has closure property",
                 "value": "minor-closed"
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto \\max\\{k^{2n^k}, 2n^k \\}$",
+                "tag": "exponential",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             }
         ],
-        "description": "integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
-        "graphclassesorg": "par_10"
+        "description": "Integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
+        "graphclassesorg": "par_10",
+        "wikipedia": "https://en.wikipedia.org/wiki/Treewidth"
+    },
+    {
+        "name": "Bipartite graphs",
+        "wikidata": "Q174733",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "isomorphic bipartite double covers",
+                "wikidata": "Q303100",
+                "references": [
+                    "dvorak_recognizing_2010"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
+                "references": [
+                    "ramana_fractional_1994"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "GI-complete",
+                "wikidata": "Q115425721",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone"
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            }
+        ],
+        "description": "Graph whose vertices can be divided into two disjoint and independent sets (from Wikidata)",
+        "graphclassesorg": "gc_69",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bipartite_graph"
+    },
+    {
+        "name": "Treedepth $\\leq q$",
+        "wikidata": "Q5067368",
+        "family": true,
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
+                "tag": "logic",
+                "wikidata": null,
+                "references": [
+                    "grohe_counting_2020"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
+                "wikidata": null,
+                "references": [
+                    "grohe_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to Ehrenfeucht\u2013Fra\u00efss\u00e9 comonad",
+                "tag": "category theory",
+                "wikidata": null,
+                "references": [
+                    "dawar_lovasz_2021"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "references": [
+                    "grohe_counting_2020"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "references": [
+                    "fluck_going_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "pathwidth $\\leq q-1$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed"
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto 4qn^q$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            }
+        ],
+        "description": "Integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
+        "graphclassesorg": "par_10",
+        "wikipedia": "https://en.wikipedia.org/wiki/Treewidth"
     },
     {
         "name": "Pathwidth $\\leq k$",
         "wikidata": "Q7144893",
+        "family": true,
         "statements": [
             {
                 "claim": "characterised as",
@@ -318,15 +370,39 @@
             {
                 "claim": "has closure property",
                 "value": "minor-closed"
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n^k + k -1$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             }
         ],
-        "description": "term in graph theory (from Wikidata)",
-        "graphclassesorg": "par_9"
+        "description": "Term in graph theory (from Wikidata)",
+        "graphclassesorg": "par_9",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pathwidth"
     },
     {
         "name": "Maximal degree $\\leq \\Delta$",
         "wikidata": "Q9346061",
+        "family": true,
         "statements": [
+            {
+                "claim": "characterised as",
+                "value": "no characterisation known",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
+            {
+                "claim": "complexity",
+                "value": "unknown",
+                "tag": null,
+                "wikidata": null,
+                "references": []
+            },
             {
                 "claim": "homomorphism distinguishing closed",
                 "value": true,
@@ -341,11 +417,12 @@
                 "value": "monotone"
             }
         ],
-        "description": "maximum number of edges that a vertex is adjacent to (from Wikidata)",
-        "graphclassesorg": "par_28"
+        "description": "Maximum number of edges that a vertex is adjacent to (from Wikidata)",
+        "graphclassesorg": "par_28",
+        "wikipedia": "https://en.wikipedia.org/wiki/Maximum_degree"
     },
     {
-        "name": "Cycles",
+        "name": "Disjoint unions of cycles",
         "statements": [
             {
                 "claim": "characterised as",
@@ -393,6 +470,14 @@
                 ]
             },
             {
+                "claim": "witness function",
+                "value": "$n \\mapsto n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
                 "claim": "subclass of",
                 "value": "outerplanar graphs",
                 "references": []
@@ -404,8 +489,8 @@
         ]
     },
     {
-        "name": "Paths",
-        "wikidata": "Q917421",
+        "name": "Disjoint unions of paths",
+        "wikidata": "Q25303651",
         "statements": [
             {
                 "claim": "characterised as",
@@ -435,6 +520,14 @@
                 ]
             },
             {
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
                 "claim": "subclass of",
                 "value": "pathwidth $\\leq 1$",
                 "references": []
@@ -444,10 +537,11 @@
                 "value": "minor-closed"
             }
         ],
-        "description": "graph with nodes connected linearly (from Wikidata)"
+        "description": "Forest where each component is a path graph (from Wikidata)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Linear_forest"
     },
     {
-        "name": "Paths and Cycles",
+        "name": "Disjoint unions of paths and cycles",
         "statements": [
             {
                 "claim": "characterised as",
@@ -496,8 +590,9 @@
         ]
     },
     {
-        "name": "Trees",
-        "wikidata": "Q272735",
+        "name": "Forests",
+        "wikidata": "Q1506875",
+        "description": "Disjoint unions of trees, aka acyclic graphs",
         "statements": [
             {
                 "claim": "characterised as",
@@ -546,6 +641,14 @@
                 ]
             },
             {
+                "claim": "witness function",
+                "value": "$n \\mapsto (2n)^{n+1}$",
+                "tag": "exponential",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
                 "claim": "coincides with",
                 "value": "treewidth $\\leq 1$",
                 "references": []
@@ -555,11 +658,10 @@
                 "value": "minor-closed"
             }
         ],
-        "description": "undirected, connected and acyclic graph (from Wikidata)",
-        "graphclassesorg": "gc_342"
+        "wikipedia": "https://en.wikipedia.org/wiki/Forest_(graph_theory)"
     },
     {
-        "name": "Stars",
+        "name": "Disjoint unions of stars",
         "wikidata": "Q2589168",
         "statements": [
             {
@@ -581,11 +683,18 @@
             },
             {
                 "claim": "homomorphism distinguishing closed",
-                "value": "unknown",
+                "value": true,
                 "tag": null,
                 "wikidata": null,
+                "references": [],
+                "description": "Unpublished"
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto n$",
+                "tag": "polynomial",
                 "references": [
-                    "seppelt"
+                    "seppelt_homomorphism_2024"
                 ]
             },
             {
@@ -593,10 +702,12 @@
                 "value": "minor-closed"
             }
         ],
-        "description": "node-link graph in which one central node is the only neighbor of all the other nodes (from Wikidata)"
+        "description": "Node-link graph in which one central node is the only neighbor of all the other nodes (from Wikidata)",
+        "wikipedia": "https://en.wikipedia.org/wiki/Star_(graph_theory)"
     },
     {
         "name": "$\\mathcal{L}_k$",
+        "family": true,
         "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
         "statements": [
             {
@@ -634,6 +745,7 @@
     },
     {
         "name": "$\\mathcal{L}_k^+$",
+        "family": true,
         "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
         "statements": [
             {
@@ -671,6 +783,7 @@
     },
     {
         "name": "$\\mathcal{P}_k$",
+        "family": true,
         "description": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
         "statements": [
             {
@@ -679,7 +792,7 @@
                 "tag": null,
                 "wikidata": null,
                 "references": [
-                    "nar_npa_2024"
+                    "kar_npa_2024"
                 ]
             },
             {
@@ -687,7 +800,7 @@
                 "value": "coRP",
                 "wikidata": "Q1137573",
                 "references": [
-                    "nar_npa_2024"
+                    "kar_npa_2024"
                 ]
             },
             {
@@ -701,21 +814,21 @@
                 "claim": "subclass of",
                 "value": "planar graphs",
                 "references": [
-                    "nar_npa_2024"
+                    "kar_npa_2024"
                 ]
             },
             {
                 "claim": "subclass of",
                 "value": "$\\mathcal{L}_k$",
                 "references": [
-                    "nar_npa_2024"
+                    "kar_npa_2024"
                 ]
             },
             {
                 "claim": "has closure property",
                 "value": "minor-closed",
                 "references": [
-                    "nar_npa_2024"
+                    "kar_npa_2024"
                 ]
             }
         ]
@@ -752,24 +865,35 @@
             },
             {
                 "claim": "has closure property",
-                "value": "minor-closed",
-                "references": [
-                    "nar_npa_2024"
-                ]
+                "value": "minor-closed"
+            },
+            {
+                "claim": "coincides with",
+                "value": "$(K_4, K_{2,3})$-minor-free graphs"
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$"
+            },
+            {
+                "claim": "subclass of",
+                "value": "planar graphs"
             }
         ],
-        "description": "graph that can be drawn without crossings in the plane with all vertices on the outer face (from Wikidata)",
-        "graphclassesorg": "gc_110"
+        "description": "Graph that can be drawn without crossings in the plane with all vertices on the outer face (from Wikidata)",
+        "graphclassesorg": "gc_110",
+        "wikipedia": "https://en.wikipedia.org/wiki/Outerplanar_graph"
     },
     {
         "name": "$(K_4, K_{2,h})$-minor-free graphs",
+        "family": true,
         "wikidata": "Q3115604",
-        "description": "family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
+        "description": "Family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
         "statements": [
             {
                 "claim": "complexity",
                 "value": "coRP",
-                "wikidata": "Q1137573",
+                "wikidata": "Q1190846",
                 "references": [
                     "seppelt_algorithmic_2024"
                 ]
@@ -793,10 +917,13 @@
                 "value": "minor-closed"
             }
         ],
-        "graphclassesorg": "gc_110"
+        "graphclassesorg": "gc_110",
+        "wikipedia": "https://en.wikipedia.org/wiki/Outerplanar_graph"
     },
     {
         "name": "$2$-degenerate graphs",
+        "description": "Graphs all whose subgraphs contain a vertex of degree at most $2$.",
+        "wikidata": "Q5251771",
         "statements": [
             {
                 "claim": "homomorphism distinguishing closed",
@@ -812,11 +939,14 @@
                 "claim": "has closure property",
                 "value": "monotone"
             }
-        ]
+        ],
+        "graphclassesorg": "par_17",
+        "wikipedia": "https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)"
     },
     {
-        "name": "Complete graphs",
-        "wikidata": "Q45715",
+        "name": "Cluster graphs",
+        "description": "Disjoint unions of complete graphs",
+        "wikidata": "Q24892498",
         "statements": [
             {
                 "claim": "complexity",
@@ -837,15 +967,21 @@
                 ]
             },
             {
+                "claim": "witness function",
+                "value": "$n \\mapsto  n$",
+                "tag": "polynomial"
+            },
+            {
                 "claim": "has closure property",
                 "value": "hereditary"
             }
         ],
-        "description": "simple undirected graph in which every pair of distinct vertices is connected by a unique edge (from Wikidata)",
-        "graphclassesorg": "gc_1241"
+        "graphclassesorg": "gc_1237",
+        "wikipedia": "https://en.wikipedia.org/wiki/Cluster_graph"
     },
     {
         "name": "Graphs with $k$-pebble forest cover of depth $\\leq q$",
+        "family": true,
         "statements": [
             {
                 "claim": "characterised as",
@@ -890,5 +1026,58 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Pseudoforests",
+        "description": "Graphs whose connected components contain precisely one cycle",
+        "wikidata": "Q7254793",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "not distinguished by any Subgraph GNN",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "zhang_beyong_2024"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "not distinguished by $(1,1)$-WL",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "rattan_weisfeiler_2022"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the vertex-individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "rattan_weisfeiler_2022"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "tag": null,
+                "wikidata": null,
+                "references": [
+                    "zhang_beyong_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "outerplanar graphs"
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "reference": []
+            }
+        ],
+        "wikipedia": "https://en.wikipedia.org/wiki/Pseudoforest"
     }
 ]
