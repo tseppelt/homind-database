@@ -34,6 +34,12 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed"
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto n$",
+                "tag"		 : "polynomial",
+                "references"  : ["lovasz_operations_1967"]
             }
         ]
     },
@@ -65,6 +71,12 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed"
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "no computable witness function exists",
+                "tag"		 : "uncomputable",
+                "references"  : ["mancinska_quantum_2022"]
             }
         ]
     },
@@ -123,6 +135,12 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed"
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto \\max\\{k^{2n^k}, 2n^k \\}$",
+                "tag"		 : "exponential",
+                "references"  : ["seppelt_homomorphism_2024"]
             }
         ]
     },
@@ -156,6 +174,12 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "monotone"
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto 2n$",
+                "tag"		 : "polynomial",
+                "references"  : ["seppelt_homomorphism_2024"]
             }
         ]
     },
@@ -203,6 +227,12 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed"
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto 4qn^q$",
+                "tag"		 : "polynomial",
+                "references"  : ["seppelt_homomorphism_2024"]
             }
         ]
     },
@@ -252,6 +282,12 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed"
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto 2n^k + k -1$",
+                "tag"		 : "polynomial",
+                "references"  : ["seppelt_homomorphism_2024"]
             }
         ]
     },
@@ -260,6 +296,20 @@
         "wikidata": "Q9346061",
         "family" : true,
         "statements": [
+			{
+                "claim"      : "characterised as",
+                "value"      : "no characterisation known",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
+            },
+            {
+                "claim"      : "complexity",
+                "value"      : "unknown",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : []
+            },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
@@ -312,6 +362,12 @@
                 "references" : ["seppelt_homomorphism_2024"]
             },
             {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto n$",
+                "tag"		 : "polynomial",
+                "references"  : ["seppelt_homomorphism_2024"]
+            },
+            {
                 "claim"      : "subclass of",
                 "value"      : "outerplanar graphs",
                 "references" : []
@@ -346,6 +402,12 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["roberson_oddomorphisms_2022"]
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto 2n$",
+                "tag"		 : "polynomial",
+                "references"  : ["seppelt_homomorphism_2024"]
             },
             {
                 "claim"      : "subclass of",
@@ -446,6 +508,12 @@
                 "references" : ["roberson_oddomorphisms_2022"]
             },
             {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto (2n)^{n+1}",
+                "tag"		 : "exponential",
+                "references"  : ["seppelt_homomorphism_2024"]
+            },
+            {
                 "claim"      : "coincides with",
                 "value"      : "treewidth $\\leq 1$",
                 "references" : []
@@ -479,6 +547,12 @@
                 "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["seppelt"]
+            },
+            {
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto n$",
+                "tag"		 : "polynomial",
+                "references"  : ["seppelt_homomorphism_2024"]
             },
             {
                 "claim"      : "has closure property",
@@ -693,6 +767,11 @@
                 "references" : ["roberson_oddomorphisms_2022"]
             },
 			{
+                "claim"      : "witness function",
+                "value"      : "$n \\mapsto  n$",
+                "tag"		 : "polynomial"
+            },
+			{
                 "claim"      : "has closure property",
                 "value"      : "hereditary"
             }
@@ -735,6 +814,7 @@
     },
     {
         "name": "Pseudoforests",
+        "description" : "Graphs whose connected components contain precisely one cycle",
         "wikidata" : "Q7254793",
         "statements": [
             {
