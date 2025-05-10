@@ -380,7 +380,7 @@
     },
     {
         "name": "Disjoint unions of paths",
-        "wikidata": "Q917421",
+        "wikidata": "Q25303651",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -469,7 +469,7 @@
     },
     {
         "name": "Forests",
-        "wikidata": "Q272735",
+        "wikidata": "Q1506875",
         "description" : "Disjoint unions of trees, aka acyclic graphs",
         "statements": [
             {
@@ -509,7 +509,7 @@
             },
             {
                 "claim"      : "witness function",
-                "value"      : "$n \\mapsto (2n)^{n+1}",
+                "value"      : "$n \\mapsto (2n)^{n+1}$",
                 "tag"		 : "exponential",
                 "references"  : ["seppelt_homomorphism_2024"]
             },
@@ -704,7 +704,7 @@
         "name": "$(K_4, K_{2,h})$-minor-free graphs",
         "family" : true,
         "wikidata": "Q3115604",
-        "description" : "family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
+        "description" : "Family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
         "statements": [
             {
                 "claim"      : "complexity",
@@ -749,8 +749,9 @@
         ]
     },
     {
-        "name": "Disjoint unions of complete graphs",
-        "wikidata": "Q45715",
+        "name": "Cluster graphs",
+        "description":"Disjoint unions of complete graphs",
+        "wikidata": "Q24892498",
         "statements": [
             {
                 "claim"      : "complexity",
@@ -825,6 +826,20 @@
                 "references" : ["zhang_beyong_2024"]
             },
             {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished by $(1,1)$-WL",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["rattan_weisfeiler_2022"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["rattan_weisfeiler_2022"]
+            },
+            {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
                 "tag"        : null,
@@ -834,7 +849,12 @@
             {
 				"claim"		 : "subclass of",
 				"value"		 : "outerplanar graphs"
-			}
+			},
+			{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "reference"  : []
+            }
         ]
     }
 ]

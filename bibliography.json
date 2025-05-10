@@ -75,6 +75,10 @@
 		"short": "Ramana, Scheinerman, & Ullman (1994)",
 		"long": "M. V. Ramana, E. R. Scheinerman, and D. Ullman, ‘Fractional isomorphism of graphs’, <i>Discrete Mathematics</i>, vol. 132, no. 1, pp. 247–265, Sep. 1994, doi: <a href='https://doi.org/10.1016/0012-365X(94)90241-0'>10.1016/0012-365X(94)90241-0</a>."
 	},
+	"rattan_weisfeiler_2022" : {
+		"short" : "Rattan and Seppelt (2022)",
+		"long" : "G. Rattan and T. Seppelt, ‘Weisfeiler--Leman and Graph Spectra’, May 02, 2022, <i>arXiv</i>: arXiv:2103.02972. [Online]. Available: <a href='http://arxiv.org/abs/2103.02972'>http://arxiv.org/abs/2103.02972</a>"
+	},
     "roberson_oddomorphisms_2022" : {
 		"short" : "Roberson (2022)",
 		"long" : "D. E. Roberson, ‘Oddomorphisms and homomorphism indistinguishability over graphs of bounded degree’, Jun. 21, 2022, <i>arXiv</i>: arXiv:2206.10321  <a href='http://arxiv.org/abs/2206.10321'>http://arxiv.org/abs/2206.10321</a>"
