@@ -1,4 +1,8 @@
 {
+	"adler_monotonicity_2024" : {
+		"short" : "Adler and Fluck (2024)",
+		"long" : "I. Adler and E. Fluck, ‘Monotonicity of the Cops and Robber Game for Bounded Depth Treewidth’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 6:1-6:18. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.6'>10.4230/LIPIcs.MFCS.2024.6</a>."
+	},
     "atserias_quantum_2019" : {
 		"short" : "Atserias, Mančinska, Roberson, Šámal, Severini, & Varvitsiotis (2019)",
 		"long" : "A. Atserias, L. Mančinska, D. E. Roberson, R. Šámal, S. Severini, and A. Varvitsiotis, ‘Quantum and non-signalling graph isomorphisms’, <i>J. Comb. Theory, Ser. B</i>, vol. 136, pp. 289–328, 2019, doi: <a href='https://doi.org/10.1016/j.jctb.2018.11.002'>10.1016/j.jctb.2018.11.002</a>."
@@ -15,6 +19,10 @@
         "short" : "Cai, Fürer, & Immerman (1992)",
         "long" : "J.-Y. Cai, M. Fürer, and N. Immerman, “An optimal lower bound on the number of variables for graph identification,” <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
     },
+    "dawar_lovasz_2021" : {
+		"short" : "Dawar, Jakl, & Reggio (2021)",
+		"long" : "A. Dawar, T. Jakl, and L. Reggio, ‘Lovász-Type Theorems and Game Comonads’, in <i>36th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</i>, IEEE, 2021, pp. 1–13. doi: <a href='https://doi.org/10.1109/LICS52264.2021.9470609'>10.1109/LICS52264.2021.9470609</a>."
+	},
     "dell_lovasz_2018":{
         "short" : "Dell, Grohe, & Rattan (2018)",
         "long" : "H. Dell, M. Grohe, and G. Rattan, “Lovász Meets Weisfeiler and Leman,” <i>45th International Colloquium on Automata, Languages, and Programming (ICALP 2018)</i>, p. 40:1-40:14, 2018, doi: <a href='https://doi.org/10.4230/LIPICS.ICALP.2018.40'>10.4230/LIPICS.ICALP.2018.40</a>"
@@ -23,6 +31,14 @@
         "short" : "Dvořák (2010)",
         "long"  : "Z. Dvořák, “On recognizing graphs by numbers of homomorphisms,” <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
     },
+    "fluck_going_2024" : {
+		"short" : "Fluck, Seppelt, & Spitzer (2024)",
+		"long" : "E. Fluck, T. Seppelt, and G. L. Spitzer, ‘Going Deep and Going Wide: Counting Logic and Homomorphism Indistinguishability over Graphs of Bounded Treedepth and Treewidth’, in <i>32nd EACSL Annual Conference on Computer Science Logic (CSL 2024)</i>, A. Murano and A. Silva, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 288. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 27:1-27:17. doi: <a href='https://doi.org/10.4230/LIPIcs.CSL.2024.27'>10.4230/LIPIcs.CSL.2024.27</a>."
+	},
+    "grohe_counting_2020" : {
+		"short" : "Grohe (2020)",
+		"long" : "M. Grohe, ‘Counting Bounded Tree Depth Homomorphisms’, in <i>Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science</i>, in LICS ’20. New York, NY, USA: Association for Computing Machinery, 2020, pp. 507–520. doi: <a href='https://doi.org/10.1145/3373718.3394739'>10.1145/3373718.3394739</a>."
+	},
     "grohe_equivalence_1999" : {
 		"short" : "Grohe (1999)",
 		"long" : "M. Grohe, ‘Equivalence in Finite-Variable Logics is Complete for Polynomial Time’, <i>Combinatorica</i>, vol. 19, no. 4, pp. 507–532, Oct. 1999, doi: <a href='https://doi.org/10.1007/s004939970004'>10.1007/s004939970004</a>."

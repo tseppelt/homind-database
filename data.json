@@ -93,32 +93,35 @@
                 "value"      : "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
                 "tag"        : "logic",
                 "wikidata"   : null,
-                "references" : ["dvorak_recognizing_2010"]
+                "references" : ["grohe_counting_2020"]
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
-                "tag"        : "logic",
+                "value"      : "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
                 "wikidata"   : null,
-                "references" : ["dvorak"]
+                "references" : ["grohe_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "coKleisli isomorphism with respect to Ehrenfeucht–Fraïssé comonad",
+                "tag"        : "category theory",
+                "wikidata"   : null,
+                "references" : ["dawar_lovasz_2021"]
             },
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
-                "references" : ["dvorak"]
+                "references" : ["grohe_counting_2020"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : "logic",
-                "wikidata"   : "Q1137573",
-                "references" : ["dvorak"]
+                "references" : ["fluck_going_2024"]
             },
             {
                 "claim"      : "subclass of",
-                "value"      : "pathwidth $\\leq k-1$",
+                "value"      : "pathwidth $\\leq q-1$",
                 "references" : []
             }
         ]
@@ -147,6 +150,13 @@
                 "tag"        : "logic",
                 "wikidata"   : null,
                 "references" : ["dell_lovasz_2018"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "coKleisli isomorphism with respect to pebbling comonad",
+                "tag"        : "category theory",
+                "wikidata"   : null,
+                "references" : ["dawar_lovasz_2021"]
             },
             {
                 "claim"      : "complexity",
@@ -187,7 +197,13 @@
                 "wikidata"   : null,
                 "references" : ["montacute_pebble_2024"]
             },
-            
+            {
+                "claim"      : "characterised as",
+                "value"      : "coKleisli isomorphism with respect to pebble-relation comonad",
+                "tag"        : "category theory",
+                "wikidata"   : null,
+                "references" : ["montacute_pebble_2024"]
+            },
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
@@ -580,6 +596,35 @@
                 "wikidata"   : null,
                 "references" : ["roberson_oddomorphisms_2022"]
             }
+        ]
+    },
+    {
+        "name": "Graphs with $k$-pebble forest cover of depth $\\leq q$",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "equivalence in the $k$-variable quantifier-depth-$d$ fragement of first-order logic with counting quantifiers",
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["dawar_lovasz_2021","fluck_going_2024"]
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : true,
+                "tag"        : null,
+                "wikidata"   : null,
+                "references" : ["adler_monotonicity_2024"]
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "treewidth $\\leq k-1$",
+				"references" : ["dawar_lovasz_2021","fluck_going_2024"]
+			},
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "treedepth $\\leq q$",
+				"references" : ["dawar_lovasz_2021","fluck_going_2024"]
+			}
         ]
     }
 ]
