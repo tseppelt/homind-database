@@ -15,6 +15,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of a permutation matrix $X$ such that $XA_G = A_H X$",
+                "tag": "system of equations",
                 "references": [
                     "lovasz_operations_1967"
                 ]
@@ -71,6 +72,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of a quantum permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
                 "references": [
                     "lupini_nonlocal_2020"
                 ]
@@ -209,6 +211,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
+                "tag": "system of equations",
                 "references": [
                     "ramana_fractional_1994"
                 ]
@@ -443,7 +446,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
-                "tag": null,
+                "tag": "system of equations",
                 "wikidata": null,
                 "references": [
                     "folklore"
@@ -452,7 +455,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of an invertible matrix $X$ such that $XA_G = A_HX$",
-                "tag": null,
+                "tag": "system of equations",
                 "wikidata": null,
                 "references": [
                     "folklore"
@@ -503,7 +506,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
-                "tag": null,
+                "tag": "system of equations",
                 "wikidata": null,
                 "references": [
                     "dell_lovasz_2018"
@@ -562,7 +565,7 @@
             {
                 "claim": "characterised as",
                 "value": "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$",
-                "tag": null,
+                "tag": "system of equations",
                 "wikidata": null,
                 "references": []
             },
@@ -606,8 +609,8 @@
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
-                "tag": null,
+                "value": "fractional isomorphism, i.e. existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag": "system of equations",
                 "wikidata": null,
                 "references": [
                     "dvorak_recognizing_2010",
@@ -617,7 +620,7 @@
             {
                 "claim": "characterised as",
                 "value": "equivalence in two-variable first-order logic with counting quantifiers",
-                "tag": null,
+                "tag": "logic",
                 "wikidata": null,
                 "references": [
                     "dvorak_recognizing_2010"
