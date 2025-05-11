@@ -54,6 +54,7 @@
                 ]
             }
         ],
+        "id": "e12d8510b693ab119a699dbb7e05c157",
         "wikipedia": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)"
     },
     {
@@ -102,6 +103,7 @@
                 ]
             }
         ],
+        "id": "e3878e7c867e4c2c9c1abf45b8e8f292",
         "description": "Graph that can be embedded in the plane (from Wikidata)",
         "graphclassesorg": "gc_43",
         "wikipedia": "https://en.wikipedia.org/wiki/Planar_graph"
@@ -187,6 +189,7 @@
                 ]
             }
         ],
+        "id": "df2aae1289aecf5f9aefd3eba7dd39e0",
         "description": "Integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
         "graphclassesorg": "par_10",
         "wikipedia": "https://en.wikipedia.org/wiki/Treewidth"
@@ -241,6 +244,7 @@
                 ]
             }
         ],
+        "id": "89764d10c67a286f659bd011a68f97c9",
         "description": "Graph whose vertices can be divided into two disjoint and independent sets (from Wikidata)",
         "graphclassesorg": "gc_69",
         "wikipedia": "https://en.wikipedia.org/wiki/Bipartite_graph"
@@ -309,6 +313,7 @@
                 ]
             }
         ],
+        "id": "aa82427bbdf81529b2f647ee05835a25",
         "description": "Integer invariant of an undirected graph which measures how far it is from being a tree (from Wikidata)",
         "graphclassesorg": "par_10",
         "wikipedia": "https://en.wikipedia.org/wiki/Treewidth"
@@ -380,6 +385,7 @@
                 ]
             }
         ],
+        "id": "2b695121a176ef86a7cecc79bfdc8568",
         "description": "Term in graph theory (from Wikidata)",
         "graphclassesorg": "par_9",
         "wikipedia": "https://en.wikipedia.org/wiki/Pathwidth"
@@ -417,6 +423,7 @@
                 "value": "monotone"
             }
         ],
+        "id": "32a55069a1217df5b258d423c11b9ad6",
         "description": "Maximum number of edges that a vertex is adjacent to (from Wikidata)",
         "graphclassesorg": "par_28",
         "wikipedia": "https://en.wikipedia.org/wiki/Maximum_degree"
@@ -486,7 +493,8 @@
                 "claim": "has closure property",
                 "value": "closed under edge contraction"
             }
-        ]
+        ],
+        "id": "d1ad5e73cc4cfc69dbf8fff1ea92776f"
     },
     {
         "name": "Disjoint unions of paths",
@@ -537,6 +545,7 @@
                 "value": "minor-closed"
             }
         ],
+        "id": "17288426097c351fec35356f0de0fe51",
         "description": "Forest where each component is a path graph (from Wikidata)",
         "wikipedia": "https://en.wikipedia.org/wiki/Linear_forest"
     },
@@ -587,7 +596,8 @@
                 "claim": "has closure property",
                 "value": "minor-closed"
             }
-        ]
+        ],
+        "id": "3383350aca4c3ce694d8275bccc21acb"
     },
     {
         "name": "Forests",
@@ -658,6 +668,7 @@
                 "value": "minor-closed"
             }
         ],
+        "id": "49707d6d00d52f35c18ea580cac7926a",
         "wikipedia": "https://en.wikipedia.org/wiki/Forest_(graph_theory)"
     },
     {
@@ -702,6 +713,7 @@
                 "value": "minor-closed"
             }
         ],
+        "id": "b5da67b9aae07da9e24578a5fd82c47f",
         "description": "Node-link graph in which one central node is the only neighbor of all the other nodes (from Wikidata)",
         "wikipedia": "https://en.wikipedia.org/wiki/Star_(graph_theory)"
     },
@@ -741,7 +753,8 @@
                     "roberson_lasserre_2024"
                 ]
             }
-        ]
+        ],
+        "id": "4e89b274aa8580015ffd12ca78f21fb8"
     },
     {
         "name": "$\\mathcal{L}_k^+$",
@@ -779,7 +792,8 @@
                     "roberson_lasserre_2024"
                 ]
             }
-        ]
+        ],
+        "id": "6355f99ec9982e3f27e63552a1aecba8"
     },
     {
         "name": "$\\mathcal{P}_k$",
@@ -831,7 +845,8 @@
                     "kar_npa_2024"
                 ]
             }
-        ]
+        ],
+        "id": "e08fc2f6a1b5b210bc154fb324664364"
     },
     {
         "name": "Outerplanar graphs",
@@ -880,6 +895,7 @@
                 "value": "planar graphs"
             }
         ],
+        "id": "7c4dba9ecc3f48296df990e4cbf2518a",
         "description": "Graph that can be drawn without crossings in the plane with all vertices on the outer face (from Wikidata)",
         "graphclassesorg": "gc_110",
         "wikipedia": "https://en.wikipedia.org/wiki/Outerplanar_graph"
@@ -887,7 +903,6 @@
     {
         "name": "$(K_4, K_{2,h})$-minor-free graphs",
         "family": true,
-        "wikidata": "Q3115604",
         "description": "Family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
         "statements": [
             {
@@ -917,8 +932,7 @@
                 "value": "minor-closed"
             }
         ],
-        "graphclassesorg": "gc_110",
-        "wikipedia": "https://en.wikipedia.org/wiki/Outerplanar_graph"
+        "id": "50d8b669ba1ad351858027374748eb5e"
     },
     {
         "name": "$2$-degenerate graphs",
@@ -940,6 +954,7 @@
                 "value": "monotone"
             }
         ],
+        "id": "cdf4a3b861b7060abfb8b51e2015cf41",
         "graphclassesorg": "par_17",
         "wikipedia": "https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)"
     },
@@ -976,6 +991,7 @@
                 "value": "hereditary"
             }
         ],
+        "id": "9e769c092b970d5f08b95535d88d3601",
         "graphclassesorg": "gc_1237",
         "wikipedia": "https://en.wikipedia.org/wiki/Cluster_graph"
     },
@@ -1025,7 +1041,8 @@
                     "fluck_going_2024"
                 ]
             }
-        ]
+        ],
+        "id": "0095a00260d1d2ba9b625b2dafc9a530"
     },
     {
         "name": "Pseudoforests",
@@ -1078,6 +1095,7 @@
                 "reference": []
             }
         ],
+        "id": "14a00a1fe9ddcc34580e738eb14c168b",
         "wikipedia": "https://en.wikipedia.org/wiki/Pseudoforest"
     }
 ]

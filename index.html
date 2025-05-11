@@ -80,30 +80,18 @@
         <div class="row">
             <div class="col-md-8">
 				<h1>Graph classes</h1>
-                <div id="jsonData"></div>
+                <div id="jsonData"><i>Loading graph classes…</i></div>
 
 				
 				
             </div>
             <div class="col-md-4">
 				<div style="margin-bottom:20px">
-					<a href="#" onclick="$('.references').toggle()" class="btn btn-outline-secondary"><i class="bi bi-eyeglasses"></i> Toggle references</a>
-				
-				</div>
-				<div style="margin-bottom:20px">
 					<h2>Filter</h2>
 					<div class="form-group">
-						<label for="ageFilter">Search:</label>
 						<input type="text" class="form-control" id="textSearch" placeholder="Search phrase">
 					</div>
-					<div class="form-group">
-						<label>Characterisations</label>
-						<input type="checkbox" class="btn-check" id="filter-characterisation-logic" autocomplete="off">
-						<label class="btn btn-secondary" for="filter-characterisation-logic">logic</label>
-						
-						<input type="checkbox" class="btn-check" id="btn-check2" autocomplete="off">
-						<label class="btn btn-secondary" for="btn-check2">system of equations</label>
-					</div>
+					<div id="tagFilters"><i>Loading filters…</i></div>
 				</div>
 				
 				
@@ -120,6 +108,26 @@
 						<li><b>complexity</b> complexity of deciding $\equiv_{\mathcal{F}}$</li>
 						<li><b>homomorphism distinguishing closed</b></li>
 					</ul>
+				</div>
+				
+				<div style="margin-bottom:20px">
+					
+					<h2>View</h2>
+					<button onclick="$('.references').toggle()" class="btn btn-outline-secondary"><i class="bi bi-eyeglasses"></i> Toggle references</button>
+				
+				</div>
+				
+				<div style="margin-bottom:20px">
+					
+					<h2>Download</h2>
+					
+					<p>Data is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/ "><i class="bi bi-cc-circle"></i><i class="bi bi-0-circle"></i> CC0 1.0 Universal</a>.
+					This page greatfully relies on data from <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>.</p>
+					
+					<p>
+					<a href="data.zip" class="btn btn-outline-secondary"><i class="bi bi-floppy"></i> Download data</a>
+					<a href="https://tseppelt.github.io" class="btn btn-outline-secondary"><i class="bi bi-envelope-at"></i> Get in touch</a>
+					</p>
 				</div>
             </div>
         </div>

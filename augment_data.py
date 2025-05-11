@@ -7,6 +7,7 @@ Created on Sat May 10 11:28:23 2025
 """
 
 from wikidata.client import Client
+from hashlib import md5
 import json
 
 client = Client() 
@@ -22,11 +23,16 @@ def loadInfo(cl):
     if('enwiki' in entity.attributes['sitelinks'] and 'wikipedia' not in cl):
         cl['wikipedia'] = entity.attributes['sitelinks']['enwiki']['url']
 
+def addInfo(cl):
+    if('id' not in cl):
+        cl['id'] = md5(cl['name'].encode()).hexdigest()
+
 with open('data.json', 'r') as file:
     # Load the JSON data
     data = json.load(file)
 
 for cl in data:
+    addInfo(cl)
     if ('wikidata' in cl):
        loadInfo(cl)
 

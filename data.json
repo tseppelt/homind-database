@@ -712,7 +712,6 @@
     {
         "name": "$(K_4, K_{2,h})$-minor-free graphs",
         "family" : true,
-        "wikidata": "Q3115604",
         "description" : "Family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
         "statements": [
             {
