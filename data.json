@@ -97,14 +97,14 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by the $k$-dimensional Weisfeiler–Leman algorithm",
-                "tag"        : "logic",
+                "tag"        : null,
                 "wikidata"   : null,
                 "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
-                "tag"        : "logic",
+                "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["dell_lovasz_2018"]
             },
@@ -118,7 +118,6 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["cai_optimal_1992"]
             },
@@ -130,8 +129,6 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : "logic",
-                "wikidata"   : "Q1137573",
                 "references" : ["neuen_homomorphism_2024"]
             },
             {
@@ -201,6 +198,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
+                "tag"		 : "system of equations",
                 "wikidata"   : null,
                 "references" : ["grohe_homomorphism_2025"]
             },
@@ -247,7 +245,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without negativity constraints",
-                "tag"        : "logic",
+                "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["dell_lovasz_2018", "grohe_homomorphism_2025"]
             },
@@ -268,7 +266,6 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["grohe_homomorphism_2025"]
             },
@@ -332,7 +329,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "cospectrality",
-                "tag"        : null,
+                "tag"        : "algebraic graph theory",
                 "wikidata"   : null,
                 "references" : ["folklore"]
             },
@@ -353,7 +350,6 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["folklore"]
             },
@@ -395,7 +391,6 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["seppelt_algorithmic_2024"]
             },
@@ -429,7 +424,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "cospectral with cospectral complements",
-                "tag"        : null,
+                "tag"        : "algebraic graph theory",
                 "wikidata"   : null,
                 "references" : []
             },
@@ -443,7 +438,6 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : []
             },
@@ -492,14 +486,13 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler–Leman algorithm)",
-                "tag"        : null,
+                "tag"        : "algorithm",
                 "wikidata"   : null,
                 "references" : ["cai_optimal_1992"]
             },
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
-                "tag"        : "logic",
                 "wikidata"   : "Q1137573",
                 "references" : ["cai_optimal_1992"]
             },
@@ -534,7 +527,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "equal degree sequence",
-                "tag"        : null,
+                "tag"        : "combinatorial",
                 "wikidata"   : null,
                 "references" : ["folklore"]
             },
@@ -572,7 +565,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation of the graph isomorphism integer quadratic program",
-                "tag"        : null,
+                "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["roberson_lasserre_2024"]
             },
@@ -604,7 +597,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation with non-negativity constraints",
-                "tag"        : null,
+                "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["roberson_lasserre_2024"]
             },
@@ -636,7 +629,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
-                "tag"        : null,
+                "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["kar_npa_2024"]
             },
@@ -677,7 +670,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the first level of the Lasserre semidefinite programming hierarchy",
-                "tag"        : null,
+                "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["roberson_lasserre_2024"]
             },
@@ -797,7 +790,7 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "equivalence in the $k$-variable quantifier-depth-$d$ fragement of first-order logic with counting quantifiers",
-                "tag"        : null,
+                "tag"        : "logic",
                 "wikidata"   : null,
                 "references" : ["dawar_lovasz_2021","fluck_going_2024"]
             },
@@ -833,21 +826,21 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by any Subgraph GNN",
-                "tag"        : null,
+                "tag"        : "machine learning",
                 "wikidata"   : null,
                 "references" : ["zhang_beyong_2024"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by $(1,1)$-WL",
-                "tag"        : null,
+                "tag"        : "algorithm",
                 "wikidata"   : null,
                 "references" : ["rattan_weisfeiler_2022"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the vertex-individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
-                "tag"        : null,
+                "tag"        : "logic",
                 "wikidata"   : null,
                 "references" : ["rattan_weisfeiler_2022"]
             },
