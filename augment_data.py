@@ -14,6 +14,7 @@ client = Client()
 graph_classes_prop = client.get('P13104')
 
 def loadInfo(cl):
+    print("Querying Wikidata", cl['wikidata'], "…")
     entity = client.get(cl['wikidata'], load=True)    
     if(entity.description is not None and 'description' not in cl):
         cl['description'] = str(entity.description).capitalize() + ' (from Wikidata)'
@@ -32,10 +33,12 @@ with open('data.json', 'r') as file:
     data = json.load(file)
 
 for cl in data:
+    print("Processing", cl['name'], "…")
     addInfo(cl)
     if ('wikidata' in cl):
        loadInfo(cl)
 
+print("Writing augmented data…")
 with open('data_augmented.json', 'w') as file:
     json.dump(data, file, indent=4)
 

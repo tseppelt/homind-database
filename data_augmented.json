@@ -511,7 +511,6 @@
             {
                 "claim": "complexity",
                 "value": "polynomial time",
-                "tag": "logic",
                 "wikidata": "Q1137573",
                 "references": [
                     "seppelt_algorithmic_2024"

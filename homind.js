@@ -136,14 +136,14 @@ function populateTagFilters(tags) {
 	content = ``;
 	$.each(tags, function(index, item) {
 		
-		content += `<div class="form-group"><label style='text-weight:bold;'>${index}</label> <div class="btn-group" role="group">`
+		content += `<div class="form-group"><label style='text-weight:bold;'>${index}</label>`
 		item.forEach(tg => {
 			escapedIndex = escapeTag(index)
 			escapedTag = escapeTag(tg)
 			content += `<input type="checkbox" class="btn-check" id="filter-tag-${escapedIndex}_${escapedTag}" autocomplete="off" onchange="applyFilters()">
 						<label class="btn btn-secondary btn-sm" for="filter-tag-${escapedIndex}_${escapedTag}">${tg}</label>`
 		});
-		content += `</div></div>`
+		content += `</div>`
 	});
 	$("#tagFilters").append(content)
 }
