@@ -21,7 +21,7 @@
                 "value"      : "GI-complete",
                 "categorical" : true,
                 "wikidata"   : "Q115425721",
-                "references" : ["trivial"]
+                "references" : ["lovasz_operations_1967"]
             },
             {
                 "claim"      : "complexity",
