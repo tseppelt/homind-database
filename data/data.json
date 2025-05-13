@@ -103,8 +103,8 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by the $k$-dimensional Weisfeiler–Leman algorithm",
-                "tag"        : null,
-                "wikidata"   : null,
+                "tag"        : "algorithm",
+                "wikidata"   : "Q113844288",
                 "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
             },
             {
@@ -506,7 +506,7 @@
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler–Leman algorithm)",
                 "tag"        : "algorithm",
-                "wikidata"   : null,
+                "wikidata"   : "Q113844288",
                 "references" : ["cai_optimal_1992"]
             },
             {
