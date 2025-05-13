@@ -9,6 +9,8 @@ Created on Sat May 10 11:28:23 2025
 from wikidata.client import Client
 from hashlib import md5
 import json
+import sys
+import logging
 
 client = Client() 
 graph_classes_prop = client.get('P13104')
@@ -28,18 +30,25 @@ def addInfo(cl):
     if('id' not in cl):
         cl['id'] = md5(cl['name'].encode()).hexdigest()
 
-with open('data.json', 'r') as file:
-    # Load the JSON data
-    data = json.load(file)
+if __name__ == '__main__':
+    if len(sys.argv) < 3:
+        logging.error("Please provide paths to input and output data file.")
+        exit
+    infile  = sys.argv[1]
+    outfile = sys.argv[2]
 
-for cl in data:
-    print("Processing", cl['name'], "…")
-    addInfo(cl)
-    if ('wikidata' in cl):
-       loadInfo(cl)
-
-print("Writing augmented data…")
-with open('data_augmented.json', 'w') as file:
-    json.dump(data, file, indent=4)
+    with open(infile, 'r') as file:
+        # Load the JSON data
+        data = json.load(file)
+    
+    for cl in data:
+        print("Processing", cl['name'], "…")
+        addInfo(cl)
+        if ('wikidata' in cl):
+           loadInfo(cl)
+    
+    print("Writing augmented data…")
+    with open(outfile, 'w') as file:
+        json.dump(data, file, indent=4)
 
        
