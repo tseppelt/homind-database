@@ -19,6 +19,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "GI-complete",
+                "categorial" : true,
                 "wikidata"   : "Q115425721",
                 "references" : ["trivial"]
             },
@@ -30,11 +31,13 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
+                "categorial" : true,
                 "references" : ["trivial"]
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             },
             {
                 "claim"      : "witness function",
@@ -62,17 +65,20 @@
             {
                 "claim"      : "complexity",
                 "value"      : "undecidable",
+                "categorial" : true,
                 "wikidata"   : "Q3502995",
                 "references" : ["atserias_quantum_2019"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
+                "categorial" : true,
                 "references" : ["roberson_oddomorphisms_2022"]
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             },
             {
                 "claim"      : "witness function",
@@ -118,6 +124,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
+                "categorial" : true,
                 "wikidata"   : "Q1137573",
                 "references" : ["cai_optimal_1992"]
             },
@@ -129,11 +136,13 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
+                "categorial" : true,
                 "references" : ["neuen_homomorphism_2024"]
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             },
             {
                 "claim"      : "witness function",
@@ -162,18 +171,20 @@
             {
                 "claim"      : "complexity",
                 "value"      : "GI-complete",
+                "categorial" : true,
                 "wikidata"   : "Q115425721",
                 "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "wikidata"   : "Q1137573",
-                "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
+                "categorial" : true,
+                "references" : ["dvorak_recognizing_2010","roberson_oddomorphisms_2022","seppelt_homomorphism_2024"]
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "monotone"
+                "value"      : "monotone",
+                "categorial" : true
             },
             {
                 "claim"      : "witness function",
@@ -213,11 +224,13 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : ["grohe_counting_2020"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
+                "categorial" : true,
                 "references" : ["fluck_going_2024"]
             },
             {
@@ -227,7 +240,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             },
             {
                 "claim"      : "witness function",
@@ -267,11 +281,13 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : ["grohe_homomorphism_2025"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
+                "categorial" : true,
                 "references" : ["seppelt_homomorphism_2024"]
             },
             {
@@ -281,7 +297,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             },
             {
                 "claim"      : "witness function",
@@ -313,13 +330,13 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["roberson_oddomorphisms_2022"]
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "monotone"
+                "value"      : "monotone",
+                "categorial" : true
             }
         ]
     },
@@ -351,13 +368,13 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : ["folklore"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["seppelt_homomorphism_2024"]
             },
             {
@@ -373,7 +390,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "closed under edge contraction"
+                "value"      : "closed under edge contraction",
+                "categorial" : true
             }
         ]
     },
@@ -397,8 +415,7 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["roberson_oddomorphisms_2022"]
             },
             {
@@ -414,7 +431,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             }
         ]
     },
@@ -439,13 +457,13 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : []
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["roberson_oddomorphisms_2022"]
             },
             {
@@ -460,7 +478,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             }
         ]
     },
@@ -494,13 +513,13 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : ["cai_optimal_1992"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["roberson_oddomorphisms_2022"]
             },
             {
@@ -516,7 +535,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             }
         ]
     },
@@ -535,13 +555,13 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : ["trivial"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : [],
                 "description": "Unpublished"
             },
@@ -553,7 +573,8 @@
             },
             {
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             }
         ]
     },
@@ -578,13 +599,13 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : []
             },
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "categorial" : true,
                 "references" : ["roberson_lasserre_2024"]
             }
         ]
@@ -610,13 +631,13 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : []
             },
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "categorial" : true,
                 "references" : ["roberson_lasserre_2024"]
             }
         ]
@@ -642,8 +663,7 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : []
             },
             {
@@ -659,6 +679,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "categorial" : true,
                 "references" : ["kar_npa_2024"]
             }
         ]
@@ -678,6 +699,7 @@
                 "claim"      : "complexity",
                 "value"      : "coRP",
                 "wikidata"   : "Q1137573",
+                "categorial" : true,
                 "references" : ["seppelt_algorithmic_2024"]
             },
             {
@@ -685,11 +707,13 @@
                 "value"      : true,
                 "tag"        : null,
                 "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["seppelt_homomorphism_2024"]
             },
 			{
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             },
              {
 				"claim"		 : "coincides with",
@@ -714,13 +738,13 @@
                 "claim"      : "complexity",
                 "value"      : "coRP",
                 "wikidata"   : "Q1190846",
+                "categorial" : true,
                 "references" : ["seppelt_algorithmic_2024"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["seppelt_homomorphism_2024"]
             },
             {
@@ -730,7 +754,8 @@
 			},
 			{
                 "claim"      : "has closure property",
-                "value"      : "minor-closed"
+                "value"      : "minor-closed",
+                "categorial" : true
             }
         ]
     },
@@ -744,12 +769,14 @@
                 "value"      : false,
                 "tag"        : null,
                 "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["dvorak_recognizing_2010"],
                 "description": "The homomorphism distinguishing closure is the class of all graphs."
             },
 			{
                 "claim"      : "has closure property",
-                "value"      : "monotone"
+                "value"      : "monotone",
+                "categorial" : true
             }
         ]
     },
@@ -768,8 +795,7 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["roberson_oddomorphisms_2022"]
             },
 			{
@@ -779,7 +805,8 @@
             },
 			{
                 "claim"      : "has closure property",
-                "value"      : "hereditary"
+                "value"      : "hereditary",
+                "categorial" : true
             }
         ]
     },
@@ -791,14 +818,12 @@
                 "claim"      : "characterised as",
                 "value"      : "equivalence in the $k$-variable quantifier-depth-$d$ fragement of first-order logic with counting quantifiers",
                 "tag"        : "logic",
-                "wikidata"   : null,
                 "references" : ["dawar_lovasz_2021","fluck_going_2024"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["adler_monotonicity_2024"]
             },
             {
@@ -814,6 +839,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "categorial" : true,
                 "reference"  : ["fluck_going_2024"]
             }
         ]
@@ -827,28 +853,24 @@
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by any Subgraph GNN",
                 "tag"        : "machine learning",
-                "wikidata"   : null,
                 "references" : ["zhang_beyong_2024"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by $(1,1)$-WL",
                 "tag"        : "algorithm",
-                "wikidata"   : null,
                 "references" : ["rattan_weisfeiler_2022"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the vertex-individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
                 "tag"        : "logic",
-                "wikidata"   : null,
                 "references" : ["rattan_weisfeiler_2022"]
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
+                "categorial" : true,
                 "references" : ["zhang_beyong_2024"]
             },
             {
@@ -858,7 +880,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
-                "reference"  : []
+                "categorial" : true
             }
         ]
     }
