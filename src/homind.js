@@ -5,8 +5,9 @@ let categories = {};
    
 function extractTags(data, field, filter) {
 	extractedTags = {};
-	$.each(allData, function(index, item) {
+	$.each(data, function(index, item) {
 		$.each(item.statements, function(index, statement) {
+			console.log(statement)
 			if(statement[field] != null && (filter == null || filter(statement))){
 				if(extractedTags[statement.claim] == undefined) {
 					extractedTags[statement.claim] = {[statement[field].toString()] : 1}
