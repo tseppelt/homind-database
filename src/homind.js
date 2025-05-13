@@ -120,7 +120,8 @@ function populateView(data) {
 				content += `<li>
 						<b>${statement.claim}</b>
 						${statement.value}
-						${wikidataLink(statement.wikidata)} `
+						${wikidataLink(statement.wikidata)}
+						${wikipediaLink(statement.wikipedia)} `
 				if(statement.tag != null) {
 					content += `<span class="badge text-bg-secondary">${statement.tag}</span>`
 				}
