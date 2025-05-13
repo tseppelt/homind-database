@@ -220,8 +220,8 @@ $(document).ready(function() {
 	});*/
 
 	$.when(
-		$.getJSON('../data/bibliography.json'),
-		$.getJSON('../data/data_augmented.json')
+		$.getJSON('./data/bibliography.json'),
+		$.getJSON('./data/data_augmented.json')
 	).done(function(dataBib, dataClasses) {
 		bibliography = dataBib[0]; 
 		console.log("Populating bibliography…")
