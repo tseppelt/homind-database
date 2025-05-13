@@ -7,7 +7,6 @@ function extractTags(data, field, filter) {
 	extractedTags = {};
 	$.each(data, function(index, item) {
 		$.each(item.statements, function(index, statement) {
-			console.log(statement)
 			if(statement[field] != null && (filter == null || filter(statement))){
 				if(extractedTags[statement.claim] == undefined) {
 					extractedTags[statement.claim] = {[statement[field].toString()] : 1}
@@ -51,7 +50,7 @@ function matchesSelection(statements, selectedTags, field) {
 		matchesTags[claim] = false
 	});
 	statements.forEach(statement => {
-		if(selectedTags[statement.claim] != null) {
+		if(selectedTags[statement.claim] != null && statement[field] != null) {
 			matchesTags[statement.claim] = matchesTags[statement.claim] || selectedTags[statement.claim].includes(statement[field].toString());
 		}
 	});
@@ -226,15 +225,12 @@ $(document).ready(function() {
 		$.getJSON('./data/data_augmented.json')
 	).done(function(dataBib, dataClasses) {
 		bibliography = dataBib[0]; 
-		console.log("Populating bibliography…")
 		populateBibliography();
 		
 		allData = dataClasses[0]; // Store the fetched data
-		console.log("Extracting tags…")
 		tags = extractTags(allData, 'tag', null);
 		categories = extractTags(allData, 'value', st => st.categorical);
-		
-		console.log("Populating graph classes view…")
+
 		populateView(allData); // Populate the table with all data
 		populateTagFilters(tags, 'tag');
 		populateTagFilters(categories, 'category');
