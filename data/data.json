@@ -173,7 +173,12 @@
                 "value"      : "$n \\mapsto \\max\\{k^{2n^k}, 2n^k \\}$",
                 "tag"		 : "exponential",
                 "references"  : ["seppelt_homomorphism_2024"]
-            }
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "$\\mathcal{L}_{k+1}$",
+				"references" : ["roberson_lasserre_2024"]
+			}
         ]
     },
     {
