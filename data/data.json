@@ -659,7 +659,12 @@
                 "value"      : "minor-closed",
                 "categorical" : true,
                 "references" : ["roberson_lasserre_2024"]
-            }
+            },
+			{
+				"claim"		 : "subclass of",
+				"value"		 : "$\\mathcal{L}_k^+$",
+				"references" : ["roberson_lasserre_2024"]
+			}
         ]
     },
     {
@@ -691,7 +696,12 @@
                 "value"      : "minor-closed",
                 "categorical" : true,
                 "references" : ["roberson_lasserre_2024"]
-            }
+            },
+			{
+				"claim"		 : "subclass of",
+				"value"		 : "treewidth $\\leq 3k-1$",
+				"references" : ["roberson_lasserre_2024"]
+			}
         ]
     },
     {
