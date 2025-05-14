@@ -225,7 +225,7 @@
     },
     {
         "name": "Treedepth $\\leq q$",
-        "wikidata": "Q5067368",
+        "wikidata": "Q7837500",
         "family" : true,
         "statements":[
             {
@@ -599,7 +599,7 @@
     },
     {
         "name": "Disjoint unions of stars",
-        "wikidata": "Q2589168",
+        "graphclassesorg": "gc_1297",
         "statements": [
             {
                 "claim"      : "characterised as",
