@@ -17,6 +17,18 @@
                 "references" : ["lovasz_operations_1967"]
             },
             {
+                "claim"      : "characterised as",
+                "value"      : "existence of a signed permutation matrix $X$ such that $XA_G = A_H X$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of a orthogonal monomial matrix $X$ such that $XA_G = A_H X$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
                 "claim"      : "complexity",
                 "value"      : "GI-complete",
                 "categorical" : true,
@@ -54,13 +66,25 @@
             {
                 "claim"      : "characterised as",
                 "value"      : "quantum isomorphism",
-                "references" : ["mancinska_quantum_2022"]
+                "references" : ["mancinska_quantum_2022", "kar_npa_2024", "seppelt_homomorphism_2025"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "existence of a quantum permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
-                "references" : ["lupini_nonlocal_2020"]
+                "references" : ["lupini_nonlocal_2020", "seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an quantum signed permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an quantum orthogonal monomial matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
             },
             {
                 "claim"      : "complexity",
@@ -258,7 +282,7 @@
         "statements":[
             {
                 "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without negativity constraints",
+                "value"      : "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without non-negativity constraints",
                 "tag"        : "system of equations",
                 "wikidata"   : null,
                 "references" : ["dell_lovasz_2018", "grohe_homomorphism_2025"]
@@ -365,6 +389,12 @@
                 "references" : ["folklore"]
             },
             {
+                "claim"      : "characterised as",
+                "value"      : "existence of an quantum orthogonal matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
@@ -443,15 +473,37 @@
                 "claim"      : "characterised as",
                 "value"      : "cospectral with cospectral complements",
                 "tag"        : "algebraic graph theory",
-                "wikidata"   : null,
-                "references" : []
+                "references" : ["folklore","seppelt_homomorphism_2024"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$",
                 "tag"		 : "system of equations",
-                "wikidata"   : null,
-                "references" : []
+                "references" : ["seppelt_homomorphism_2024","seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an signed bistochastic matrix $X$ such that $XA_G = A_H X$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an quantum bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an quantum signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
+            },
+            {
+                "claim"      : "characterised as",
+                "value"      : "existence of an quantum complexly signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag"		 : "system of equations",
+                "references" : ["seppelt_homomorphism_2025"]
             },
             {
                 "claim"      : "complexity",
