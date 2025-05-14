@@ -1,146 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homomorphism Indistinguishability Zoo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-    <script>
-		MathJax = {
-		  tex: {
-			inlineMath: [['$', '$'], ['\\(', '\\)']]
-		  },
-		  svg: {
-			fontCache: 'global'
-		  }
-		};
-	</script>
-	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <style>
-        .wikidata-link {
-            height: .7em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homomorphism Indistinguishability Zoo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    .wikidata-link {
+      height: .7em;
+    }
+  </style>
 </head>
+
 <body>
- 
-<!--
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" onclick="$('.references').toggle()">Toggle references</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+  <header class="bg-secondary text-white text-center py-5" style="padding-left: 10px; padding-right: 10px;">
+    <h1>Welcome to the Homomorphism Indistinguishability Zoo</h1>
+    <p class="lead">Two graphs $G$ and $H$ are <i>homomorphism indistinguishable</i> over a graph class $\mathcal{F}$
+      iff $G$ and $H$ admit the same number of homomorphisms from every $F \in \mathcal{F}$.</p>
+    <p class="lead">Many well-studied graph isomorphism relaxation can be characterised as homomorphism
+      indistinguishability relations over natural graph classes.</p>
+    <p class="lead">This website lists properties of graph classes and their homomorphism indistinguishability
+      relations.</p>
+    <a href="https://publications.rwth-aachen.de/record/998785/files/998785.pdf" target="_blank"
+      class="btn btn-light btn-lg">Learn more</a>
+  </header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Graph classes</h1>
+        <div id="jsonData"><i>Loading graph classes…</i></div>
+      </div>
+      <div class="col-md-4">
+        <div style="margin-bottom:20px">
+          <h2>Filter</h2>
+          <div class="form-group">
+            <input type="text" class="form-control" id="textSearch" placeholder="Search phrase">
+          </div>
+          <div id="filters-tag"><i>Loading filters…</i></div>
+          <div id="filters-category"><i>Loading filters…</i></div>
+        </div>
+
+
+
+        <div style="margin-bottom:20px">
+
+          <h2>Glossary</h2>
+
+
+          What do the properties of a graph class $\mathcal{F}$ mean?
+
+          <ul>
+            <li><b>characterised as</b> characterisation of the homomorphism indistinguishability relation
+              $\equiv_{\mathcal{F}}$</li>
+            <li><b>complexity</b> complexity of deciding $\equiv_{\mathcal{F}}$</li>
+            <li><b>homomorphism distinguishing closed</b> $\mathcal{F}$ is homomorphism distinguishing closed if, for
+              all $F \not\in \mathcal{F}$, there exist graphs $G$ and $H$ such that $G \equiv_{\mathcal{F}} H$ and
+              $\hom(F, G) \neq \hom(F, H).$</li>
+            <li><b>witness function</b> a witness function for $\mathcal{F}$ is a function $f \colon \mathbb{N} \to \mathbb{N}$ 
+              such that for all graphs $G$ and $H$ on at most $n$ vertices, $G \equiv_{\mathcal{F}} H$ if,
+              and only if, $G \equiv_{\mathcal{F}_{\leq f(n)}} H$ where $\mathcal{F}_{\leq N}$ is the class of the $F \in \mathcal{F}$ 
+              on at most $N$ vertices.</li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+        </div>
+
+        <div style="margin-bottom:20px">
+
+          <h2>View</h2>
+          <button onclick="$('.references').toggle()" class="btn btn-outline-secondary">
+            <i class="bi bi-eyeglasses"></i>
+            Toggle references
+          </button>
+
+        </div>
+
+        <div style="margin-bottom:20px">
+
+          <h2>Download</h2>
+
+          <p>Data is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/ "><i
+                class="bi bi-cc-circle"></i><i class="bi bi-0-circle"></i> CC0 1.0 Universal</a>.
+            This page greatfully relies on data from <a
+              href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>.</p>
+
+          <p>
+            <a href="./data/data_dump.zip" class="btn btn-outline-secondary"><i class="bi bi-floppy"></i> Download
+              data</a>
+            <a href="https://tseppelt.github.io" class="btn btn-outline-secondary"><i class="bi bi-envelope-at"></i> Get
+              in touch</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bibliography" class="references"></div>
+      </div>
     </div>
   </div>
-</nav> -->
 
-
-	
-	
-	<header class="bg-secondary text-white text-center py-5" style="padding-left: 10px; padding-right: 10px;">
-        <h1>Welcome to the Homomorphism Indistinguishability Zoo</h1>
-        <p class="lead">Two graphs $G$ and $H$ are <i>homomorphism indistinguishable</i> over a graph class $\mathcal{F}$ iff $G$ and $H$ admit the same number of homomorphisms from every $F \in \mathcal{F}$.</p>
-        <p class="lead">Many well-studied graph isomorphism relaxation can be characterised as homomorphism indistinguishability relations over natural graph classes.</p>
-		<p class="lead">This website lists properties of graph classes and their homomorphism indistinguishability relations.</p>
-        <a href="https://publications.rwth-aachen.de/record/998785/files/998785.pdf" target="_blank" class="btn btn-light btn-lg">Learn more</a>
-    </header>
-    
-   <div class="container my-5">
-        <div class="row">
-            <div class="col-md-8">
-				<h1>Graph classes</h1>
-                <div id="jsonData"><i>Loading graph classes…</i></div>
-
-				
-				
-            </div>
-            <div class="col-md-4">
-				<div style="margin-bottom:20px">
-					<h2>Filter</h2>
-					<div class="form-group">
-						<input type="text" class="form-control" id="textSearch" placeholder="Search phrase">
-					</div>
-					<div id="filters-tag"><i>Loading filters…</i></div>
-					<div id="filters-category"><i>Loading filters…</i></div>
-				</div>
-				
-				
-				
-				<div style="margin-bottom:20px">
-				
-					<h2>Glossary</h2>
-					
-
-					What do the properties of a graph class $\mathcal{F}$ mean?
-					
-					<ul>
-						<li><b>characterised as</b> characterisation of the homomorphism indistinguishability relation $\equiv_{\mathcal{F}}$</li>
-						<li><b>complexity</b> complexity of deciding $\equiv_{\mathcal{F}}$</li>
-						<li><b>homomorphism distinguishing closed</b> $\mathcal{F}$ is homomorphism distinguishing closed if, for all $F \not\in \mathcal{F}$, there exist graphs $G$ and $H$ such that $G \equiv_{\mathcal{F}} H$ and $\hom(F, G) \neq \hom(F, H)$.</li>
-						<li><b>witness function</b> a witness function for $\mathcal{F}$ is a function $f \colon \mathbb{N} \to \mathbb{N}$ such that for all graphs $G$ and $H$ on at most $n$ vertices, $G \equiv_{\mathcal{F}} H$ if, and only if, $G \equiv_{\mathcal{F}_{\leq f(n)}} H$ where $\mathcal{F}_{\leq N}$ is the class of the $F \in \mathcal{F}$ on at most $N$ vertices.</li>
-					</ul>
-				</div>
-				
-				<div style="margin-bottom:20px">
-					
-					<h2>View</h2>
-					<button onclick="$('.references').toggle()" class="btn btn-outline-secondary"><i class="bi bi-eyeglasses"></i> Toggle references</button>
-				
-				</div>
-				
-				<div style="margin-bottom:20px">
-					
-					<h2>Download</h2>
-					
-					<p>Data is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/ "><i class="bi bi-cc-circle"></i><i class="bi bi-0-circle"></i> CC0 1.0 Universal</a>.
-					This page greatfully relies on data from <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>.</p>
-					
-					<p>
-					<a href="./data/data_dump.zip" class="btn btn-outline-secondary"><i class="bi bi-floppy"></i> Download data</a>
-					<a href="https://tseppelt.github.io" class="btn btn-outline-secondary"><i class="bi bi-envelope-at"></i> Get in touch</a>
-					</p>
-				</div>
-            </div>
-        </div>
-        <div class="row">
-			<div class="col-md-12">
-				<div id="bibliography" class="references"></div>
-			</div>
-        </div>
-    </div>
-	
-	<script src="./src/homind.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>	
+  <script src="./src/homind.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
