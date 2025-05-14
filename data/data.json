@@ -24,7 +24,7 @@
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of a orthogonal monomial matrix $X$ such that $XA_G = A_H X$",
+                "value"      : "existence of an orthogonal monomial matrix $X$ such that $XA_G = A_H X$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
@@ -76,13 +76,13 @@
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an quantum signed permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "value"      : "existence of a quantum signed permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an quantum orthogonal monomial matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "value"      : "existence of a quantum orthogonal monomial matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
@@ -390,7 +390,7 @@
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an quantum orthogonal matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "value"      : "existence of a quantum orthogonal matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
@@ -489,19 +489,19 @@
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an quantum bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "value"      : "existence of a quantum bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an quantum signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "value"      : "existence of a quantum signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an quantum complexly signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "value"      : "existence of a quantum complexly signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
