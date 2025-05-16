@@ -371,6 +371,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "monotone",
+                "wikidata"   : "Q131934975",
                 "categorical" : true
             }
         ]
@@ -745,6 +746,12 @@
                 "categorical" : true,
                 "references" : []
             },
+            {
+				"claim"		 : "witness function",
+				"value"		 : "$n \\mapsto 2k \\cdot 4^{n^{2k}}$",
+                "tag":"exponential",
+				"references" : ["kar_npa_2024"]
+			},
             {
 				"claim"		 : "subclass of",
 				"value"		 : "planar graphs",
