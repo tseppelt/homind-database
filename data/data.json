@@ -38,6 +38,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "quasi-polynomial time",
+                "wikidata"   : "Q115425865",
                 "references" : ["babai_graph_2016"]
             },
             {
