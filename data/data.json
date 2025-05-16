@@ -49,6 +49,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             },
             {
@@ -102,6 +103,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             },
             {
@@ -166,6 +168,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             },
             {
@@ -213,6 +216,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "monotone",
+                "wikidata"   : "Q131934975",
                 "categorical" : true
             },
             {
@@ -270,6 +274,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             },
             {
@@ -327,6 +332,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             },
             {
@@ -467,6 +473,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             }
         ]
@@ -536,6 +543,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             }
         ]
@@ -593,6 +601,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             }
         ]
@@ -631,6 +640,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             }
         ]
@@ -662,6 +672,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true,
                 "references" : ["roberson_lasserre_2024"]
             },
@@ -699,6 +710,7 @@
             {
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true,
                 "references" : ["roberson_lasserre_2024"]
             },
@@ -746,6 +758,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true,
                 "references" : ["kar_npa_2024"]
             }
@@ -780,6 +793,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             },
              {
@@ -822,6 +836,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             }
         ]
@@ -873,6 +888,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "hereditary",
+                "wikidata"   : "Q131934975",
                 "categorical" : true
             }
         ]
@@ -906,6 +922,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true,
                 "reference"  : ["fluck_going_2024"]
             }
@@ -947,6 +964,7 @@
 			{
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
                 "categorical" : true
             }
         ]
