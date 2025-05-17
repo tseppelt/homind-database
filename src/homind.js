@@ -67,6 +67,8 @@ function applyFilters() {
 	const selectedTags = selectedOptions(tags, 'tag')
 	const selectedCategories = selectedOptions(categories, 'category')
 	
+	anySelected = false;
+	
 	$.each(allData, function(index, item) {
 		//const matchesAge = isNaN(ageFilter) || item.age === ageFilter;
 		matches = item.name.toLowerCase().includes(textSearch);
@@ -87,22 +89,44 @@ function applyFilters() {
 			matchesSelection(item.statements, selectedCategories, 'value')
 			) {
 			$(`#graphclass-${item.id}`).show();
+			$(`#toc-${item.id}`).show();
+			anySelected = true;
 		}else{
 			$(`#graphclass-${item.id}`).hide();
+			$(`#toc-${item.id}`).hide();
 		}
 	});
-
+	if(! anySelected) {
+		$("#nothing-found").show();
+		$("#accordionContents").hide();
+	}else{
+		$("#nothing-found").hide();
+		$("#accordionContents").show();
+	}
 }
 
 function populateView(data) {  
-	$("#jsonData").empty();
+	
 	if(data.length == 0) {
-		$("#jsonData").append("<i>No graph classes found.</i>")
+		$("#nothing-found").show();
+		$("#accordionContents").hide();
 		return;
 	}
+	
+	$("#toc").empty();
+	toccontent = `<ul>`
 	$.each(data, function(index, item) {
-		content = `<div class="graphclass" id="graphclass-${item.id}"><h2>`
-		content += ` ${item.name}`
+		toccontent += `<li id="toc-${item.id}"><a href="#graphclass-${item.id}">${item.name}</a></li>`
+	});
+	toccontent += `</ul>`
+	$("#toc").append(toccontent);
+	
+	
+	$("#jsonData").empty();
+	content = ``
+	$.each(data, function(index, item) {
+		content += `<div class="graphclass" id="graphclass-${item.id}"><h2>`
+		content += `<a name="graphclass-${item.id}">${item.name}</a>`
 		if(item.family == true) {
 			content += ` <span class="badge text-bg-light" title="This is a family of graph classes."><i class="bi bi-collection"></i></span>`
 		}
@@ -135,9 +159,8 @@ function populateView(data) {
 			});
 			content += `</ul></div>`
 		}
-
-		$("#jsonData").append(content);
 	});
+	$("#jsonData").append(content);
 	// MathJax.typeset();
 }
 
@@ -148,6 +171,7 @@ function populateBibliography() {
 	$.each(bibliography, function(index, item) {
 		content += `<li><a name="citation_${index}">${item.short}</a>: ${item.long}</li>`
 	});
+	content += `</ul>`
 	$("#bibliography").append(content)
 }
 
