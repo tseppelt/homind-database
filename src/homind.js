@@ -180,12 +180,12 @@ function populateTagFilters(tags, field) {
 	content = ``;
 	$.each(tags, function(index, item) {
 		
-		content += `<div class="form-group"><label style='text-weight:bold;'>${index}</label>`
+		content += `<div class="form-group" style="margin-top:5px;"><label>${index}</label>`
 		$.each(item, function(tg, count) {
 			escapedIndex = escapeTag(index)
 			escapedTag = escapeTag(tg)
 			content += `<input type="checkbox" class="btn-check" id="filter-${field}-${escapedIndex}_${escapedTag}" autocomplete="off" onchange="applyFilters()">
-						<label class="btn btn-secondary btn-sm" for="filter-${field}-${escapedIndex}_${escapedTag}">${tg} <span class="badge text-bg-light">${count}</span></label>`
+						<label class="btn btn-outline-secondary btn-sm" for="filter-${field}-${escapedIndex}_${escapedTag}">${tg} <span class="badge text-bg-secondary">${count}</span></label>`
 		});
 		content += `</div>`
 	});

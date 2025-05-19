@@ -124,7 +124,6 @@
                 "claim"      : "characterised as",
                 "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
                 "tag"        : "logic",
-                "wikidata"   : null,
                 "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
             },
             {
@@ -138,14 +137,12 @@
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
                 "tag"        : "system of equations",
-                "wikidata"   : null,
                 "references" : ["dell_lovasz_2018"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "coKleisli isomorphism with respect to pebbling comonad",
                 "tag"        : "category theory",
-                "wikidata"   : null,
                 "references" : ["dawar_lovasz_2021"]
             },
             {
@@ -237,21 +234,18 @@
                 "claim"      : "characterised as",
                 "value"      : "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
                 "tag"        : "logic",
-                "wikidata"   : null,
                 "references" : ["grohe_counting_2020"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
                 "tag"		 : "system of equations",
-                "wikidata"   : null,
                 "references" : ["grohe_homomorphism_2025"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "coKleisli isomorphism with respect to Ehrenfeucht–Fraïssé comonad",
                 "tag"        : "category theory",
-                "wikidata"   : null,
                 "references" : ["dawar_lovasz_2021"]
             },
             {
@@ -269,8 +263,7 @@
             },
             {
                 "claim"      : "subclass of",
-                "value"      : "pathwidth $\\leq q-1$",
-                "references" : []
+                "value"      : "pathwidth $\\leq q-1$"
             },
             {
                 "claim"      : "has closure property",
@@ -295,21 +288,18 @@
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without non-negativity constraints",
                 "tag"        : "system of equations",
-                "wikidata"   : null,
                 "references" : ["dell_lovasz_2018", "grohe_homomorphism_2025"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers and restricted conjunction",
                 "tag"        : "logic",
-                "wikidata"   : null,
                 "references" : ["montacute_pebble_2024"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "coKleisli isomorphism with respect to pebble-relation comonad",
                 "tag"        : "category theory",
-                "wikidata"   : null,
                 "references" : ["montacute_pebble_2024"]
             },
             {
@@ -327,8 +317,7 @@
             },
             {
                 "claim"      : "subclass of",
-                "value"      : "treewidth $\\leq k$",
-                "references" : []
+                "value"      : "treewidth $\\leq k$"
             },
             {
                 "claim"      : "has closure property",
@@ -351,17 +340,11 @@
         "statements": [
 			{
                 "claim"      : "characterised as",
-                "value"      : "no characterisation known",
-                "tag"        : null,
-                "wikidata"   : null,
-                "references" : []
+                "value"      : "no characterisation known"
             },
             {
                 "claim"      : "complexity",
-                "value"      : "unknown",
-                "tag"        : null,
-                "wikidata"   : null,
-                "references" : []
+                "value"      : "unknown"
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
@@ -384,21 +367,18 @@
                 "claim"      : "characterised as",
                 "value"      : "cospectrality",
                 "tag"        : "algebraic graph theory",
-                "wikidata"   : null,
                 "references" : ["folklore"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
                 "tag"		 : "system of equations",
-                "wikidata"   : null,
                 "references" : ["folklore"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "existence of an invertible matrix $X$ such that $XA_G = A_HX$",
                 "tag"		 : "system of equations",
-                "wikidata"   : null,
                 "references" : ["folklore"]
             },
             {
@@ -428,8 +408,7 @@
             },
             {
                 "claim"      : "subclass of",
-                "value"      : "outerplanar graphs",
-                "references" : []
+                "value"      : "outerplanar graphs"
             },
             {
                 "claim"      : "has closure property",
@@ -446,7 +425,6 @@
                 "claim"      : "characterised as",
                 "value"      : "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
                 "tag"		 : "system of equations",
-                "wikidata"   : null,
                 "references" : ["dell_lovasz_2018"]
             },
             {
@@ -469,8 +447,7 @@
             },
             {
                 "claim"      : "subclass of",
-                "value"      : "pathwidth $\\leq 1$",
-                "references" : []
+                "value"      : "pathwidth $\\leq 1$"
             },
             {
                 "claim"      : "has closure property",
@@ -482,6 +459,7 @@
     },
     {
         "name": "Disjoint unions of paths and cycles",
+        "description" : "Graphs all whose vertices have degree at most two.",
         "statements": [
             {
                 "claim"      : "characterised as",
@@ -523,8 +501,7 @@
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : []
+                "categorical" : true
             },
             {
                 "claim"      : "homomorphism distinguishing closed",
@@ -534,13 +511,11 @@
             },
             {
                 "claim"      : "coincides with",
-                "value"      : "maximum degree $\\leq 2$",
-                "references" : []
+                "value"      : "maximum degree $\\leq 2$"
             },
             {
                 "claim"      : "subclass of",
-                "value"      : "treewidth $\\leq 2$",
-                "references" : []
+                "value"      : "treewidth $\\leq 2$"
             },
             {
                 "claim"      : "has closure property",
@@ -559,14 +534,12 @@
                 "claim"      : "characterised as",
                 "value"      : "fractional isomorphism, i.e. existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
                 "tag"		 : "system of equations",
-                "wikidata"   : null,
                 "references" : ["dvorak_recognizing_2010", "dell_lovasz_2018"]
             },
             {
                 "claim"      : "characterised as",
                 "value"      : "equivalence in two-variable first-order logic with counting quantifiers",
                 "tag"        : "logic",
-                "wikidata"   : null,
                 "references" : ["dvorak_recognizing_2010"]
             },
             {
@@ -597,8 +570,7 @@
             },
             {
                 "claim"      : "coincides with",
-                "value"      : "treewidth $\\leq 1$",
-                "references" : []
+                "value"      : "treewidth $\\leq 1$"
             },
             {
                 "claim"      : "has closure property",
@@ -611,12 +583,12 @@
     {
         "name": "Disjoint unions of stars",
         "graphclassesorg": "gc_1297",
+        "description": "Disjoint unions of complete bipartite graphs $K_{1,r}$ for $r \\geq 0$.",
         "statements": [
             {
                 "claim"      : "characterised as",
                 "value"      : "equal degree sequence",
                 "tag"        : "combinatorial",
-                "wikidata"   : null,
                 "references" : ["folklore"]
             },
             {
@@ -630,7 +602,6 @@
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
                 "categorical" : true,
-                "references" : [],
                 "description": "Unpublished"
             },
             {
@@ -656,7 +627,6 @@
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation of the graph isomorphism integer quadratic program",
                 "tag"        : "system of equations",
-                "wikidata"   : null,
                 "references" : ["roberson_lasserre_2024"]
             },
             {
@@ -668,8 +638,7 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
-                "categorical" : true,
-                "references" : []
+                "categorical" : true
             },
             {
                 "claim"      : "has closure property",
@@ -694,7 +663,6 @@
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation with non-negativity constraints",
                 "tag"        : "system of equations",
-                "wikidata"   : null,
                 "references" : ["roberson_lasserre_2024"]
             },
             {
@@ -706,8 +674,7 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
-                "categorical" : true,
-                "references" : []
+                "categorical" : true
             },
             {
                 "claim"      : "has closure property",
@@ -732,7 +699,6 @@
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
                 "tag"        : "system of equations",
-                "wikidata"   : null,
                 "references" : ["kar_npa_2024"]
             },
             {
@@ -744,8 +710,7 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
-                "categorical" : true,
-                "references" : []
+                "categorical" : true
             },
             {
 				"claim"		 : "witness function",
@@ -780,7 +745,6 @@
                 "claim"      : "characterised as",
                 "value"      : "feasibility of the first level of the Lasserre semidefinite programming hierarchy",
                 "tag"        : "system of equations",
-                "wikidata"   : null,
                 "references" : ["roberson_lasserre_2024"]
             },
             {
@@ -793,8 +757,6 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : true,
-                "tag"        : null,
-                "wikidata"   : null,
                 "categorical" : true,
                 "references" : ["seppelt_homomorphism_2024"]
             },
@@ -857,8 +819,6 @@
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : false,
-                "tag"        : null,
-                "wikidata"   : null,
                 "categorical" : true,
                 "references" : ["dvorak_recognizing_2010"],
                 "description": "The homomorphism distinguishing closure is the class of all graphs."
@@ -878,8 +838,6 @@
             {
                 "claim"      : "complexity",
                 "value"      : "$\\mathsf{C}_=\\mathsf{P}$-complete",
-                "tag"        : null,
-                "wikidata"   : null,
                 "references" : ["boeker_complexity_2019"]
             },
             {
