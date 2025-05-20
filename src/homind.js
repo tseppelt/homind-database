@@ -22,7 +22,13 @@ function extractTags(data, field, filter) {
 }
 
 function escapeTag(tag) {
-	return tag.toString().replaceAll(' ', '-')
+	return tag.toString()
+		.replaceAll(' ', '-')
+		.replaceAll('$','dl')
+		.replaceAll('{','br')
+		.replaceAll('}','cket')
+		.replaceAll('\\','bsl')
+		.replaceAll('=','eq')
 }
 
 function selectedOptions(all, prefix) {

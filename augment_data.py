@@ -12,13 +12,23 @@ import json
 import sys
 import logging
 
+from functools import lru_cache
+
 client = Client() 
 graph_classes_prop = client.get('P13104')
 
-def loadGraphClassInfo(cl):
-    print("Querying Wikidata", cl['wikidata'], "…")
-    entity = client.get(cl['wikidata'], load=True)    
+@lru_cache(maxsize=None)
+def cached_get(q):
+    if q is None:
+        return None
+    print("Querying Wikidata", q, "…")
+    entity = client.get(q, load=True) 
     print("… received item titled", entity.label)
+    return entity
+
+def loadGraphClassInfo(cl):
+    entity = cached_get(cl['wikidata'])
+    
     if(entity.description is not None and 'description' not in cl):
         cl['description'] = str(entity.description).capitalize() + ' (from Wikidata)'
     graph_classes_org = entity.get(graph_classes_prop)
@@ -30,9 +40,7 @@ def loadGraphClassInfo(cl):
 def loadStatementInfo(statement):
     if 'wikidata' not in statement or statement['wikidata'] is None:
         return
-    print("Querying Wikidata", statement['wikidata'], "…")
-    entity = client.get(statement['wikidata'], load=True)    
-    print("… received item titled", entity.label)
+    entity = cached_get(statement['wikidata'])    
     if('enwiki' in entity.attributes['sitelinks'] and 'wikipedia' not in statement):
         statement['wikipedia'] = entity.attributes['sitelinks']['enwiki']['url']
 
