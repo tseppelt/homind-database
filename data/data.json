@@ -344,6 +344,7 @@
             },
             {
                 "claim"      : "complexity",
+                "categorical" : true,                
                 "value"      : "unknown"
             },
             {
@@ -430,6 +431,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
+                "categorical" : true,                
                 "wikidata"   : "Q1137573",
                 "references" : ["seppelt_algorithmic_2024"]
             },
@@ -475,7 +477,7 @@
             },
             {
                 "claim"      : "characterised as",
-                "value"      : "existence of an signed bistochastic matrix $X$ such that $XA_G = A_H X$",
+                "value"      : "existence of a signed bistochastic matrix $X$ such that $XA_G = A_H X$",
                 "tag"		 : "system of equations",
                 "references" : ["seppelt_homomorphism_2025"]
             },
@@ -632,6 +634,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "coRP",
+                "categorical" : true,                
                 "wikidata"   : "Q1137573",
                 "references" : ["seppelt_algorithmic_2024"]
             },
@@ -668,6 +671,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
+                "categorical" : true,                
                 "wikidata"   : "Q1137573",
                 "references" : ["roberson_lasserre_2024"]
             },
@@ -704,6 +708,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "coRP",
+                "categorical" : true,                
                 "wikidata"   : "Q1137573",
                 "references" : ["kar_npa_2024"]
             },
@@ -838,6 +843,7 @@
             {
                 "claim"      : "complexity",
                 "value"      : "$\\mathsf{C}_=\\mathsf{P}$-complete",
+                "categorical" : true,
                 "references" : ["boeker_complexity_2019"]
             },
             {
