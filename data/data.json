@@ -146,6 +146,12 @@
                 "references" : ["dawar_lovasz_2021"]
             },
             {
+				"claim"		 : "characterised as",
+				"value"		 : "not distinguished by any $k$-GNN",
+				"tag"		 : "machine learning",
+				"references" : ["morris_weisfeiler_2019"]
+			},
+            {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "categorical" : true,
@@ -544,6 +550,13 @@
                 "tag"        : "logic",
                 "references" : ["dvorak_recognizing_2010"]
             },
+            {
+				"claim"		 : "characterised as",
+				"value"		 : "not distinguished by any Graph Neural Network (GNN)",
+				"tag"		 : "machine learning",
+				"wikidata"   : "Q107750691",
+				"references" : ["morris_weisfeiler_2019", "xu_how_2019"]
+			},
             {
                 "claim"      : "characterised as",
                 "value"      : "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler–Leman algorithm)",

@@ -63,6 +63,10 @@
 		"short" : "Montacute and Shah (2024)",
 		"long": "Y. Montacute and N. Shah, ‘The Pebble-Relation Comonad in Finite Model Theory’, <i>Logical Methods in Computer Science</i>, vol. Volume 20, Issue 2, May 2024, doi: <a href='https://doi.org/10.46298/lmcs-20(2:9)2024'>10.46298/lmcs-20(2:9)2024</a>."
 	},
+	"morris_weisfeiler_2019" : {
+		"short" : "Morris, Ritzert, Fey, Hamilton, Lenssen, Rattan, & Grohe (2019)",
+		"long" : "C. Morris, M. Ritzert, M. Fey, W. L. Hamilton, J. E. Lenssen, G. Rattan, and M. Grohe, ‘Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks’, <i>AAAI</i>, vol. 33, pp. 4602–4609, Jul. 2019, doi: <a href='https://doi.org/10.1609/aaai.v33i01.33014602'>10.1609/aaai.v33i01.33014602</a>."
+	}
 	"kar_npa_2024": {
 		"short" : "Kar, Roberson, Seppelt, & Zeman (2024)",
 		"long" : "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
@@ -98,6 +102,10 @@
 	"seppelt_homomorphism_2025" : {
 		"short" : "Seppelt and Spitzer (2025)",
 		"long" : "T. Seppelt and G. L. Spitzer, ‘Homomorphism Indistinguishability Relations induced by Quantum Groups’, May 12, 2025, <i>arXiv</i>: arXiv:2505.07922. doi: <a href='https://doi.org/10.48550/arXiv.2505.07922'>10.48550/arXiv.2505.07922</a>."
+	},
+	"xu_how_2019" : {
+		"short" : "Xu, Hu, Leskovec, & Jegelka (2019)",
+		"long" : "K. Xu, W. Hu, J. Leskovec, and S. Jegelka, ‘How Powerful are Graph Neural Networks?’, in <i>International Conference on Learning Representations</i>, 2019. [Online]. Available: <a href='https://openreview.net/forum?id=ryGs6iA5Km'>https://openreview.net/forum?id=ryGs6iA5Km</a>"
 	},
     "zhang_beyong_2024" : {
 		"short" : "Zhang, Gai, Du, Ye, He, & Wang (2024)",
