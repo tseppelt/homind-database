@@ -66,7 +66,7 @@
 	"morris_weisfeiler_2019" : {
 		"short" : "Morris, Ritzert, Fey, Hamilton, Lenssen, Rattan, & Grohe (2019)",
 		"long" : "C. Morris, M. Ritzert, M. Fey, W. L. Hamilton, J. E. Lenssen, G. Rattan, and M. Grohe, ‘Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks’, <i>AAAI</i>, vol. 33, pp. 4602–4609, Jul. 2019, doi: <a href='https://doi.org/10.1609/aaai.v33i01.33014602'>10.1609/aaai.v33i01.33014602</a>."
-	}
+	},
 	"kar_npa_2024": {
 		"short" : "Kar, Roberson, Seppelt, & Zeman (2024)",
 		"long" : "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
