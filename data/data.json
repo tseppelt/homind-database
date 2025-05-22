@@ -884,7 +884,7 @@
         "statements": [
             {
                 "claim"      : "characterised as",
-                "value"      : "equivalence in the $k$-variable quantifier-depth-$d$ fragement of first-order logic with counting quantifiers",
+                "value"      : "equivalence in the $k$-variable quantifier-depth-$q$ fragement of first-order logic with counting quantifiers",
                 "tag"        : "logic",
                 "references" : ["dawar_lovasz_2021","fluck_going_2024"]
             },
