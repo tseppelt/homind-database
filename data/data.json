@@ -914,9 +914,8 @@
         ]
     },
     {
-        "name": "Pseudoforests",
-        "description" : "Graphs whose connected components contain precisely one cycle",
-        "wikidata" : "Q7254793",
+        "name": "Disjoint unions of apex trees",
+        "description" : "Disjoint unions of graphs $F$ which are such that there exists $u \\in V(F)$ such that $F - u$ is a tree.",
         "statements": [
             {
                 "claim"      : "characterised as",
