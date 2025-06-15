@@ -1002,12 +1002,6 @@
 				"claim"		 : "subclass of",
 				"value"		 : "forests"
 			},
-			{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
-            },
             {
                 "claim"      : "homomorphism distinguishing closed",
                 "value"      : "unknown",
