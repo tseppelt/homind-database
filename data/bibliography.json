@@ -19,6 +19,10 @@
         "short" : "Cai, Fürer, & Immerman (1992)",
         "long" : "J.-Y. Cai, M. Fürer, and N. Immerman, ‘An optimal lower bound on the number of variables for graph identification’, <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
     },
+    "cerny_caterpillar_2025": {
+    	"short" : "Černý (2025)",
+    	"long" : "M. Černý, ‘Caterpillar GNN: Replacing Message Passing with Efficient Aggregation’, Jun. 07, 2025, <i>arXiv</i>: arXiv:2506.06784. doi: <a href='https://doi.org/10.48550/arXiv.2506.06784'>10.48550/arXiv.2506.06784</a>."
+    },
     "dawar_lovasz_2021" : {
 		"short" : "Dawar, Jakl, & Reggio (2021)",
 		"long" : "A. Dawar, T. Jakl, and L. Reggio, ‘Lovász-Type Theorems and Game Comonads’, in <i>36th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</i>, IEEE, 2021, pp. 1–13. doi: <a href='https://doi.org/10.1109/LICS52264.2021.9470609'>10.1109/LICS52264.2021.9470609</a>."

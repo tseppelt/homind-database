@@ -435,6 +435,12 @@
                 "references" : ["dell_lovasz_2018"]
             },
             {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished by walk-based refinement",
+                "tag"        : "machine learning",
+                "references" : ["cerny_caterpillar_2025"]
+            },
+            {
                 "claim"      : "complexity",
                 "value"      : "polynomial time",
                 "categorical" : true,                
@@ -949,6 +955,62 @@
                 "claim"      : "has closure property",
                 "value"      : "minor-closed",
                 "wikidata"   : "Q131935074",
+                "categorical" : true
+            }
+        ]
+    },
+    {
+        "name": "Caterpillar forests",
+        "wikidata" : "Q5051951",
+        "description" : "Disjoint unions of trees in which all vertices have distince one from a central path.",
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished by walk-based refinement of the 1-round Colour Refinement colouring",
+                "tag"        : "machine learning",
+                "references" : ["cerny_caterpillar_2025"]
+            },
+            {
+		"claim"		 : "subclass of",
+		"value"		 : "forests"
+	},
+	{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
+                "categorical" : true
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : "unknown",
+                "categorical" : true
+            }
+        ]
+    },
+    {
+        "name": "$\\mathcal{C}_{h,t}$",
+        "description" : "Disjoint unions of $(h,t)$-generalised caterpillar trees. A connected acyclic graph $F$ is an <i>$(h,t)$-generalised caterpillar tree</i> if there is a path $s_1, \\dots, s_{t'}$ of length $t' \\leq t$ such that the graph $F'$ obtained from $F$ by deleting the edges in $P$ has the property that any vertex $v \\in V(F')$ is at distance at most $h$ from one of the $s_1, \\dots, s_{t'}$. Every caterpillar tree is a  $(1, t)$-generalised caterpillar tree for some $t \\geq 0$.",
+        "family" : true,
+        "statements": [
+            {
+                "claim"      : "characterised as",
+                "value"      : "not distinguished of $h$-round walk-based refinement of the $t$-round Colour Refinement colouring",
+                "tag"        : "machine learning",
+                "references" : ["cerny_caterpillar_2025"]
+            },
+            {
+				"claim"		 : "subclass of",
+				"value"		 : "forests"
+			},
+			{
+                "claim"      : "has closure property",
+                "value"      : "minor-closed",
+                "wikidata"   : "Q131935074",
+                "categorical" : true
+            },
+            {
+                "claim"      : "homomorphism distinguishing closed",
+                "value"      : "unknown",
                 "categorical" : true
             }
         ]
