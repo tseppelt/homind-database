@@ -1189,15 +1189,16 @@
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "not distinguished by walk-based refinement of the 1-round Colour Refinement colouring",
+                "value": "not distinguished by walk-based refinement of the 1-round Colour Refinement colouring (Caterpillar GNN)",
                 "tag": "machine learning",
                 "references": [
                     "cerny_caterpillar_2025"
                 ]
             },
             {
-                "claim": "subclass of",
-                "value": "forests"
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "categorical": true
             },
             {
                 "claim": "has closure property",
@@ -1206,28 +1207,30 @@
                 "categorical": true
             },
             {
-                "claim": "homomorphism distinguishing closed",
-                "value": "unknown",
-                "categorical": true
+                "claim": "subclass of",
+                "value": "forests"
+            },
+            {
+                "claim": "coincides with",
+                "value": "disjoint unions of $(1,t)$-generalised caterpillar trees, i.e. $\\bigcup_{t \\geq 0} \\mathcal{C}_{1, t}",
+                "references": [
+                    "cerny_caterpillar_2025"
+                ]
             }
         ]
     },
     {
         "name": "Generalised caterpillar forests $\\mathcal{C}_{h,t}$",
-        "description": "Disjoint unions of $(h,t)$-generalised caterpillar trees. A connected acyclic graph $F$ is an <i>$(h,t)$-generalised caterpillar tree</i> if there is a path $s_1, \\dots, s_{t'}$ of length $t' \\leq t$ such that the graph $F'$ obtained from $F$ by deleting the edges in $P$ has the property that any vertex $v \\in V(F')$ is at distance at most $h$ from one of the $s_1, \\dots, s_{t'}$. Every caterpillar tree is a  $(1, t)$-generalised caterpillar tree for some $t \\geq 0$.",
+        "description": "Disjoint unions of $(h,t)$-generalised caterpillar trees. A connected acyclic graph $F$ is an <i>$(h,t)$-generalised caterpillar tree</i> if there is a path $P = s_1 \\dots s_{t'}$ of length $t' \\leq t$ such that the graph $F'$ obtained from $F$ by deleting the edges in $P$ has the property that any vertex $v \\in V(F')$ is at distance at most $h$ from one of the $s_1, \\dots, s_{t'}$. Every caterpillar tree is a  $(1, t)$-generalised caterpillar tree for some $t \\geq 0$.",
         "family": true,
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "not distinguished of $h$-round walk-based refinement of the $t$-round Colour Refinement colouring",
+                "value": "not distinguished by $h$-round walk-based refinement of the $t$-round Colour Refinement colouring (Caterpillar GNN)",
                 "tag": "machine learning",
                 "references": [
                     "cerny_caterpillar_2025"
                 ]
-            },
-            {
-                "claim": "subclass of",
-                "value": "forests"
             },
             {
                 "claim": "homomorphism distinguishing closed",
@@ -1239,6 +1242,10 @@
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
                 "categorical": true
+            },
+            {
+                "claim": "subclass of",
+                "value": "forests"
             }
         ]
     }
