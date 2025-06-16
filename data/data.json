@@ -1213,7 +1213,7 @@
             },
             {
                 "claim": "coincides with",
-                "value": "disjoint unions of $(1,t)$-generalised caterpillar trees, i.e. $\\bigcup_{t \\geq 0} \\mathcal{C}_{1, t}",
+                "value": "disjoint unions of $(1,t)$-generalised caterpillar trees, i.e. $\\bigcup_{t \\geq 0} \\mathcal{C}_{1, t}$",
                 "references": [
                     "cerny_caterpillar_2025"
                 ]
