@@ -2,368 +2,463 @@
     {
         "name": "All graphs",
         "wikidata": "Q141488",
-        "description" : "The class of all finite simple undirected graphs, i.e. tuples $(V, E)$ where $V$ is a finite set and $E \\subseteq \\binom{V}{2}.$",
-        "statements":[
+        "description": "The class of all finite simple undirected graphs, i.e. tuples $(V, E)$ where $V$ is a finite set and $E \\subseteq \\binom{V}{2}.$",
+        "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "isomorphism",
-                "wikidata"   : "Q303100",
-                "references" : ["lovasz_operations_1967"]
+                "claim": "characterised as",
+                "value": "isomorphism",
+                "wikidata": "Q303100",
+                "references": [
+                    "lovasz_operations_1967"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a permutation matrix $X$ such that $XA_G = A_H X$",
-                "tag"		 : "system of equations",
-                "references" : ["lovasz_operations_1967"]
+                "claim": "characterised as",
+                "value": "existence of a permutation matrix $X$ such that $XA_G = A_H X$",
+                "tag": "system of equations",
+                "references": [
+                    "lovasz_operations_1967"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a signed permutation matrix $X$ such that $XA_G = A_H X$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a signed permutation matrix $X$ such that $XA_G = A_H X$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of an orthogonal monomial matrix $X$ such that $XA_G = A_H X$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of an orthogonal monomial matrix $X$ such that $XA_G = A_H X$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "GI-complete",
-                "categorical" : true,
-                "wikidata"   : "Q115425721",
-                "references" : ["lovasz_operations_1967"]
+                "claim": "complexity",
+                "value": "GI-complete",
+                "categorical": true,
+                "wikidata": "Q115425721",
+                "references": [
+                    "lovasz_operations_1967"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "quasi-polynomial time",
-                "wikidata"   : "Q115425865",
-                "references" : ["babai_graph_2016"]
+                "claim": "complexity",
+                "value": "quasi-polynomial time",
+                "wikidata": "Q115425865",
+                "references": [
+                    "babai_graph_2016"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["trivial"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "trivial"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto n$",
-                "tag"		 : "polynomial",
-                "references"  : ["lovasz_operations_1967"]
+                "claim": "witness function",
+                "value": "$n \\mapsto n$",
+                "tag": "polynomial",
+                "references": [
+                    "lovasz_operations_1967"
+                ]
             }
         ]
     },
     {
         "name": "Planar graphs",
         "wikidata": "Q547823",
-        "statements":[
+        "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "quantum isomorphism",
-                "references" : ["mancinska_quantum_2022", "kar_npa_2024", "seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "quantum isomorphism",
+                "references": [
+                    "mancinska_quantum_2022",
+                    "kar_npa_2024",
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["lupini_nonlocal_2020", "seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "lupini_nonlocal_2020",
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum signed permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum signed permutation matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum orthogonal monomial matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum orthogonal monomial matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "undecidable",
-                "categorical" : true,
-                "wikidata"   : "Q3502995",
-                "references" : ["atserias_quantum_2019"]
+                "claim": "complexity",
+                "value": "undecidable",
+                "categorical": true,
+                "wikidata": "Q3502995",
+                "references": [
+                    "atserias_quantum_2019"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["roberson_oddomorphisms_2022"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             },
             {
-                "claim"      : "witness function",
-                "value"      : "no computable witness function exists",
-                "tag"		 : "uncomputable",
-                "references"  : ["mancinska_quantum_2022"]
+                "claim": "witness function",
+                "value": "no computable witness function exists",
+                "tag": "uncomputable",
+                "references": [
+                    "mancinska_quantum_2022"
+                ]
             }
         ]
     },
     {
         "name": "Treewidth $\\leq k$",
         "wikidata": "Q5067368",
-        "family" : true,
-        "statements":[
+        "family": true,
+        "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
-                "tag"        : "logic",
-                "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
+                "claim": "characterised as",
+                "value": "equivalence in $(k+1)$-variable first-order logic with counting quantifiers",
+                "tag": "logic",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "dell_lovasz_2018"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished by the $k$-dimensional Weisfeiler–Leman algorithm",
-                "tag"        : "algorithm",
-                "wikidata"   : "Q113844288",
-                "references" : ["dvorak_recognizing_2010","dell_lovasz_2018"]
+                "claim": "characterised as",
+                "value": "not distinguished by the $k$-dimensional Weisfeiler–Leman algorithm",
+                "tag": "algorithm",
+                "wikidata": "Q113844288",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "dell_lovasz_2018"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$k$ Sherali-Adams system of equations",
-                "tag"        : "system of equations",
-                "references" : ["dell_lovasz_2018"]
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ Sherali-Adams system of equations",
+                "tag": "system of equations",
+                "references": [
+                    "dell_lovasz_2018"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "coKleisli isomorphism with respect to pebbling comonad",
-                "tag"        : "category theory",
-                "references" : ["dawar_lovasz_2021"]
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to pebbling comonad",
+                "tag": "category theory",
+                "references": [
+                    "dawar_lovasz_2021"
+                ]
             },
             {
-				"claim"		 : "characterised as",
-				"value"		 : "not distinguished by any $k$-GNN",
-				"tag"		 : "machine learning",
-				"references" : ["morris_weisfeiler_2019"]
-			},
-            {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "categorical" : true,
-                "wikidata"   : "Q1137573",
-                "references" : ["cai_optimal_1992"]
+                "claim": "characterised as",
+                "value": "not distinguished by any $k$-GNN",
+                "tag": "machine learning",
+                "references": [
+                    "morris_weisfeiler_2019"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "complete for polynomial time under uniform $\\mathsf{AC}_0$-reductions",
-                "references" : ["grohe_equivalence_1999"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "categorical": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "cai_optimal_1992"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["neuen_homomorphism_2024"]
+                "claim": "complexity",
+                "value": "complete for polynomial time under uniform $\\mathsf{AC}_0$-reductions",
+                "references": [
+                    "grohe_equivalence_1999"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "neuen_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto \\max\\{k^{2n^k}, 2n^k \\}$",
-                "tag"		 : "exponential",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "$\\mathcal{L}_{k+1}$",
-				"references" : ["roberson_lasserre_2024"]
-			}
+                "claim": "witness function",
+                "value": "$n \\mapsto \\max\\{k^{2n^k}, 2n^k \\}$",
+                "tag": "exponential",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "$\\mathcal{L}_{k+1}$",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            }
         ]
     },
     {
         "name": "Bipartite graphs",
         "wikidata": "Q174733",
-        "statements":[
+        "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "isomorphic bipartite double covers",
-                "wikidata"   : "Q303100",
-                "references" : ["dvorak_recognizing_2010"]
+                "claim": "characterised as",
+                "value": "isomorphic bipartite double covers",
+                "wikidata": "Q303100",
+                "references": [
+                    "dvorak_recognizing_2010"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
-                "tag"		 : "system of equations",
-                "references" : ["ramana_fractional_1994"]
+                "claim": "characterised as",
+                "value": "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
+                "tag": "system of equations",
+                "references": [
+                    "ramana_fractional_1994"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "GI-complete",
-                "categorical" : true,
-                "wikidata"   : "Q115425721",
-                "references" : ["dvorak_recognizing_2010","seppelt_homomorphism_2024"]
+                "claim": "complexity",
+                "value": "GI-complete",
+                "categorical": true,
+                "wikidata": "Q115425721",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["dvorak_recognizing_2010","roberson_oddomorphisms_2022","seppelt_homomorphism_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "roberson_oddomorphisms_2022",
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "monotone",
-                "wikidata"   : "Q131934975",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "monotone",
+                "wikidata": "Q131934975",
+                "categorical": true
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto 2n$",
-                "tag"		 : "polynomial",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             }
         ]
     },
     {
         "name": "Treedepth $\\leq q$",
         "wikidata": "Q7837500",
-        "family" : true,
-        "statements":[
+        "family": true,
+        "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
-                "tag"        : "logic",
-                "references" : ["grohe_counting_2020"]
+                "claim": "characterised as",
+                "value": "equivalence in the quantifier-depth-$q$ fragment of first-order logic with counting quantifiers",
+                "tag": "logic",
+                "references": [
+                    "grohe_counting_2020"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
-                "tag"		 : "system of equations",
-                "references" : ["grohe_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "feasibility of the variant of the level-$q$ Sherali-Adams system of equations with variables indexed by ordered tuples",
+                "tag": "system of equations",
+                "references": [
+                    "grohe_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "coKleisli isomorphism with respect to Ehrenfeucht–Fraïssé comonad",
-                "tag"        : "category theory",
-                "references" : ["dawar_lovasz_2021"]
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to Ehrenfeucht–Fraïssé comonad",
+                "tag": "category theory",
+                "references": [
+                    "dawar_lovasz_2021"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : ["grohe_counting_2020"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "categorical": true,
+                "references": [
+                    "grohe_counting_2020"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["fluck_going_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "fluck_going_2024"
+                ]
             },
             {
-                "claim"      : "subclass of",
-                "value"      : "pathwidth $\\leq q-1$"
+                "claim": "subclass of",
+                "value": "pathwidth $\\leq q-1$"
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto 4qn^q$",
-                "tag"		 : "polynomial",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "witness function",
+                "value": "$n \\mapsto 4qn^q$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             }
         ]
     },
     {
         "name": "Pathwidth $\\leq k$",
         "wikidata": "Q7144893",
-        "family" : true,
-        "statements":[
+        "family": true,
+        "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without non-negativity constraints",
-                "tag"        : "system of equations",
-                "references" : ["dell_lovasz_2018", "grohe_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "feasibility of the level-$(k+1)$ Sherali-Adams system of equations without non-negativity constraints",
+                "tag": "system of equations",
+                "references": [
+                    "dell_lovasz_2018",
+                    "grohe_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "equivalence in $(k+1)$-variable first-order logic with counting quantifiers and restricted conjunction",
-                "tag"        : "logic",
-                "references" : ["montacute_pebble_2024"]
+                "claim": "characterised as",
+                "value": "equivalence in $(k+1)$-variable first-order logic with counting quantifiers and restricted conjunction",
+                "tag": "logic",
+                "references": [
+                    "montacute_pebble_2024"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "coKleisli isomorphism with respect to pebble-relation comonad",
-                "tag"        : "category theory",
-                "references" : ["montacute_pebble_2024"]
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to pebble-relation comonad",
+                "tag": "category theory",
+                "references": [
+                    "montacute_pebble_2024"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : ["grohe_homomorphism_2025"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "categorical": true,
+                "references": [
+                    "grohe_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["seppelt_homomorphism_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "subclass of",
-                "value"      : "treewidth $\\leq k$"
+                "claim": "subclass of",
+                "value": "treewidth $\\leq k$"
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto 2n^k + k -1$",
-                "tag"		 : "polynomial",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n^k + k -1$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             }
         ]
     },
     {
         "name": "Maximal degree $\\leq \\Delta$",
         "wikidata": "Q9346061",
-        "family" : true,
+        "family": true,
         "statements": [
-			{
-                "claim"      : "characterised as",
-                "value"      : "no characterisation known"
+            {
+                "claim": "characterised as",
+                "value": "no characterisation known"
             },
             {
-                "claim"      : "complexity",
-                "categorical" : true,                
-                "value"      : "unknown"
+                "claim": "complexity",
+                "categorical": true,
+                "value": "unknown"
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["roberson_oddomorphisms_2022"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "monotone",
-                "wikidata"   : "Q131934975",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "monotone",
+                "wikidata": "Q131934975",
+                "categorical": true
             }
         ]
     },
@@ -371,56 +466,70 @@
         "name": "Disjoint unions of cycles",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "cospectrality",
-                "tag"        : "algebraic graph theory",
-                "references" : ["folklore"]
+                "claim": "characterised as",
+                "value": "cospectrality",
+                "tag": "algebraic graph theory",
+                "references": [
+                    "folklore"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
-                "tag"		 : "system of equations",
-                "references" : ["folklore"]
+                "claim": "characterised as",
+                "value": "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
+                "tag": "system of equations",
+                "references": [
+                    "folklore"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of an invertible matrix $X$ such that $XA_G = A_HX$",
-                "tag"		 : "system of equations",
-                "references" : ["folklore"]
+                "claim": "characterised as",
+                "value": "existence of an invertible matrix $X$ such that $XA_G = A_HX$",
+                "tag": "system of equations",
+                "references": [
+                    "folklore"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum orthogonal matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum orthogonal matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : ["folklore"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "categorical": true,
+                "references": [
+                    "folklore"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["seppelt_homomorphism_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto n$",
-                "tag"		 : "polynomial",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "witness function",
+                "value": "$n \\mapsto n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "subclass of",
-                "value"      : "outerplanar graphs"
+                "claim": "subclass of",
+                "value": "outerplanar graphs"
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "closed under edge contraction",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "closed under edge contraction",
+                "categorical": true
             }
         ]
     },
@@ -429,175 +538,217 @@
         "wikidata": "Q25303651",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
-                "tag"		 : "system of equations",
-                "references" : ["dell_lovasz_2018"]
+                "claim": "characterised as",
+                "value": "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag": "system of equations",
+                "references": [
+                    "dell_lovasz_2018"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished by walk-based refinement",
-                "tag"        : "machine learning",
-                "references" : ["cerny_caterpillar_2025"]
+                "claim": "characterised as",
+                "value": "not distinguished by walk-based refinement",
+                "tag": "machine learning",
+                "references": [
+                    "cerny_caterpillar_2025"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "categorical" : true,                
-                "wikidata"   : "Q1137573",
-                "references" : ["seppelt_algorithmic_2024"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "categorical": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["roberson_oddomorphisms_2022"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto 2n$",
-                "tag"		 : "polynomial",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "subclass of",
-                "value"      : "pathwidth $\\leq 1$"
+                "claim": "subclass of",
+                "value": "pathwidth $\\leq 1$"
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     },
     {
         "name": "Disjoint unions of paths and cycles",
-        "description" : "Graphs all whose vertices have degree at most two.",
+        "description": "Graphs all whose vertices have degree at most two.",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "cospectral with cospectral complements",
-                "tag"        : "algebraic graph theory",
-                "references" : ["folklore","seppelt_homomorphism_2024"]
+                "claim": "characterised as",
+                "value": "cospectral with cospectral complements",
+                "tag": "algebraic graph theory",
+                "references": [
+                    "folklore",
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2024","seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2024",
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a signed bistochastic matrix $X$ such that $XA_G = A_H X$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a signed bistochastic matrix $X$ such that $XA_G = A_H X$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of a quantum complexly signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
-                "tag"		 : "system of equations",
-                "references" : ["seppelt_homomorphism_2025"]
+                "claim": "characterised as",
+                "value": "existence of a quantum complexly signed bistochastic matrix $\\mathcal{U}$ such that $\\mathcal{U}A_G = A_H \\mathcal{U}$",
+                "tag": "system of equations",
+                "references": [
+                    "seppelt_homomorphism_2025"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "categorical" : true
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "categorical": true
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["roberson_oddomorphisms_2022"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
             },
             {
-                "claim"      : "coincides with",
-                "value"      : "maximum degree $\\leq 2$"
+                "claim": "coincides with",
+                "value": "maximum degree $\\leq 2$"
             },
             {
-                "claim"      : "subclass of",
-                "value"      : "treewidth $\\leq 2$"
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$"
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     },
     {
         "name": "Forests",
         "wikidata": "Q1506875",
-        "description" : "Disjoint unions of trees, aka acyclic graphs",
+        "description": "Disjoint unions of trees, aka acyclic graphs",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "fractional isomorphism, i.e. existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
-                "tag"		 : "system of equations",
-                "references" : ["dvorak_recognizing_2010", "dell_lovasz_2018"]
+                "claim": "characterised as",
+                "value": "fractional isomorphism, i.e. existence of a doubly-stochastic matrix $X$ such that $XA_G = A_HX$",
+                "tag": "system of equations",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "dell_lovasz_2018"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "equivalence in two-variable first-order logic with counting quantifiers",
-                "tag"        : "logic",
-                "references" : ["dvorak_recognizing_2010"]
+                "claim": "characterised as",
+                "value": "equivalence in two-variable first-order logic with counting quantifiers",
+                "tag": "logic",
+                "references": [
+                    "dvorak_recognizing_2010"
+                ]
             },
             {
-				"claim"		 : "characterised as",
-				"value"		 : "not distinguished by any Graph Neural Network (GNN)",
-				"tag"		 : "machine learning",
-				"wikidata"   : "Q107750691",
-				"references" : ["morris_weisfeiler_2019", "xu_how_2019"]
-			},
-            {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler–Leman algorithm)",
-                "tag"        : "algorithm",
-                "wikidata"   : "Q113844288",
-                "references" : ["cai_optimal_1992"]
+                "claim": "characterised as",
+                "value": "not distinguished by any Graph Neural Network (GNN)",
+                "tag": "machine learning",
+                "wikidata": "Q107750691",
+                "references": [
+                    "morris_weisfeiler_2019",
+                    "xu_how_2019"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : ["cai_optimal_1992"]
+                "claim": "characterised as",
+                "value": "not distinguished by Colour Refinement (equivalently, the $1$-dimensional Weisfeiler–Leman algorithm)",
+                "tag": "algorithm",
+                "wikidata": "Q113844288",
+                "references": [
+                    "cai_optimal_1992"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["roberson_oddomorphisms_2022"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "categorical": true,
+                "references": [
+                    "cai_optimal_1992"
+                ]
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto (2n)^{n+1}$",
-                "tag"		 : "exponential",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
             },
             {
-                "claim"      : "coincides with",
-                "value"      : "treewidth $\\leq 1$"
+                "claim": "witness function",
+                "value": "$n \\mapsto (2n)^{n+1}$",
+                "tag": "exponential",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "coincides with",
+                "value": "treewidth $\\leq 1$"
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     },
@@ -607,157 +758,191 @@
         "description": "Disjoint unions of complete bipartite graphs $K_{1,r}$ for $r \\geq 0$.",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "equal degree sequence",
-                "tag"        : "combinatorial",
-                "references" : ["folklore"]
+                "claim": "characterised as",
+                "value": "equal degree sequence",
+                "tag": "combinatorial",
+                "references": [
+                    "folklore"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : ["trivial"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "wikidata": "Q1137573",
+                "categorical": true,
+                "references": [
+                    "trivial"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
                 "description": "Unpublished"
             },
             {
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto n$",
-                "tag"		 : "polynomial",
-                "references"  : ["seppelt_homomorphism_2024"]
+                "claim": "witness function",
+                "value": "$n \\mapsto n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     },
     {
         "name": "$\\mathcal{L}_k$",
-        "family" : true,
+        "family": true,
         "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation of the graph isomorphism integer quadratic program",
-                "tag"        : "system of equations",
-                "references" : ["roberson_lasserre_2024"]
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ Lasserre semidefinite programming relaxation of the graph isomorphism integer quadratic program",
+                "tag": "system of equations",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "coRP",
-                "categorical" : true,                
-                "wikidata"   : "Q1137573",
-                "references" : ["seppelt_algorithmic_2024"]
+                "claim": "complexity",
+                "value": "coRP",
+                "categorical": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : "unknown",
-                "categorical" : true
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "categorical": true
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true,
-                "references" : ["roberson_lasserre_2024"]
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true,
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
             },
-			{
-				"claim"		 : "subclass of",
-				"value"		 : "$\\mathcal{L}_k^+$",
-				"references" : ["roberson_lasserre_2024"]
-			}
+            {
+                "claim": "subclass of",
+                "value": "$\\mathcal{L}_k^+$",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            }
         ]
     },
     {
         "name": "$\\mathcal{L}_k^+$",
-        "family" : true,
+        "family": true,
         "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$k$ Lasserre semidefinite programming relaxation with non-negativity constraints",
-                "tag"        : "system of equations",
-                "references" : ["roberson_lasserre_2024"]
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ Lasserre semidefinite programming relaxation with non-negativity constraints",
+                "tag": "system of equations",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "polynomial time",
-                "categorical" : true,                
-                "wikidata"   : "Q1137573",
-                "references" : ["roberson_lasserre_2024"]
+                "claim": "complexity",
+                "value": "polynomial time",
+                "categorical": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : "unknown",
-                "categorical" : true
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "categorical": true
             },
             {
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true,
-                "references" : ["roberson_lasserre_2024"]
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true,
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
             },
-			{
-				"claim"		 : "subclass of",
-				"value"		 : "treewidth $\\leq 3k-1$",
-				"references" : ["roberson_lasserre_2024"]
-			}
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 3k-1$",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
+            }
         ]
     },
     {
         "name": "$\\mathcal{P}_k$",
-        "family" : true,
+        "family": true,
         "description": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
-                "tag"        : "system of equations",
-                "references" : ["kar_npa_2024"]
+                "claim": "characterised as",
+                "value": "feasibility of the level-$k$ NPA relaxation of quantum isomorphism",
+                "tag": "system of equations",
+                "references": [
+                    "kar_npa_2024"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "coRP",
-                "categorical" : true,                
-                "wikidata"   : "Q1137573",
-                "references" : ["kar_npa_2024"]
+                "claim": "complexity",
+                "value": "coRP",
+                "categorical": true,
+                "wikidata": "Q1137573",
+                "references": [
+                    "kar_npa_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : "unknown",
-                "categorical" : true
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "categorical": true
             },
             {
-				"claim"		 : "witness function",
-				"value"		 : "$n \\mapsto 2k \\cdot 4^{n^{2k}}$",
-                "tag":"exponential",
-				"references" : ["kar_npa_2024"]
-			},
+                "claim": "witness function",
+                "value": "$n \\mapsto 2k \\cdot 4^{n^{2k}}$",
+                "tag": "exponential",
+                "references": [
+                    "kar_npa_2024"
+                ]
+            },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "planar graphs",
-				"references" : ["kar_npa_2024"]
-			},
-			{
-				"claim"		 : "subclass of",
-				"value"		 : "$\\mathcal{L}_k$",
-				"references" : ["kar_npa_2024"]
-			},
-			{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true,
-                "references" : ["kar_npa_2024"]
+                "claim": "subclass of",
+                "value": "planar graphs",
+                "references": [
+                    "kar_npa_2024"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "$\\mathcal{L}_k$",
+                "references": [
+                    "kar_npa_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true,
+                "references": [
+                    "kar_npa_2024"
+                ]
             }
         ]
     },
@@ -766,246 +951,293 @@
         "wikidata": "Q3115604",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "feasibility of the first level of the Lasserre semidefinite programming hierarchy",
-                "tag"        : "system of equations",
-                "references" : ["roberson_lasserre_2024"]
+                "claim": "characterised as",
+                "value": "feasibility of the first level of the Lasserre semidefinite programming hierarchy",
+                "tag": "system of equations",
+                "references": [
+                    "roberson_lasserre_2024"
+                ]
             },
             {
-                "claim"      : "complexity",
-                "value"      : "coRP",
-                "wikidata"   : "Q1137573",
-                "categorical" : true,
-                "references" : ["seppelt_algorithmic_2024"]
+                "claim": "complexity",
+                "value": "coRP",
+                "wikidata": "Q1137573",
+                "categorical": true,
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["seppelt_homomorphism_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
-			{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
-            },
-             {
-				"claim"		 : "coincides with",
-				"value"		 : "$(K_4, K_{2,3})$-minor-free graphs"
-			},
             {
-				"claim"		 : "subclass of",
-				"value"		 : "treewidth $\\leq 2$"
-			},
-			{
-				"claim"		 : "subclass of",
-				"value"		 : "planar graphs"
-			}
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
+            },
+            {
+                "claim": "coincides with",
+                "value": "$(K_4, K_{2,3})$-minor-free graphs"
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$"
+            },
+            {
+                "claim": "subclass of",
+                "value": "planar graphs"
+            }
         ]
     },
     {
         "name": "$(K_4, K_{2,h})$-minor-free graphs",
-        "family" : true,
-        "description" : "Family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
+        "family": true,
+        "description": "Family of the classes of graphs without the minors $K_4$ and $K_{2,h}$ for $h \\geq 3$",
         "statements": [
             {
-                "claim"      : "complexity",
-                "value"      : "coRP",
-                "wikidata"   : "Q1190846",
-                "categorical" : true,
-                "references" : ["seppelt_algorithmic_2024"]
+                "claim": "complexity",
+                "value": "coRP",
+                "wikidata": "Q1190846",
+                "categorical": true,
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["seppelt_homomorphism_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
             },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "treewidth $\\leq 2$",
-				"references" : []
-			},
-			{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$",
+                "references": []
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     },
     {
         "name": "$2$-degenerate graphs",
         "description": "Graphs all whose subgraphs contain a vertex of degree at most $2$.",
-        "wikidata":"Q5251771",
+        "wikidata": "Q5251771",
         "statements": [
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : false,
-                "categorical" : true,
-                "references" : ["dvorak_recognizing_2010"],
+                "claim": "homomorphism distinguishing closed",
+                "value": false,
+                "categorical": true,
+                "references": [
+                    "dvorak_recognizing_2010"
+                ],
                 "description": "The homomorphism distinguishing closure is the class of all graphs."
             },
-			{
-                "claim"      : "has closure property",
-                "value"      : "monotone",
-                "categorical" : true
+            {
+                "claim": "has closure property",
+                "value": "monotone",
+                "categorical": true
             }
         ]
     },
     {
         "name": "Cluster graphs",
-        "description":"Disjoint unions of complete graphs",
+        "description": "Disjoint unions of complete graphs",
         "wikidata": "Q24892498",
         "statements": [
             {
-                "claim"      : "complexity",
-                "value"      : "$\\mathsf{C}_=\\mathsf{P}$-complete",
-                "categorical" : true,
-                "references" : ["boeker_complexity_2019"]
+                "claim": "complexity",
+                "value": "$\\mathsf{C}_=\\mathsf{P}$-complete",
+                "categorical": true,
+                "references": [
+                    "boeker_complexity_2019"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["roberson_oddomorphisms_2022"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
             },
-			{
-                "claim"      : "witness function",
-                "value"      : "$n \\mapsto  n$",
-                "tag"		 : "polynomial"
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto  n$",
+                "tag": "polynomial"
             },
-			{
-                "claim"      : "has closure property",
-                "value"      : "hereditary",
-                "wikidata"   : "Q131934975",
-                "categorical" : true
+            {
+                "claim": "has closure property",
+                "value": "hereditary",
+                "wikidata": "Q131934975",
+                "categorical": true
             }
         ]
     },
     {
         "name": "Graphs with $k$-pebble forest cover of depth $\\leq q$",
-        "family" : true,
+        "family": true,
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "equivalence in the $k$-variable quantifier-depth-$q$ fragement of first-order logic with counting quantifiers",
-                "tag"        : "logic",
-                "references" : ["dawar_lovasz_2021","fluck_going_2024"]
+                "claim": "characterised as",
+                "value": "equivalence in the $k$-variable quantifier-depth-$q$ fragement of first-order logic with counting quantifiers",
+                "tag": "logic",
+                "references": [
+                    "dawar_lovasz_2021",
+                    "fluck_going_2024"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["adler_monotonicity_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "adler_monotonicity_2024"
+                ]
             },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "treewidth $\\leq k-1$",
-				"references" : ["dawar_lovasz_2021","fluck_going_2024"]
-			},
+                "claim": "subclass of",
+                "value": "treewidth $\\leq k-1$",
+                "references": [
+                    "dawar_lovasz_2021",
+                    "fluck_going_2024"
+                ]
+            },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "treedepth $\\leq q$",
-				"references" : ["dawar_lovasz_2021","fluck_going_2024"]
-			},
-			{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true,
-                "reference"  : ["fluck_going_2024"]
+                "claim": "subclass of",
+                "value": "treedepth $\\leq q$",
+                "references": [
+                    "dawar_lovasz_2021",
+                    "fluck_going_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true,
+                "reference": [
+                    "fluck_going_2024"
+                ]
             }
         ]
     },
     {
         "name": "Disjoint unions of apex trees",
-        "description" : "Disjoint unions of graphs $F$ which are such that there exists $u \\in V(F)$ such that $F - u$ is a tree.",
+        "description": "Disjoint unions of graphs $F$ which are such that there exists $u \\in V(F)$ such that $F - u$ is a tree.",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished by any Subgraph GNN",
-                "tag"        : "machine learning",
-                "references" : ["zhang_beyong_2024"]
+                "claim": "characterised as",
+                "value": "not distinguished by any Subgraph GNN",
+                "tag": "machine learning",
+                "references": [
+                    "zhang_beyong_2024"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished by $(1,1)$-WL",
-                "tag"        : "algorithm",
-                "references" : ["rattan_weisfeiler_2022"]
+                "claim": "characterised as",
+                "value": "not distinguished by $(1,1)$-WL",
+                "tag": "algorithm",
+                "references": [
+                    "rattan_weisfeiler_2022"
+                ]
             },
             {
-                "claim"      : "characterised as",
-                "value"      : "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the vertex-individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
-                "tag"        : "logic",
-                "references" : ["rattan_weisfeiler_2022"]
+                "claim": "characterised as",
+                "value": "existence of bijection $\\pi \\colon V(G) \\to V(H)$ such that the vertex-individualised graphs $G_v$ and $H_{\\pi(v)}$ are equivalent in $2$-variable first-order logic with counting quantifiers",
+                "tag": "logic",
+                "references": [
+                    "rattan_weisfeiler_2022"
+                ]
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : true,
-                "categorical" : true,
-                "references" : ["zhang_beyong_2024"]
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "zhang_beyong_2024"
+                ]
             },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "outerplanar graphs"
-			},
-			{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "subclass of",
+                "value": "outerplanar graphs"
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     },
     {
         "name": "Caterpillar forests",
-        "wikidata" : "Q5051951",
-        "description" : "Disjoint unions of trees in which all vertices have distince one from a central path.",
+        "wikidata": "Q5051951",
+        "description": "Disjoint unions of trees in which all vertices have distince one from a central path.",
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished by walk-based refinement of the 1-round Colour Refinement colouring",
-                "tag"        : "machine learning",
-                "references" : ["cerny_caterpillar_2025"]
+                "claim": "characterised as",
+                "value": "not distinguished by walk-based refinement of the 1-round Colour Refinement colouring",
+                "tag": "machine learning",
+                "references": [
+                    "cerny_caterpillar_2025"
+                ]
             },
             {
-		"claim"		 : "subclass of",
-		"value"		 : "forests"
-	},
-	{
-                "claim"      : "has closure property",
-                "value"      : "minor-closed",
-                "wikidata"   : "Q131935074",
-                "categorical" : true
+                "claim": "subclass of",
+                "value": "forests"
             },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : "unknown",
-                "categorical" : true
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "categorical": true
             }
         ]
     },
     {
-        "name": "$\\mathcal{C}_{h,t}$",
-        "description" : "Disjoint unions of $(h,t)$-generalised caterpillar trees. A connected acyclic graph $F$ is an <i>$(h,t)$-generalised caterpillar tree</i> if there is a path $s_1, \\dots, s_{t'}$ of length $t' \\leq t$ such that the graph $F'$ obtained from $F$ by deleting the edges in $P$ has the property that any vertex $v \\in V(F')$ is at distance at most $h$ from one of the $s_1, \\dots, s_{t'}$. Every caterpillar tree is a  $(1, t)$-generalised caterpillar tree for some $t \\geq 0$.",
-        "family" : true,
+        "name": "Generalised caterpillar forests $\\mathcal{C}_{h,t}$",
+        "description": "Disjoint unions of $(h,t)$-generalised caterpillar trees. A connected acyclic graph $F$ is an <i>$(h,t)$-generalised caterpillar tree</i> if there is a path $s_1, \\dots, s_{t'}$ of length $t' \\leq t$ such that the graph $F'$ obtained from $F$ by deleting the edges in $P$ has the property that any vertex $v \\in V(F')$ is at distance at most $h$ from one of the $s_1, \\dots, s_{t'}$. Every caterpillar tree is a  $(1, t)$-generalised caterpillar tree for some $t \\geq 0$.",
+        "family": true,
         "statements": [
             {
-                "claim"      : "characterised as",
-                "value"      : "not distinguished of $h$-round walk-based refinement of the $t$-round Colour Refinement colouring",
-                "tag"        : "machine learning",
-                "references" : ["cerny_caterpillar_2025"]
+                "claim": "characterised as",
+                "value": "not distinguished of $h$-round walk-based refinement of the $t$-round Colour Refinement colouring",
+                "tag": "machine learning",
+                "references": [
+                    "cerny_caterpillar_2025"
+                ]
             },
             {
-				"claim"		 : "subclass of",
-				"value"		 : "forests"
-			},
+                "claim": "subclass of",
+                "value": "forests"
+            },
             {
-                "claim"      : "homomorphism distinguishing closed",
-                "value"      : "unknown",
-                "categorical" : true
+                "claim": "homomorphism distinguishing closed",
+                "value": "unknown",
+                "categorical": true
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
             }
         ]
     }
