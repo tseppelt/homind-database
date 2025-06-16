@@ -1213,7 +1213,7 @@
             },
             {
                 "claim": "coincides with",
-                "value": "disjoint unions of $(1,t)$-generalised caterpillar trees, i.e. $\\bigcup_{t \\geq 0} \\mathcal{C}_{1, t}$",
+                "value": "disjoint unions of $(1,t)$-generalised caterpillar trees, i.e. $\\bigcup_{t \\geq 0} \\mathcal{C}_{1, t}$.",
                 "references": [
                     "cerny_caterpillar_2025"
                 ]
@@ -1251,13 +1251,13 @@
         ]
     },
     {
-        "name": "Disjoint unions of depth-$\\leq d$ parallel trees",
-        "description": "A <i>depth-$d$ parallel tree</i> is obtained from a depth-$\\leq d$ tree by replacing every edge $uv$ with a parallel edge with designated vertices $u,v$. A <i>parallel edge</i> is a graph $F$ with designated vertices $u,v$ such that the edges in $F$ can be partitioned into disjoint simple paths with endpoints $u$ and $v$.",
+        "name": "Disjoint unions of parallel trees of depth $\\leq d$",
+        "description": "A <i>depth-$d$ parallel tree</i> is obtained from a tree of depth $\\leq d$ by replacing every edge $uv$ with a parallel edge with designated vertices $u,v$. A <i>parallel edge</i> is a graph $F$ with designated vertices $u,v$ such that the edges in $F$ can be partitioned into disjoint simple paths with endpoints $u$ and $v$.",
         "family": true,
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "not distinguished by $d$-layer Spectral Invariant GNNs",
+                "value": "not distinguished by any $d$-layer Spectral Invariant GNN",
                 "tag": "machine learning",
                 "references": [
                     "gai_homomorphism_2025"
