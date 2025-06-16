@@ -1,122 +1,126 @@
 {
-	"adler_monotonicity_2024" : {
-		"short" : "Adler and Fluck (2024)",
-		"long" : "I. Adler and E. Fluck, ‘Monotonicity of the Cops and Robber Game for Bounded Depth Treewidth’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 6:1-6:18. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.6'>10.4230/LIPIcs.MFCS.2024.6</a>."
+	"adler_monotonicity_2024": {
+		"short": "Adler and Fluck (2024)",
+		"long": "I. Adler and E. Fluck, ‘Monotonicity of the Cops and Robber Game for Bounded Depth Treewidth’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 6:1-6:18. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.6'>10.4230/LIPIcs.MFCS.2024.6</a>."
 	},
-    "atserias_quantum_2019" : {
-		"short" : "Atserias, Mančinska, Roberson, Šámal, Severini, & Varvitsiotis (2019)",
-		"long" : "A. Atserias, L. Mančinska, D. E. Roberson, R. Šámal, S. Severini, and A. Varvitsiotis, ‘Quantum and non-signalling graph isomorphisms’, <i>J. Comb. Theory, Ser. B</i>, vol. 136, pp. 289–328, 2019, doi: <a href='https://doi.org/10.1016/j.jctb.2018.11.002'>10.1016/j.jctb.2018.11.002</a>."
+	"atserias_quantum_2019": {
+		"short": "Atserias, Mančinska, Roberson, Šámal, Severini, & Varvitsiotis (2019)",
+		"long": "A. Atserias, L. Mančinska, D. E. Roberson, R. Šámal, S. Severini, and A. Varvitsiotis, ‘Quantum and non-signalling graph isomorphisms’, <i>J. Comb. Theory, Ser. B</i>, vol. 136, pp. 289–328, 2019, doi: <a href='https://doi.org/10.1016/j.jctb.2018.11.002'>10.1016/j.jctb.2018.11.002</a>."
 	},
-    "babai_graph_2016" : {
-        "short" : "Babai (2016)",
-        "long" : "L. Babai, ‘Graph Isomorphism in Quasipolynomial Time [Extended Abstract]’, in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
-    },
-    "boeker_complexity_2019" : {
-		"short" : "Böker, Chen, Grohe, & Rattan (2019)",
-		"long" : "J. Böker, Y. Chen, M. Grohe, and G. Rattan, ‘The Complexity of Homomorphism Indistinguishability’, p. 13 pages, 2019, doi: <a href='https://doi.org/10.4230/LIPICS.MFCS.2019.54'>10.4230/LIPICS.MFCS.2019.54</a>."
+	"babai_graph_2016": {
+		"short": "Babai (2016)",
+		"long": "L. Babai, ‘Graph Isomorphism in Quasipolynomial Time [Extended Abstract]’, in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
 	},
-    "cai_optimal_1992" : {
-        "short" : "Cai, Fürer, & Immerman (1992)",
-        "long" : "J.-Y. Cai, M. Fürer, and N. Immerman, ‘An optimal lower bound on the number of variables for graph identification’, <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
-    },
-    "cerny_caterpillar_2025": {
-    	"short" : "Černý (2025)",
-    	"long" : "M. Černý, ‘Caterpillar GNN: Replacing Message Passing with Efficient Aggregation’, Jun. 07, 2025, <i>arXiv</i>: arXiv:2506.06784. doi: <a href='https://doi.org/10.48550/arXiv.2506.06784'>10.48550/arXiv.2506.06784</a>."
-    },
-    "dawar_lovasz_2021" : {
-		"short" : "Dawar, Jakl, & Reggio (2021)",
-		"long" : "A. Dawar, T. Jakl, and L. Reggio, ‘Lovász-Type Theorems and Game Comonads’, in <i>36th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</i>, IEEE, 2021, pp. 1–13. doi: <a href='https://doi.org/10.1109/LICS52264.2021.9470609'>10.1109/LICS52264.2021.9470609</a>."
+	"boeker_complexity_2019": {
+		"short": "Böker, Chen, Grohe, & Rattan (2019)",
+		"long": "J. Böker, Y. Chen, M. Grohe, and G. Rattan, ‘The Complexity of Homomorphism Indistinguishability’, p. 13 pages, 2019, doi: <a href='https://doi.org/10.4230/LIPICS.MFCS.2019.54'>10.4230/LIPICS.MFCS.2019.54</a>."
 	},
-    "dell_lovasz_2018":{
-        "short" : "Dell, Grohe, & Rattan (2018)",
-        "long" : "H. Dell, M. Grohe, and G. Rattan, ‘Lovász Meets Weisfeiler and Leman’, <i>45th International Colloquium on Automata, Languages, and Programming (ICALP 2018)</i>, p. 40:1-40:14, 2018, doi: <a href='https://doi.org/10.4230/LIPICS.ICALP.2018.40'>10.4230/LIPICS.ICALP.2018.40</a>"
-    },
-    "dvorak_recognizing_2010" : {
-        "short" : "Dvořák (2010)",
-        "long"  : "Z. Dvořák, ‘On recognizing graphs by numbers of homomorphisms’, <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
-    },
-    "fluck_going_2024" : {
-		"short" : "Fluck, Seppelt, & Spitzer (2024)",
-		"long" : "E. Fluck, T. Seppelt, and G. L. Spitzer, ‘Going Deep and Going Wide: Counting Logic and Homomorphism Indistinguishability over Graphs of Bounded Treedepth and Treewidth’, in <i>32nd EACSL Annual Conference on Computer Science Logic (CSL 2024)</i>, A. Murano and A. Silva, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 288. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 27:1-27:17. doi: <a href='https://doi.org/10.4230/LIPIcs.CSL.2024.27'>10.4230/LIPIcs.CSL.2024.27</a>."
+	"cai_optimal_1992": {
+		"short": "Cai, Fürer, & Immerman (1992)",
+		"long": "J.-Y. Cai, M. Fürer, and N. Immerman, ‘An optimal lower bound on the number of variables for graph identification’, <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
 	},
-    "grohe_counting_2020" : {
-		"short" : "Grohe (2020)",
-		"long" : "M. Grohe, ‘Counting Bounded Tree Depth Homomorphisms’, in <i>Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science</i>, in LICS ’20. New York, NY, USA: Association for Computing Machinery, 2020, pp. 507–520. doi: <a href='https://doi.org/10.1145/3373718.3394739'>10.1145/3373718.3394739</a>."
+	"cerny_caterpillar_2025": {
+		"short": "Černý (2025)",
+		"long": "M. Černý, ‘Caterpillar GNN: Replacing Message Passing with Efficient Aggregation’, Jun. 07, 2025, <i>arXiv</i>: arXiv:2506.06784. doi: <a href='https://doi.org/10.48550/arXiv.2506.06784'>10.48550/arXiv.2506.06784</a>."
 	},
-    "grohe_equivalence_1999" : {
-		"short" : "Grohe (1999)",
-		"long" : "M. Grohe, ‘Equivalence in Finite-Variable Logics is Complete for Polynomial Time’, <i>Combinatorica</i>, vol. 19, no. 4, pp. 507–532, Oct. 1999, doi: <a href='https://doi.org/10.1007/s004939970004'>10.1007/s004939970004</a>."
+	"dawar_lovasz_2021": {
+		"short": "Dawar, Jakl, & Reggio (2021)",
+		"long": "A. Dawar, T. Jakl, and L. Reggio, ‘Lovász-Type Theorems and Game Comonads’, in <i>36th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</i>, IEEE, 2021, pp. 1–13. doi: <a href='https://doi.org/10.1109/LICS52264.2021.9470609'>10.1109/LICS52264.2021.9470609</a>."
 	},
-    "grohe_homomorphism_2025": {
-		"short" : "Grohe, Rattan, & Seppelt (2025)",
-		"long" : "M. Grohe, G. Rattan, and T. Seppelt, ‘Homomorphism Tensors and Linear Equations’, <i>AiC</i>, Apr. 2025, doi: <a href='https://doi.org/10.19086/aic.2025.4'>10.19086/aic.2025.4</a>."
+	"dell_lovasz_2018": {
+		"short": "Dell, Grohe, & Rattan (2018)",
+		"long": "H. Dell, M. Grohe, and G. Rattan, ‘Lovász Meets Weisfeiler and Leman’, <i>45th International Colloquium on Automata, Languages, and Programming (ICALP 2018)</i>, p. 40:1-40:14, 2018, doi: <a href='https://doi.org/10.4230/LIPICS.ICALP.2018.40'>10.4230/LIPICS.ICALP.2018.40</a>"
 	},
-    "lovasz_operations_1967" : {
-        "short" : "Lovász (1967)",
-        "long" : "L. Lovász, ‘Operations with structures’, <i>Acta Mathematica Academiae Scientiarum Hungarica</i>, vol. 18, no. 3, pp. 321–328, Sep. 1967, doi: <a href='https://doi.org/10.1007/BF02280291'>10.1007/BF02280291</a>"
-    },
-    "lupini_nonlocal_2020" :{
-		"short" : "Lupini, Mančinska, & Roberson (2020)",
-		"long" : "M. Lupini, L. Mančinska, and D. E. Roberson, ‘Nonlocal games and quantum permutation groups’, <i>Journal of Functional Analysis</i>, vol. 279, no. 5, p. 108592, Sep. 2020, doi: <a href='https://doi.org/10.1016/j.jfa.2020.108592'>10.1016/j.jfa.2020.108592</a>."
+	"dvorak_recognizing_2010": {
+		"short": "Dvořák (2010)",
+		"long": "Z. Dvořák, ‘On recognizing graphs by numbers of homomorphisms’, <i>J. Graph Theory</i>, vol. 64, no. 4, pp. 330–342, Aug. 2010, doi: <a href='https://doi.org/10.1002/jgt.20461'>10.1002/jgt.20461</a>"
 	},
-    "mancinska_quantum_2022" : {
-		"short" : "Mančinska and Roberson (2020)",
-		"long" : "L. Mančinska and D. E. Roberson, ‘Quantum isomorphism is equivalent to equality of homomorphism counts from planar graphs’, in <i>2020 IEEE 61st Annual Symposium on Foundations of Computer Science (FOCS)</i>, 2020, pp. 661–672. doi: <a href='https://doi.org/10.1109/FOCS46700.2020.00067'>10.1109/FOCS46700.2020.00067</a>."
+	"fluck_going_2024": {
+		"short": "Fluck, Seppelt, & Spitzer (2024)",
+		"long": "E. Fluck, T. Seppelt, and G. L. Spitzer, ‘Going Deep and Going Wide: Counting Logic and Homomorphism Indistinguishability over Graphs of Bounded Treedepth and Treewidth’, in <i>32nd EACSL Annual Conference on Computer Science Logic (CSL 2024)</i>, A. Murano and A. Silva, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 288. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 27:1-27:17. doi: <a href='https://doi.org/10.4230/LIPIcs.CSL.2024.27'>10.4230/LIPIcs.CSL.2024.27</a>."
 	},
-    "montacute_pebble_2024": {
-		"short" : "Montacute and Shah (2024)",
+	"gai_homomorphism_2025": {
+		"short": "Gai, Du, Zhang, Maron, & Wang (2025)",
+		"long": "J. Gai, Y. Du, B. Zhang, H. Maron, and L. Wang, ‘Homomorphism Expressivity of Spectral Invariant Graph Neural Networks’, presented at the ICLR 2025, Jan. 2025. [Online]. Available: <a href='https://openreview.net/forum?id=rdv6yeMFpn'>https://openreview.net/forum?id=rdv6yeMFpn</a>"
+	},
+    "grohe_counting_2020": {
+		"short": "Grohe (2020)",
+		"long": "M. Grohe, ‘Counting Bounded Tree Depth Homomorphisms’, in <i>Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science</i>, in LICS ’20. New York, NY, USA: Association for Computing Machinery, 2020, pp. 507–520. doi: <a href='https://doi.org/10.1145/3373718.3394739'>10.1145/3373718.3394739</a>."
+	},
+	"grohe_equivalence_1999": {
+		"short": "Grohe (1999)",
+		"long": "M. Grohe, ‘Equivalence in Finite-Variable Logics is Complete for Polynomial Time’, <i>Combinatorica</i>, vol. 19, no. 4, pp. 507–532, Oct. 1999, doi: <a href='https://doi.org/10.1007/s004939970004'>10.1007/s004939970004</a>."
+	},
+	"grohe_homomorphism_2025": {
+		"short": "Grohe, Rattan, & Seppelt (2025)",
+		"long": "M. Grohe, G. Rattan, and T. Seppelt, ‘Homomorphism Tensors and Linear Equations’, <i>AiC</i>, Apr. 2025, doi: <a href='https://doi.org/10.19086/aic.2025.4'>10.19086/aic.2025.4</a>."
+	},
+	"lovasz_operations_1967": {
+		"short": "Lovász (1967)",
+		"long": "L. Lovász, ‘Operations with structures’, <i>Acta Mathematica Academiae Scientiarum Hungarica</i>, vol. 18, no. 3, pp. 321–328, Sep. 1967, doi: <a href='https://doi.org/10.1007/BF02280291'>10.1007/BF02280291</a>"
+	},
+	"lupini_nonlocal_2020": {
+		"short": "Lupini, Mančinska, & Roberson (2020)",
+		"long": "M. Lupini, L. Mančinska, and D. E. Roberson, ‘Nonlocal games and quantum permutation groups’, <i>Journal of Functional Analysis</i>, vol. 279, no. 5, p. 108592, Sep. 2020, doi: <a href='https://doi.org/10.1016/j.jfa.2020.108592'>10.1016/j.jfa.2020.108592</a>."
+	},
+	"mancinska_quantum_2022": {
+		"short": "Mančinska and Roberson (2020)",
+		"long": "L. Mančinska and D. E. Roberson, ‘Quantum isomorphism is equivalent to equality of homomorphism counts from planar graphs’, in <i>2020 IEEE 61st Annual Symposium on Foundations of Computer Science (FOCS)</i>, 2020, pp. 661–672. doi: <a href='https://doi.org/10.1109/FOCS46700.2020.00067'>10.1109/FOCS46700.2020.00067</a>."
+	},
+	"montacute_pebble_2024": {
+		"short": "Montacute and Shah (2024)",
 		"long": "Y. Montacute and N. Shah, ‘The Pebble-Relation Comonad in Finite Model Theory’, <i>Logical Methods in Computer Science</i>, vol. Volume 20, Issue 2, May 2024, doi: <a href='https://doi.org/10.46298/lmcs-20(2:9)2024'>10.46298/lmcs-20(2:9)2024</a>."
 	},
-	"morris_weisfeiler_2019" : {
-		"short" : "Morris, Ritzert, Fey, Hamilton, Lenssen, Rattan, & Grohe (2019)",
-		"long" : "C. Morris, M. Ritzert, M. Fey, W. L. Hamilton, J. E. Lenssen, G. Rattan, and M. Grohe, ‘Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks’, <i>AAAI</i>, vol. 33, pp. 4602–4609, Jul. 2019, doi: <a href='https://doi.org/10.1609/aaai.v33i01.33014602'>10.1609/aaai.v33i01.33014602</a>."
+	"morris_weisfeiler_2019": {
+		"short": "Morris, Ritzert, Fey, Hamilton, Lenssen, Rattan, & Grohe (2019)",
+		"long": "C. Morris, M. Ritzert, M. Fey, W. L. Hamilton, J. E. Lenssen, G. Rattan, and M. Grohe, ‘Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks’, <i>AAAI</i>, vol. 33, pp. 4602–4609, Jul. 2019, doi: <a href='https://doi.org/10.1609/aaai.v33i01.33014602'>10.1609/aaai.v33i01.33014602</a>."
 	},
 	"kar_npa_2024": {
-		"short" : "Kar, Roberson, Seppelt, & Zeman (2024)",
-		"long" : "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
+		"short": "Kar, Roberson, Seppelt, & Zeman (2024)",
+		"long": "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
 	},
-    "neuen_homomorphism_2024" : {
-        "short" : "Neuen (2024)",
-        "long" : "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, 2024, doi: <a href='https://doi.org/10.4230/LIPICS.STACS.2024.53'>10.4230/LIPICS.STACS.2024.53</a>"
-    },
-    "ramana_fractional_1994" : {
+	"neuen_homomorphism_2024": {
+		"short": "Neuen (2024)",
+		"long": "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, 2024, doi: <a href='https://doi.org/10.4230/LIPICS.STACS.2024.53'>10.4230/LIPICS.STACS.2024.53</a>"
+	},
+	"ramana_fractional_1994": {
 		"short": "Ramana, Scheinerman, & Ullman (1994)",
 		"long": "M. V. Ramana, E. R. Scheinerman, and D. Ullman, ‘Fractional isomorphism of graphs’, <i>Discrete Mathematics</i>, vol. 132, no. 1, pp. 247–265, Sep. 1994, doi: <a href='https://doi.org/10.1016/0012-365X(94)90241-0'>10.1016/0012-365X(94)90241-0</a>."
 	},
-	"rattan_weisfeiler_2022" : {
-		"short" : "Rattan and Seppelt (2022)",
-		"long" : "G. Rattan and T. Seppelt, ‘Weisfeiler--Leman and Graph Spectra’, May 02, 2022, <i>arXiv</i>: arXiv:2103.02972. [Online]. Available: <a href='http://arxiv.org/abs/2103.02972'>http://arxiv.org/abs/2103.02972</a>"
+	"rattan_weisfeiler_2022": {
+		"short": "Rattan and Seppelt (2022)",
+		"long": "G. Rattan and T. Seppelt, ‘Weisfeiler--Leman and Graph Spectra’, May 02, 2022, <i>arXiv</i>: arXiv:2103.02972. [Online]. Available: <a href='http://arxiv.org/abs/2103.02972'>http://arxiv.org/abs/2103.02972</a>"
 	},
-    "roberson_oddomorphisms_2022" : {
-		"short" : "Roberson (2022)",
-		"long" : "D. E. Roberson, ‘Oddomorphisms and homomorphism indistinguishability over graphs of bounded degree’, Jun. 21, 2022, <i>arXiv</i>: arXiv:2206.10321  <a href='http://arxiv.org/abs/2206.10321'>http://arxiv.org/abs/2206.10321</a>"
+	"roberson_oddomorphisms_2022": {
+		"short": "Roberson (2022)",
+		"long": "D. E. Roberson, ‘Oddomorphisms and homomorphism indistinguishability over graphs of bounded degree’, Jun. 21, 2022, <i>arXiv</i>: arXiv:2206.10321  <a href='http://arxiv.org/abs/2206.10321'>http://arxiv.org/abs/2206.10321</a>"
 	},
-    "roberson_lasserre_2024" : {
-        "short" : "Roberson and Seppelt (2024)",
-        "long" : "D. E. Roberson and T. Seppelt, ‘Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability’, <i>TheoretiCS</i>, vol. Volume 3, p. 12321, Sep. 2024, doi: <a href='https://doi.org/10.46298/theoretics.24.20'>10.46298/theoretics.24.20</a>"
-    },
-    "seppelt_algorithmic_2024" : {
-        "short": "Seppelt (2024a)",
-        "long": "T. Seppelt, ‘An Algorithmic Meta Theorem for Homomorphism Indistinguishability’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 82:1-82:19. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.82'>10.4230/LIPIcs.MFCS.2024.82</a>"
-    },
-    "seppelt_homomorphism_2024" : {
-        "short" : "Seppelt (2024b)",
-        "long" : "T. Seppelt, ‘Homomorphism Indistinguishability’, Dissertation, RWTH Aachen University, Aachen, 2024. doi: <a href='https://doi.org/10.18154/RWTH-2024-11629'>10.18154/RWTH-2024-11629</a>."
-    },
-	"seppelt_homomorphism_2025" : {
-		"short" : "Seppelt and Spitzer (2025)",
-		"long" : "T. Seppelt and G. L. Spitzer, ‘Homomorphism Indistinguishability Relations induced by Quantum Groups’, May 12, 2025, <i>arXiv</i>: arXiv:2505.07922. doi: <a href='https://doi.org/10.48550/arXiv.2505.07922'>10.48550/arXiv.2505.07922</a>."
+	"roberson_lasserre_2024": {
+		"short": "Roberson and Seppelt (2024)",
+		"long": "D. E. Roberson and T. Seppelt, ‘Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability’, <i>TheoretiCS</i>, vol. Volume 3, p. 12321, Sep. 2024, doi: <a href='https://doi.org/10.46298/theoretics.24.20'>10.46298/theoretics.24.20</a>"
 	},
-	"slofstra_set_2019" : {
-		"short" : "Slofstra (2019)",
-		"long" : "W. Slofstra, ‘The Set of Quantum Correlations is not Closed’, <i>Forum of Mathematics, Pi</i>, vol. 7, p. e1, 2019, doi: <a href='https://doi.org/10.1017/fmp.2018.3'>10.1017/fmp.2018.3</a>."
+	"seppelt_algorithmic_2024": {
+		"short": "Seppelt (2024a)",
+		"long": "T. Seppelt, ‘An Algorithmic Meta Theorem for Homomorphism Indistinguishability’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 82:1-82:19. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.82'>10.4230/LIPIcs.MFCS.2024.82</a>"
 	},
-	"xu_how_2019" : {
-		"short" : "Xu, Hu, Leskovec, & Jegelka (2019)",
-		"long" : "K. Xu, W. Hu, J. Leskovec, and S. Jegelka, ‘How Powerful are Graph Neural Networks?’, in <i>International Conference on Learning Representations</i>, 2019. [Online]. Available: <a href='https://openreview.net/forum?id=ryGs6iA5Km'>https://openreview.net/forum?id=ryGs6iA5Km</a>"
+	"seppelt_homomorphism_2024": {
+		"short": "Seppelt (2024b)",
+		"long": "T. Seppelt, ‘Homomorphism Indistinguishability’, Dissertation, RWTH Aachen University, Aachen, 2024. doi: <a href='https://doi.org/10.18154/RWTH-2024-11629'>10.18154/RWTH-2024-11629</a>."
 	},
-    "zhang_beyong_2024" : {
-		"short" : "Zhang, Gai, Du, Ye, He, & Wang (2024)",
-		"long" : "B. Zhang, J. Gai, Y. Du, Q. Ye, D. He, and L. Wang, ‘Beyond Weisfeiler–Lehman: A Quantitative Framework for GNN Expressiveness’, in <i>The Twelfth International Conference on Learning Representations</i>, 2024. [Online]. Available: <a href='https://openreview.net/forum?id=HSKaGOi7Ar'>https://openreview.net/forum?id=HSKaGOi7Ar</a>"
+	"seppelt_homomorphism_2025": {
+		"short": "Seppelt and Spitzer (2025)",
+		"long": "T. Seppelt and G. L. Spitzer, ‘Homomorphism Indistinguishability Relations induced by Quantum Groups’, May 12, 2025, <i>arXiv</i>: arXiv:2505.07922. doi: <a href='https://doi.org/10.48550/arXiv.2505.07922'>10.48550/arXiv.2505.07922</a>."
+	},
+	"slofstra_set_2019": {
+		"short": "Slofstra (2019)",
+		"long": "W. Slofstra, ‘The Set of Quantum Correlations is not Closed’, <i>Forum of Mathematics, Pi</i>, vol. 7, p. e1, 2019, doi: <a href='https://doi.org/10.1017/fmp.2018.3'>10.1017/fmp.2018.3</a>."
+	},
+	"xu_how_2019": {
+		"short": "Xu, Hu, Leskovec, & Jegelka (2019)",
+		"long": "K. Xu, W. Hu, J. Leskovec, and S. Jegelka, ‘How Powerful are Graph Neural Networks?’, in <i>International Conference on Learning Representations</i>, 2019. [Online]. Available: <a href='https://openreview.net/forum?id=ryGs6iA5Km'>https://openreview.net/forum?id=ryGs6iA5Km</a>"
+	},
+	"zhang_beyong_2024": {
+		"short": "Zhang, Gai, Du, Ye, He, & Wang (2024)",
+		"long": "B. Zhang, J. Gai, Y. Du, Q. Ye, D. He, and L. Wang, ‘Beyond Weisfeiler–Lehman: A Quantitative Framework for GNN Expressiveness’, in <i>The Twelfth International Conference on Learning Representations</i>, 2024. [Online]. Available: <a href='https://openreview.net/forum?id=HSKaGOi7Ar'>https://openreview.net/forum?id=HSKaGOi7Ar</a>"
 	}
 }

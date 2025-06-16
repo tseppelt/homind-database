@@ -1249,5 +1249,32 @@
                 "value": "forests"
             }
         ]
+    },
+    {
+        "name": "Disjoint unions of depth-$\\leq d$ parallel trees",
+        "description": "A <i>depth-$d$ parallel tree</i> is obtained from a depth-$\\leq d$ tree by replacing every edge $uv$ with a parallel edge with designated vertices $u,v$. A <i>parallel edge</i> is a graph $F$ with designated vertices $u,v$ such that the edges in $F$ can be partitioned into disjoint simple paths with endpoints $u$ and $v$.",
+        "family": true,
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "not distinguished by $d$-layer Spectral Invariant GNNs",
+                "tag": "machine learning",
+                "references": [
+                    "gai_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "gai_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 2$"
+            }
+        ]
     }
 ]
