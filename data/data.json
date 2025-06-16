@@ -567,7 +567,8 @@
                 "value": true,
                 "categorical": true,
                 "references": [
-                    "roberson_oddomorphisms_2022"
+                    "roberson_oddomorphisms_2022",
+                    "seppelt_homomorphism_2024"
                 ]
             },
             {
