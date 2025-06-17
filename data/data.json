@@ -1227,7 +1227,7 @@
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "not distinguished by $h$-round walk-based refinement of the $t$-round Colour Refinement colouring (Caterpillar GNN)",
+                "value": "not distinguished by $t$-round walk-based refinement of the $h$-round Colour Refinement colouring (Caterpillar GNN)",
                 "tag": "machine learning",
                 "references": [
                     "cerny_caterpillar_2025"
@@ -1252,7 +1252,7 @@
     },
     {
         "name": "Disjoint unions of parallel trees of depth $\\leq d$",
-        "description": "A <i>depth-$d$ parallel tree</i> is obtained from a tree of depth $\\leq d$ by replacing every edge $uv$ with a parallel edge with designated vertices $u,v$. A <i>parallel edge</i> is a graph $F$ with designated vertices $u,v$ such that the edges in $F$ can be partitioned into disjoint simple paths with endpoints $u$ and $v$.",
+        "description": "A <i>parallel tree of depth $\\leq d$</i> is obtained from a tree of depth $\\leq d$ by replacing every edge $uv$ with a parallel edge with designated vertices $u,v$. A <i>parallel edge</i> is a graph $F$ with designated vertices $u,v$ such that the edges in $F$ can be partitioned into disjoint simple paths with endpoints $u$ and $v$.",
         "family": true,
         "statements": [
             {
