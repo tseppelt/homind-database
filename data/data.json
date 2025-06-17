@@ -780,7 +780,9 @@
                 "claim": "homomorphism distinguishing closed",
                 "value": true,
                 "categorical": true,
-                "description": "Unpublished"
+                "references": [
+                    "fluck_going_2024"
+                ]
             },
             {
                 "claim": "witness function",
@@ -795,6 +797,10 @@
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
                 "categorical": true
+            },
+            {
+                "claim": "coincides with",
+                "value": "treedepth $\\leq 2$"
             }
         ]
     },
