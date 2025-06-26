@@ -1137,7 +1137,7 @@
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
                 "categorical": true,
-                "reference": [
+                "references": [
                     "fluck_going_2024"
                 ]
             }
@@ -1176,7 +1176,7 @@
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
                 "categorical": true,
-                "reference": [
+                "references": [
                     "schindler_homomorphism_2025"
                 ]
             }
@@ -1223,7 +1223,7 @@
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
                 "categorical": true,
-                "reference": [
+                "references": [
                     "schindler_homomorphism_2025"
                 ]
             }
