@@ -87,6 +87,10 @@
 		"short": "Ramana, Scheinerman, & Ullman (1994)",
 		"long": "M. V. Ramana, E. R. Scheinerman, and D. Ullman, ‘Fractional isomorphism of graphs’, <i>Discrete Mathematics</i>, vol. 132, no. 1, pp. 247–265, Sep. 1994, doi: <a href='https://doi.org/10.1016/0012-365X(94)90241-0'>10.1016/0012-365X(94)90241-0</a>."
 	},
+	"rassmann_finite_2025": {
+		"short": "Raßmann, Schindling, & Schweitzer (2025)",
+		"long": "S. Raßmann, G. Schindling, and P. Schweitzer, ‘Finite Variable Counting Logics with Restricted Requantification’, in <i>33rd EACSL Annual Conference on Computer Science Logic (CSL 2025)</i>, J. Endrullis and S. Schmitz, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 326. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, p. 14:1-14:23. doi: <a href='https://doi.org/10.4230/LIPIcs.CSL.2025.14'>10.4230/LIPIcs.CSL.2025.14</a>."
+	},
 	"rattan_weisfeiler_2022": {
 		"short": "Rattan and Seppelt (2022)",
 		"long": "G. Rattan and T. Seppelt, ‘Weisfeiler--Leman and Graph Spectra’, May 02, 2022, <i>arXiv</i>: arXiv:2103.02972. [Online]. Available: <a href='http://arxiv.org/abs/2103.02972'>http://arxiv.org/abs/2103.02972</a>"

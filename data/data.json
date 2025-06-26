@@ -331,11 +331,12 @@
             },
             {
                 "claim": "complexity",
-                "value": "polynomial time",
-                "wikidata": "Q1137573",
+                "value": "LOGSPACE",
+                "wikidata": "Q1192782",
                 "categorical": true,
                 "references": [
-                    "grohe_counting_2020"
+                    "grohe_counting_2020",
+                    "rassmann_finite_2025"
                 ]
             },
             {
