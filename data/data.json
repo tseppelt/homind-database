@@ -1152,7 +1152,7 @@
                 "value": "equivalence in $\\land \\mathsf{C}^{(k_1,k_2)}$, a counting logic fragment with restricted conjunction, number of variables, and requantification.",
                 "tag": "logic",
                 "references": [
-                    "schindler_homomorphism_2025"
+                    "schindling_homomorphism_2025"
                 ]
             },
             {
@@ -1160,14 +1160,14 @@
                 "value": true,
                 "categorical": true,
                 "references": [
-                    "schindler_homomorphism_2025"
+                    "schindling_homomorphism_2025"
                 ]
             },
             {
                 "claim": "subclass of",
                 "value": "pathwidth $\\leq k_1 + k_2 -1$",
                 "references": [
-                    "schindler_homomorphism_2025",
+                    "schindling_homomorphism_2025",
                     "rassmann_finite_2025"
                 ]
             },
@@ -1177,7 +1177,7 @@
                 "wikidata": "Q131935074",
                 "categorical": true,
                 "references": [
-                    "schindler_homomorphism_2025"
+                    "schindling_homomorphism_2025"
                 ]
             }
         ]
@@ -1191,7 +1191,7 @@
                 "value": "equivalence in $\\mathsf{C}_q^{(k_1,k_2)}$, a counting logic fragment with restricted number of variables, quantifier depth, and requantification.",
                 "tag": "logic",
                 "references": [
-                    "schindler_homomorphism_2025"
+                    "schindling_homomorphism_2025"
                 ]
             },
             {
@@ -1199,14 +1199,14 @@
                 "value": true,
                 "categorical": true,
                 "references": [
-                    "schindler_homomorphism_2025"
+                    "schindling_homomorphism_2025"
                 ]
             },
             {
                 "claim": "subclass of",
                 "value": "treewidth $\\leq k_1 + k_2 - 1$",
                 "references": [
-                    "schindler_homomorphism_2025",
+                    "schindling_homomorphism_2025",
                     "rassmann_finite_2025"
                 ]
             },
@@ -1214,7 +1214,7 @@
                 "claim": "subclass of",
                 "value": "treedepth $\\leq q$",
                 "references": [
-                    "schindler_homomorphism_2025",
+                    "schindling_homomorphism_2025",
                     "rassmann_finite_2025"
                 ]
             },
@@ -1224,7 +1224,7 @@
                 "wikidata": "Q131935074",
                 "categorical": true,
                 "references": [
-                    "schindler_homomorphism_2025"
+                    "schindling_homomorphism_2025"
                 ]
             }
         ]
