@@ -103,6 +103,10 @@
 		"short": "Roberson and Seppelt (2024)",
 		"long": "D. E. Roberson and T. Seppelt, ‘Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability’, <i>TheoretiCS</i>, vol. Volume 3, p. 12321, Sep. 2024, doi: <a href='https://doi.org/10.46298/theoretics.24.20'>10.46298/theoretics.24.20</a>"
 	},
+	"schindling_homomorphism_2025": {
+		"short": "Schindler (2025)",
+		"long": "G. Schindling, ‘Homomorphism Indistinguishability and Game Comonads for Restricted Conjunction and Requantification’, Jun. 24, 2025, <i>arXiv</i>: arXiv:2506.19746. doi: <a href='https://doi.org/10.48550/arXiv.2506.19746'>10.48550/arXiv.2506.19746</a>."
+	},
 	"seppelt_algorithmic_2024": {
 		"short": "Seppelt (2024a)",
 		"long": "T. Seppelt, ‘An Algorithmic Meta Theorem for Homomorphism Indistinguishability’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 82:1-82:19. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.82'>10.4230/LIPIcs.MFCS.2024.82</a>"

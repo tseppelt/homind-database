@@ -411,7 +411,8 @@
                 "value": true,
                 "categorical": true,
                 "references": [
-                    "seppelt_homomorphism_2024"
+                    "seppelt_homomorphism_2024",
+                    "schindler_homomorphism_2025"
                 ]
             },
             {
@@ -1138,6 +1139,92 @@
                 "categorical": true,
                 "reference": [
                     "fluck_going_2024"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Graphs with linear $(k_1, k_2)$-pebble component forest cover",
+        "family": true,
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equivalence in $\\land \\mathsf{C}^{(k_1,k_2)}$, a counting logic fragment with restricted conjunction, number of variables, and requantification.",
+                "tag": "logic",
+                "references": [
+                    "schindler_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "schindler_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "pathwidth $\\leq k_1 + k_2 -1$",
+                "references": [
+                    "schindler_homomorphism_2025",
+                    "rassmann_finite_2025"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true,
+                "reference": [
+                    "schindler_homomorphism_2025"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Graphs with $(k_1, k_2)$-pebble forest cover of depth $\\leq q$",
+        "family": true,
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "equivalence in $\\mathsf{C}_q^{(k_1,k_2)}$, a counting logic fragment with restricted number of variables, quantifier depth, and requantification.",
+                "tag": "logic",
+                "references": [
+                    "schindler_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "schindler_homomorphism_2025"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq k_1 + k_2 - 1$",
+                "references": [
+                    "schindler_homomorphism_2025",
+                    "rassmann_finite_2025"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treedepth $\\leq q$",
+                "references": [
+                    "schindler_homomorphism_2025",
+                    "rassmann_finite_2025"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true,
+                "reference": [
+                    "schindler_homomorphism_2025"
                 ]
             }
         ]
