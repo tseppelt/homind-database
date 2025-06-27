@@ -54,6 +54,10 @@
 	"grohe_homomorphism_2025": {
 		"short": "Grohe, Rattan, & Seppelt (2025)",
 		"long": "M. Grohe, G. Rattan, and T. Seppelt, ‘Homomorphism Tensors and Linear Equations’, <i>AiC</i>, Apr. 2025, doi: <a href='https://doi.org/10.19086/aic.2025.4'>10.19086/aic.2025.4</a>."
+	},	
+	"kar_npa_2024": {
+		"short": "Kar, Roberson, Seppelt, & Zeman (2024)",
+		"long": "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
 	},
 	"lovasz_operations_1967": {
 		"short": "Lovász (1967)",
@@ -78,10 +82,6 @@
 	"neuen_homomorphism_2024": {
 		"short": "Neuen (2024)",
 		"long": "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, 2024, doi: <a href='https://doi.org/10.4230/LIPICS.STACS.2024.53'>10.4230/LIPICS.STACS.2024.53</a>"
-	},
-	"kar_npa_2024": {
-		"short": "Kar, Roberson, Seppelt, & Zeman (2024)",
-		"long": "P. N. Kar, D. E. Roberson, T. Seppelt, and P. Zeman, ‘NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’, Jul. 15, 2024, <i>arXiv</i>: arXiv:2407.10635. <a href='http://arxiv.org/abs/2407.10635'>http://arxiv.org/abs/2407.10635</a>"
 	},
 	"ramana_fractional_1994": {
 		"short": "Ramana, Scheinerman, & Ullman (1994)",
