@@ -611,7 +611,7 @@
                 "claim": "characterised as",
                 "value": "existence of an orthogonal pseudo-stochastic matrix $X$ such that $XA_G = A_H X$.",
                 "tag": "system of equations",
-                "description": "Orthogonal pseudo-stochastic matrices are also called <i>bistochastic</i>."
+                "description": "Orthogonal pseudo-stochastic matrices are also called <i>bistochastic</i>.",
                 "references": [
                     "seppelt_homomorphism_2024",
                     "seppelt_homomorphism_2025"
