@@ -2,17 +2,17 @@ let allData = [];
 let bibliography = [];
 let tags = {};
 let categories = {};
-   
+
 function extractTags(data, field, filter) {
 	let extractedTags = {};
-	$.each(data, function(index, item) {
-		$.each(item.statements, function(index, statement) {
-			if(statement[field] != null && (filter == null || filter(statement))){
-				if(extractedTags[statement.claim] == undefined) {
-					extractedTags[statement.claim] = {[statement[field].toString()] : 1}
-				}else if(extractedTags[statement.claim][statement[field].toString()] == undefined) {
+	$.each(data, function (index, item) {
+		$.each(item.statements, function (index, statement) {
+			if (statement[field] != null && (filter == null || filter(statement))) {
+				if (extractedTags[statement.claim] == undefined) {
+					extractedTags[statement.claim] = { [statement[field].toString()]: 1 }
+				} else if (extractedTags[statement.claim][statement[field].toString()] == undefined) {
 					extractedTags[statement.claim][statement[field].toString()] = 1
-				}else{
+				} else {
 					extractedTags[statement.claim][statement[field].toString()] += 1
 				}
 			}
@@ -24,21 +24,21 @@ function extractTags(data, field, filter) {
 function escapeTag(tag) {
 	return tag.toString()
 		.replaceAll(' ', '-')
-		.replaceAll('$','dl')
-		.replaceAll('{','br')
-		.replaceAll('}','cket')
-		.replaceAll('\\','bsl')
-		.replaceAll('=','eq')
+		.replaceAll('$', 'dl')
+		.replaceAll('{', 'br')
+		.replaceAll('}', 'cket')
+		.replaceAll('\\', 'bsl')
+		.replaceAll('=', 'eq')
 }
 
 function selectedOptions(all, prefix) {
 	selectedTags = {};
-	$.each(all, function(claim, options) {
-		$.each(options, function(index, option) {
-			if($(`#filter-${prefix}-${escapeTag(claim)}_${escapeTag(index)}`).is(':checked')) {
-				if(selectedTags[claim] == null) {
+	$.each(all, function (claim, options) {
+		$.each(options, function (index, option) {
+			if ($(`#filter-${prefix}-${escapeTag(claim)}_${escapeTag(index)}`).is(':checked')) {
+				if (selectedTags[claim] == null) {
 					selectedTags[claim] = [index]
-				}else{
+				} else {
 					selectedTags[claim].push(index)
 				}
 			}
@@ -48,20 +48,20 @@ function selectedOptions(all, prefix) {
 }
 
 function matchesSelection(statements, selectedTags, field) {
-	if(statements == null && !$.isEmptyObject(selectedTags)) {
+	if (statements == null && !$.isEmptyObject(selectedTags)) {
 		return false;
 	}
 	matchesTags = {};
-	$.each(selectedTags, function(claim, option) {
+	$.each(selectedTags, function (claim, option) {
 		matchesTags[claim] = false
 	});
 	statements.forEach(statement => {
-		if(selectedTags[statement.claim] != null && statement[field] != null) {
+		if (selectedTags[statement.claim] != null && statement[field] != null) {
 			matchesTags[statement.claim] = matchesTags[statement.claim] || selectedTags[statement.claim].includes(statement[field].toString());
 		}
 	});
 	matchesAllTags = true;
-	$.each(matchesTags, function(claim, val) {
+	$.each(matchesTags, function (claim, val) {
 		matchesAllTags = matchesAllTags && val
 	});
 	return matchesAllTags;
@@ -69,81 +69,81 @@ function matchesSelection(statements, selectedTags, field) {
 
 function applyFilters() {
 	const textSearch = $('#textSearch').val().toLowerCase();
-	
+
 	const selectedTags = selectedOptions(tags, 'tag')
 	const selectedCategories = selectedOptions(categories, 'category')
-	
+
 	anySelected = false;
-	
-	$.each(allData, function(index, item) {
+
+	$.each(allData, function (index, item) {
 		//const matchesAge = isNaN(ageFilter) || item.age === ageFilter;
 		matches = item.name.toLowerCase().includes(textSearch);
-		if(item.description != null){
+		if (item.description != null) {
 			matches = matches || item.description.toLowerCase().includes(textSearch);
 		}
-		
-		if(item.statements != null){
+
+		if (item.statements != null) {
 			item.statements.forEach(statement => {
-				try{
-					 matches = matches || statement.value.toLowerCase().includes(textSearch);
-				}catch(e){}
-				
+				try {
+					matches = matches || statement.value.toLowerCase().includes(textSearch);
+				} catch (e) { }
+
 			});
 		}
-		if(matches && 
+		if (matches &&
 			matchesSelection(item.statements, selectedTags, 'tag') &&
 			matchesSelection(item.statements, selectedCategories, 'value')
-			) {
+		) {
 			$(`#graphclass-${item.id}`).show();
 			$(`#toc-${item.id}`).show();
 			anySelected = true;
-		}else{
+		} else {
 			$(`#graphclass-${item.id}`).hide();
 			$(`#toc-${item.id}`).hide();
 		}
 	});
-	if(! anySelected) {
+	if (!anySelected) {
 		$("#nothing-found").show();
 		$("#accordionContents").hide();
-	}else{
+	} else {
 		$("#nothing-found").hide();
 		$("#accordionContents").show();
 	}
 }
 
-function populateView(data) {  
-	
-	if(data.length == 0) {
+function populateView(data) {
+
+	if (data.length == 0) {
 		$("#nothing-found").show();
 		$("#accordionContents").hide();
 		return;
 	}
-	
+
 	$("#toc").empty();
 	toccontent = `<ul>`
-	$.each(data, function(index, item) {
+	$.each(data, function (index, item) {
 		toccontent += `<li id="toc-${item.id}"><a href="#graphclass-${item.id}">${item.name}</a></li>`
 	});
 	toccontent += `</ul>`
 	$("#toc").append(toccontent);
-	
-	
+
+
 	$("#jsonData").empty();
 	content = ``
-	$.each(data, function(index, item) {
+	$.each(data, function (index, item) {
 		content += `<div class="graphclass" id="graphclass-${item.id}"><h2>`
 		content += `<a name="graphclass-${item.id}">${item.name}</a>`
-		if(item.family == true) {
+		if (item.family == true) {
 			content += ` <span class="badge text-bg-light" title="This is a family of graph classes."><i class="bi bi-collection"></i></span>`
 		}
 		content += ` ${wikidataLink(item.wikidata)} ${wikipediaLink(item.wikipedia)} ${graphclassesLink(item.graphclassesorg)}</h2>`
-		
-		if(item.description != null) {
+
+		if (item.description != null) {
 			content += `<p>${item.description}</p>`
 		}
-		if( item.statements == null || item.statements.length == 0){
+		if (item.statements == null || item.statements.length == 0) {
 			content += "<p>No statements found.</p>";
-		}else{
+		} else {
 			content += `<ul>`
 			item.statements.forEach(statement => {
 				content += `<li>
@@ -151,13 +151,13 @@ function populateView(data) {
 						${statement.value}
 						${wikidataLink(statement.wikidata)}
 						${wikipediaLink(statement.wikipedia)} `
-				if(statement.tag != null) {
+				if (statement.tag != null) {
 					content += `<span class="badge text-bg-secondary">${statement.tag}</span>`
 				}
-				if(statement.description != null) {
+				if (statement.description != null) {
 					content += `<br/>${statement.description}`
 				}
-				if(statement.references != null && statement.references.length > 0) {
+				if (statement.references != null && statement.references.length > 0) {
 					content += `<br/>${citations(statement.references)}`
 				}
 
@@ -175,16 +175,16 @@ function populateBibliography() {
 
 	let content = "<h1>Bibliography</h1>"
 	let firstLetter = ""
-	$.each(bibliography, function(index, item) {
-		if(item.short.charAt(0) != firstLetter) {
-			if(firstLetter != "") {
+	$.each(bibliography, function (index, item) {
+		if (item.short.charAt(0) != firstLetter) {
+			if (firstLetter != "") {
 				content += `</ul>`
 			}
 			firstLetter = item.short.charAt(0)
 			content += `<h3>${firstLetter}</h3>`
 			content += `<ul>`
 		}
-		 
+
 		content += `<li><a name="citation_${index}">${item.short}</a>: ${item.long}</li>`
 	});
 	content += `</ul>`
@@ -194,10 +194,10 @@ function populateBibliography() {
 function populateTagFilters(tags, field) {
 	$(`#filters-${field}`).empty();
 	content = ``;
-	$.each(tags, function(index, item) {
-		
+	$.each(tags, function (index, item) {
+
 		content += `<div class="form-group" style="margin-top:5px;"><label>${index}</label>`
-		$.each(item, function(tg, count) {
+		$.each(item, function (tg, count) {
 			escapedIndex = escapeTag(index)
 			escapedTag = escapeTag(tg)
 			content += `<input type="checkbox" class="btn-check" id="filter-${field}-${escapedIndex}_${escapedTag}" autocomplete="off" onchange="applyFilters()">
@@ -209,51 +209,51 @@ function populateTagFilters(tags, field) {
 }
 
 function wikidataLink(wikidata) {
-	if(wikidata == null) {
+	if (wikidata == null) {
 		return "";
-	}else{
+	} else {
 		return `<a href="https://www.wikidata.org/wiki/${wikidata}" target="_blank" title="View at Wikidata"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/f/ff/Wikidata-logo.svg'></a>`;
 	}
 }
 function wikipediaLink(wikipedia) {
-	if(wikipedia == null) {
+	if (wikipedia == null) {
 		return "";
-	}else{
+	} else {
 		return `<a href="${wikipedia}" target="_blank"  title="View at Wikipedia"><img class="wikidata-link" src='https://upload.wikimedia.org/wikipedia/commons/d/d6/Antu_wikipedia.svg'></a>`;
 	}
 }
 
 function graphclassesLink(gc) {
-	if(gc == null) {
+	if (gc == null) {
 		return "";
 	}
 	return `<a href="https://graphclasses.org/classes/${gc}.html" target="_blank"><img class="wikidata-link" src='https://graphclasses.org/logo75.png' title='View at Information System on Graph Classes and their Inclusions'></a>`
 }
 
 function citations(keys) {
-	if(keys.length == 0) {
+	if (keys.length == 0) {
 		return ""
 	}
-	return `<span class="references"><i class="bi bi-eyeglasses"></i> ` + keys.map(citation).join(", ") +`</span>`;
+	return `<span class="references"><i class="bi bi-eyeglasses"></i> ` + keys.map(citation).join(", ") + `</span>`;
 }
 
 function citation(key) {
-	if(key == "folklore") {
+	if (key == "folklore") {
 		return "Folklore";
 	}
-	if(key == "trivial") {
+	if (key == "trivial") {
 		return "Trivial"
 	}
-	if(bibliography[key] == null) {
+	if (bibliography[key] == null) {
 		return `<b>Unknown reference ${key}</b>`;
-	}else{
+	} else {
 		return `<a href="#citation_${key}">${bibliography[key].short}</a>`;
 	}
 }
 
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 	/*$.get('bibliography.bib', function(data) {
 		bibtexEntries = bibtex.parseBibFile(data);
 		const htmlOutput = bibtex.toHTML(bibtexEntries);
@@ -263,10 +263,10 @@ $(document).ready(function() {
 	$.when(
 		$.getJSON('./data/bibliography.json'),
 		$.getJSON('./data/data_augmented.json')
-	).done(function(dataBib, dataClasses) {
-		bibliography = dataBib[0]; 
+	).done(function (dataBib, dataClasses) {
+		bibliography = dataBib[0];
 		populateBibliography();
-		
+
 		allData = dataClasses[0]; // Store the fetched data
 		tags = extractTags(allData, 'tag', null);
 		categories = extractTags(allData, 'value', st => st.categorical);
@@ -274,16 +274,16 @@ $(document).ready(function() {
 		populateView(allData); // Populate the table with all data
 		populateTagFilters(tags, 'tag');
 		populateTagFilters(categories, 'category');
-		
+
 		MathJax.typeset();
-	}).fail(function() {
+	}).fail(function () {
 		console.error('One or more requests failed.');
 	});
 
-	
-	
 
-	$('#textSearch').on('input', function() {
+
+
+	$('#textSearch').on('input', function () {
 		applyFilters();
 	});
 });  
