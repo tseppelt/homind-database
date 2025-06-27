@@ -4,7 +4,7 @@ let tags = {};
 let categories = {};
    
 function extractTags(data, field, filter) {
-	extractedTags = {};
+	let extractedTags = {};
 	$.each(data, function(index, item) {
 		$.each(item.statements, function(index, statement) {
 			if(statement[field] != null && (filter == null || filter(statement))){
@@ -173,8 +173,18 @@ function populateView(data) {
 function populateBibliography() {
 	$("#bibliography").empty();
 
-	content = "<h1>Bibliography</h1><ul>"
+	let content = "<h1>Bibliography</h1>"
+	let firstLetter = ""
 	$.each(bibliography, function(index, item) {
+		if(item.short.charAt(0) != firstLetter) {
+			if(firstLetter != "") {
+				content += `</ul>`
+			}
+			firstLetter = item.short.charAt(0)
+			content += `<h3>${firstLetter}</h3>`
+			content += `<ul>`
+		}
+		 
 		content += `<li><a name="citation_${index}">${item.short}</a>: ${item.long}</li>`
 	});
 	content += `</ul>`
