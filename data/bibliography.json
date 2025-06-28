@@ -81,7 +81,7 @@
 	},
 	"neuen_homomorphism_2024": {
 		"short": "Neuen (2024)",
-		"long": "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, 2024, doi: <a href='https://doi.org/10.4230/LIPICS.STACS.2024.53'>10.4230/LIPICS.STACS.2024.53</a>"
+		"long": "D. Neuen, ‘Homomorphism-Distinguishing Closedness for Graphs of Bounded Tree-Width’, in <i>41st International Symposium on Theoretical Aspects of Computer Science (STACS 2024)</i>, O. Beyersdorff, M. M. Kanté, O. Kupferman, and D. Lokshtanov, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 289. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 53:1-53:12. doi: <a href='https://doi.org/10.4230/LIPIcs.STACS.2024.53'>10.4230/LIPIcs.STACS.2024.53</a>."
 	},
 	"ramana_fractional_1994": {
 		"short": "Ramana, Scheinerman, & Ullman (1994)",
@@ -111,8 +111,12 @@
 		"short": "Seppelt (2024a)",
 		"long": "T. Seppelt, ‘An Algorithmic Meta Theorem for Homomorphism Indistinguishability’, in <i>49th International Symposium on Mathematical Foundations of Computer Science (MFCS 2024)</i>, R. Královič and A. Kučera, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 306. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2024, p. 82:1-82:19. doi: <a href='https://doi.org/10.4230/LIPIcs.MFCS.2024.82'>10.4230/LIPIcs.MFCS.2024.82</a>"
 	},
-	"seppelt_homomorphism_2024": {
+	"seppelt_logical_2024": {
 		"short": "Seppelt (2024b)",
+		"long": "T. Seppelt, ‘Logical equivalences, homomorphism indistinguishability, and forbidden minors’, <i>Information and Computation</i>, vol. 301, p. 105224, Dec. 2024, doi: <a href='https://doi.org/10.1016/j.ic.2024.105224'>10.1016/j.ic.2024.105224</a>."
+	},
+	"seppelt_homomorphism_2024": {
+		"short": "Seppelt (2024c)",
 		"long": "T. Seppelt, ‘Homomorphism Indistinguishability’, Dissertation, RWTH Aachen University, Aachen, 2024. doi: <a href='https://doi.org/10.18154/RWTH-2024-11629'>10.18154/RWTH-2024-11629</a>."
 	},
 	"seppelt_homomorphism_2025": {

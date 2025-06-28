@@ -238,64 +238,9 @@
             {
                 "claim": "subclass of",
                 "value": "$\\mathcal{L}_{k+1}$",
+                "tag": "bounded treewidth",
                 "references": [
                     "roberson_lasserre_2024"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Bipartite graphs",
-        "wikidata": "Q174733",
-        "statements": [
-            {
-                "claim": "characterised as",
-                "value": "isomorphic bipartite double covers",
-                "wikidata": "Q303100",
-                "references": [
-                    "dvorak_recognizing_2010"
-                ]
-            },
-            {
-                "claim": "characterised as",
-                "value": "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
-                "tag": "system of equations",
-                "references": [
-                    "ramana_fractional_1994"
-                ]
-            },
-            {
-                "claim": "complexity",
-                "value": "GI-complete",
-                "categorical": true,
-                "wikidata": "Q115425721",
-                "references": [
-                    "dvorak_recognizing_2010",
-                    "seppelt_homomorphism_2024"
-                ]
-            },
-            {
-                "claim": "homomorphism distinguishing closed",
-                "value": true,
-                "categorical": true,
-                "references": [
-                    "dvorak_recognizing_2010",
-                    "roberson_oddomorphisms_2022",
-                    "seppelt_homomorphism_2024"
-                ]
-            },
-            {
-                "claim": "has closure property",
-                "value": "monotone",
-                "wikidata": "Q131934975",
-                "categorical": true
-            },
-            {
-                "claim": "witness function",
-                "value": "$n \\mapsto 2n$",
-                "tag": "polynomial",
-                "references": [
-                    "seppelt_homomorphism_2024"
                 ]
             }
         ]
@@ -349,7 +294,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "pathwidth $\\leq q-1$"
+                "value": "pathwidth $\\leq q-1$",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
@@ -417,7 +363,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "treewidth $\\leq k$"
+                "value": "treewidth $\\leq k$",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
@@ -435,36 +382,7 @@
             }
         ]
     },
-    {
-        "name": "Maximal degree $\\leq \\Delta$",
-        "wikidata": "Q9346061",
-        "family": true,
-        "statements": [
-            {
-                "claim": "characterised as",
-                "value": "no characterisation known"
-            },
-            {
-                "claim": "complexity",
-                "categorical": true,
-                "value": "unknown"
-            },
-            {
-                "claim": "homomorphism distinguishing closed",
-                "value": true,
-                "categorical": true,
-                "references": [
-                    "roberson_oddomorphisms_2022"
-                ]
-            },
-            {
-                "claim": "has closure property",
-                "value": "monotone",
-                "wikidata": "Q131934975",
-                "categorical": true
-            }
-        ]
-    },
+    
     {
         "name": "Disjoint unions of cycles",
         "statements": [
@@ -527,7 +445,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "outerplanar graphs"
+                "value": "outerplanar graphs",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
@@ -584,7 +503,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "pathwidth $\\leq 1$"
+                "value": "pathwidth $\\leq 1$",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
@@ -669,7 +589,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "treewidth $\\leq 2$"
+                "value": "treewidth $\\leq 2$",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
@@ -750,6 +671,11 @@
                 "value": "treewidth $\\leq 1$"
             },
             {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq 1$",
+                "tag": "bounded treewidth"
+            },
+            {
                 "claim": "has closure property",
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
@@ -804,6 +730,11 @@
             {
                 "claim": "coincides with",
                 "value": "treedepth $\\leq 2$"
+            },
+            {
+                "claim": "subclass of",
+                "value": "treedepth $\\leq 2$",
+                "tag": "bounded treewidth"
             }
         ]
     },
@@ -846,6 +777,7 @@
             {
                 "claim": "subclass of",
                 "value": "$\\mathcal{L}_k^+$",
+                "tag": "bounded treewidth",
                 "references": [
                     "roberson_lasserre_2024"
                 ]
@@ -891,6 +823,7 @@
             {
                 "claim": "subclass of",
                 "value": "treewidth $\\leq 3k-1$",
+                "tag": "bounded treewidth",
                 "references": [
                     "roberson_lasserre_2024"
                 ]
@@ -942,6 +875,7 @@
             {
                 "claim": "subclass of",
                 "value": "$\\mathcal{L}_k$",
+                "tag": "bounded treewidth",
                 "references": [
                     "kar_npa_2024"
                 ]
@@ -998,7 +932,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "treewidth $\\leq 2$"
+                "value": "treewidth $\\leq 2$",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "subclass of",
@@ -1031,67 +966,12 @@
             {
                 "claim": "subclass of",
                 "value": "treewidth $\\leq 2$",
-                "references": []
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
-                "categorical": true
-            }
-        ]
-    },
-    {
-        "name": "$2$-degenerate graphs",
-        "description": "Graphs all whose subgraphs contain a vertex of degree at most $2$.",
-        "wikidata": "Q5251771",
-        "statements": [
-            {
-                "claim": "homomorphism distinguishing closed",
-                "value": false,
-                "categorical": true,
-                "references": [
-                    "dvorak_recognizing_2010"
-                ],
-                "description": "The homomorphism distinguishing closure is the class of all graphs."
-            },
-            {
-                "claim": "has closure property",
-                "value": "monotone",
-                "categorical": true
-            }
-        ]
-    },
-    {
-        "name": "Cluster graphs",
-        "description": "Disjoint unions of complete graphs",
-        "wikidata": "Q24892498",
-        "statements": [
-            {
-                "claim": "complexity",
-                "value": "$\\mathsf{C}_=\\mathsf{P}$-complete",
-                "categorical": true,
-                "references": [
-                    "boeker_complexity_2019"
-                ]
-            },
-            {
-                "claim": "homomorphism distinguishing closed",
-                "value": true,
-                "categorical": true,
-                "references": [
-                    "roberson_oddomorphisms_2022"
-                ]
-            },
-            {
-                "claim": "witness function",
-                "value": "$n \\mapsto  n$",
-                "tag": "polynomial"
-            },
-            {
-                "claim": "has closure property",
-                "value": "hereditary",
-                "wikidata": "Q131934975",
                 "categorical": true
             }
         ]
@@ -1128,6 +1008,7 @@
             {
                 "claim": "subclass of",
                 "value": "treedepth $\\leq q$",
+                "tag": "bounded treewidth",
                 "references": [
                     "dawar_lovasz_2021",
                     "fluck_going_2024"
@@ -1167,6 +1048,7 @@
             {
                 "claim": "subclass of",
                 "value": "pathwidth $\\leq k_1 + k_2 -1$",
+                "tag": "bounded treewidth",
                 "references": [
                     "schindling_homomorphism_2025",
                     "rassmann_finite_2025"
@@ -1206,6 +1088,7 @@
             {
                 "claim": "subclass of",
                 "value": "treewidth $\\leq k_1 + k_2 - 1$",
+                "tag": "bounded treewidth",
                 "references": [
                     "schindling_homomorphism_2025",
                     "rassmann_finite_2025"
@@ -1268,7 +1151,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "outerplanar graphs"
+                "value": "outerplanar graphs",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "has closure property",
@@ -1304,7 +1188,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "forests"
+                "value": "forests",
+                "tag": "bounded treewidth"
             },
             {
                 "claim": "coincides with",
@@ -1341,7 +1226,8 @@
             },
             {
                 "claim": "subclass of",
-                "value": "forests"
+                "value": "forests",
+                "tag": "bounded treewidth"
             }
         ]
     },
@@ -1368,8 +1254,158 @@
             },
             {
                 "claim": "subclass of",
-                "value": "treewidth $\\leq 2$"
+                "value": "treewidth $\\leq 2$",
+                "tag": "bounded treewidth"
             }
+        ]
+    },
+    {
+        "name": "Bipartite graphs",
+        "wikidata": "Q174733",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "isomorphic bipartite double covers",
+                "wikidata": "Q303100",
+                "references": [
+                    "dvorak_recognizing_2010"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "existence of doubly stochastic matrices $X$ and $Y$ such that $A_G = X A_H Y$",
+                "tag": "system of equations",
+                "references": [
+                    "ramana_fractional_1994"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "GI-complete",
+                "categorical": true,
+                "wikidata": "Q115425721",
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "dvorak_recognizing_2010",
+                    "roberson_oddomorphisms_2022",
+                    "seppelt_homomorphism_2024"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone",
+                "wikidata": "Q131934975",
+                "categorical": true
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto 2n$",
+                "tag": "polynomial",
+                "references": [
+                    "seppelt_homomorphism_2024"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Maximal degree $\\leq \\Delta$",
+        "wikidata": "Q9346061",
+        "family": true,
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "no characterisation known"
+            },
+            {
+                "claim": "complexity",
+                "categorical": true,
+                "value": "unknown"
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone",
+                "wikidata": "Q131934975",
+                "categorical": true
+            }
+        ]
+    },
+    {
+        "name": "$2$-degenerate graphs",
+        "description": "Graphs all whose subgraphs contain a vertex of degree at most $2$.",
+        "wikidata": "Q5251771",
+        "statements": [
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": false,
+                "categorical": true,
+                "references": [
+                    "dvorak_recognizing_2010"
+                ],
+                "description": "The homomorphism distinguishing closure is the class of all graphs."
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone",
+                "categorical": true
+            }
+        ]
+    },
+    {
+        "name": "Cluster graphs",
+        "description": "Disjoint unions of complete graphs.",
+        "wikidata": "Q24892498",
+        "statements": [
+            {
+                "claim": "complexity",
+                "value": "$\\mathsf{C}_=\\mathsf{P}$-complete",
+                "categorical": true,
+                "references": [
+                    "boeker_complexity_2019"
+                ]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "witness function",
+                "value": "$n \\mapsto  n$",
+                "tag": "polynomial"
+            },
+            {
+                "claim": "has closure property",
+                "value": "hereditary",
+                "wikidata": "Q131934975",
+                "categorical": true
+            },
+            {
+				"claim": "essentially profinite",
+				"value": true,
+				"categorical": true,
+				"references": [
+					"seppelt_logical_2024"
+				]
+			}
         ]
     }
 ]
