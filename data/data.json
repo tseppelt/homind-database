@@ -741,7 +741,7 @@
     {
         "name": "$\\mathcal{L}_k$",
         "family": true,
-        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy.",
+        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy. Each graph class is minor-closed and of bounded treewidth. The class $\\mathcal{L}_1$ is the class of outerplanar graphs.",
         "statements": [
             {
                 "claim": "characterised as",
@@ -766,6 +766,14 @@
                 "categorical": true
             },
             {
+                "claim": "witness function",
+                "value": "$n \\mapsto 2k \\cdot 4^{n^{2k}}$",
+                "tag": "exponential",
+                "references": [
+                    "seppelt_algorithmic_2024"
+                ]
+            },
+            {
                 "claim": "has closure property",
                 "value": "minor-closed",
                 "wikidata": "Q131935074",
@@ -787,7 +795,7 @@
     {
         "name": "$\\mathcal{L}_k^+$",
         "family": true,
-        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints.",
+        "description": "Family of graph classes defined to characterise feasibility of the Lasserre semidefinite programming hierarchy with non-negativity constraints. Each graph class is minor-closed and of bounded treewidth. The class $\\mathcal{L}^+_1$ is the class of graphs of treewidth $\\leq 2$.",
         "statements": [
             {
                 "claim": "characterised as",
@@ -833,7 +841,7 @@
     {
         "name": "$\\mathcal{P}_k$",
         "family": true,
-        "description": "Family of graph classes defined to characterise feasibility of the NPA hierarchy",
+        "description": "Family of graph classes defined to characterise feasibility of the NPA hierarchy. For each $k$, $\\mathcal{P}_k$ is a minor-closed graph class of planar graphs of bounded treewidth.",
         "statements": [
             {
                 "claim": "characterised as",
@@ -1038,6 +1046,14 @@
                 ]
             },
             {
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to the comonad $\\mathbb{P}\\mathbb{R}_{k_1, k_2}$",
+                "tag": "category theory",
+                "references": [
+                    "schindling_homomorphism_2025"
+                ]
+            },
+            {
                 "claim": "homomorphism distinguishing closed",
                 "value": true,
                 "categorical": true,
@@ -1077,6 +1093,23 @@
                     "schindling_homomorphism_2025"
                 ]
             },
+            {
+                "claim": "characterised as",
+                "value": "not distinguished by $q$ rounds of the $(k_1, k_2)$-dimensional oblivious Weisfeiler–Leman algorithm",
+                "tag": "algorithm",
+                "references": [
+                    "schindling_homomorphism_2025",
+                    "rassmann_finite_2025"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "coKleisli isomorphism with respect to the comonad $\\mathbb{P}^q_{k_1, k_2}$",
+                "tag": "category theory",
+                "references": [
+                    "schindling_homomorphism_2025"
+                ]
+            },            
             {
                 "claim": "homomorphism distinguishing closed",
                 "value": true,
@@ -1399,13 +1432,13 @@
                 "categorical": true
             },
             {
-				"claim": "essentially profinite",
-				"value": true,
-				"categorical": true,
-				"references": [
-					"seppelt_logical_2024"
-				]
-			}
+		"claim": "essentially profinite",
+		"value": true,
+		"categorical": true,
+		"references": [
+			"seppelt_logical_2024"
+		]
+	    }
         ]
     }
 ]

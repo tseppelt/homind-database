@@ -133,11 +133,11 @@ function populateView(data) {
 	$.each(data, function (index, item) {
 		content += `<div class="graphclass" id="graphclass-${item.id}"><h2>`
 		content += `<a name="graphclass-${item.id}">${item.name}</a>`
-		if (item.family == true) {
-			content += ` <span class="badge text-bg-light" title="This is a family of graph classes."><i class="bi bi-collection"></i></span>`
-		}
 		content += ` ${wikidataLink(item.wikidata)} ${wikipediaLink(item.wikipedia)} ${graphclassesLink(item.graphclassesorg)}</h2>`
-
+		
+		if (item.family == true) {
+			content += `<p><span class="badge text-bg-light"><i class="bi bi-collection"></i> This is a family of graph classes.</span></p>`
+		}
 		if (item.description != null) {
 			content += `<p>${item.description}</p>`
 		}
