@@ -399,7 +399,9 @@
                 "value": "existence of an orthogonal matrix $X$ such that $XA_G = A_HX$",
                 "tag": "system of equations",
                 "references": [
-                    "folklore"
+                    "folklore",
+                    "seppelt_homomorphism_2024",
+                    "young_converse_2025"
                 ]
             },
             {
@@ -534,7 +536,8 @@
                 "description": "Orthogonal pseudo-stochastic matrices are also called <i>bistochastic</i>.",
                 "references": [
                     "seppelt_homomorphism_2024",
-                    "seppelt_homomorphism_2025"
+                    "seppelt_homomorphism_2025",
+                    "young_converse_2025"
                 ]
             },
             {
@@ -1379,10 +1382,34 @@
         ]
     },
     {
+        "name": "Graphs all whose vertices have even degree",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "isomorphism",
+                "references": ["young_converse_2025"]
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": false,
+                "categorical": true,
+                "references": [
+                    "young_converse_2025"
+                ],
+                "description": "The homomorphism distinguishing closure is the class of all graphs."
+            }
+        ]
+    },
+    {
         "name": "$2$-degenerate graphs",
         "description": "Graphs all whose subgraphs contain a vertex of degree at most $2$.",
         "wikidata": "Q5251771",
         "statements": [
+            {
+                "claim": "characterised as",
+                "value": "isomorphism",
+                "references": ["dvorak_recognizing_2010"]
+            },
             {
                 "claim": "homomorphism distinguishing closed",
                 "value": false,

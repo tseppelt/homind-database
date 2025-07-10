@@ -131,6 +131,10 @@
 		"short": "Xu, Hu, Leskovec, & Jegelka (2019)",
 		"long": "K. Xu, W. Hu, J. Leskovec, and S. Jegelka, ‘How Powerful are Graph Neural Networks?’, in <i>International Conference on Learning Representations</i>, 2019. [Online]. Available: <a href='https://openreview.net/forum?id=ryGs6iA5Km'>https://openreview.net/forum?id=ryGs6iA5Km</a>"
 	},
+	"young_converse_2025": {
+		"short": "Young (2025)",
+		"long": "B. Young, ‘The Converse of the Real Orthogonal Holant Theorem’, in <i>52nd International Colloquium on Automata, Languages, and Programming (ICALP 2025)</i>, K. Censor-Hillel, F. Grandoni, J. Ouaknine, and G. Puppis, Eds., in Leibniz International Proceedings in Informatics (LIPIcs), vol. 334. Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum für Informatik, 2025, p. 136:1-136:20. doi: <a href='https://doi.org/10.4230/LIPIcs.ICALP.2025.136'>10.4230/LIPIcs.ICALP.2025.136</a>."
+	},
 	"zhang_beyong_2024": {
 		"short": "Zhang, Gai, Du, Ye, He, & Wang (2024)",
 		"long": "B. Zhang, J. Gai, Y. Du, Q. Ye, D. He, and L. Wang, ‘Beyond Weisfeiler–Lehman: A Quantitative Framework for GNN Expressiveness’, in <i>The Twelfth International Conference on Learning Representations</i>, 2024. [Online]. Available: <a href='https://openreview.net/forum?id=HSKaGOi7Ar'>https://openreview.net/forum?id=HSKaGOi7Ar</a>"
