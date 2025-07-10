@@ -86,6 +86,7 @@
                 "value": "quantum isomorphism",
                 "references": [
                     "mancinska_quantum_2022",
+                    "cai_planar_2024",
                     "kar_npa_2024",
                     "seppelt_homomorphism_2025"
                 ]
@@ -96,6 +97,7 @@
                 "tag": "system of equations",
                 "references": [
                     "lupini_nonlocal_2020",
+                    "cai_planar_2024",
                     "seppelt_homomorphism_2025"
                 ]
             },

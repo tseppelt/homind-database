@@ -19,6 +19,10 @@
 		"short": "Cai, Fürer, & Immerman (1992)",
 		"long": "J.-Y. Cai, M. Fürer, and N. Immerman, ‘An optimal lower bound on the number of variables for graph identification’, <i>Combinatorica</i>, vol. 12, no. 4, pp. 389–410, Dezember 1992, doi: <a href='https://doi.org/10.1007/BF01305232'>10.1007/BF01305232</a>"
 	},
+	"cai_planar_2024": {
+		"short": "Cai and Young (2024)",
+		"long": "J.-Y. Cai and B. Young, ‘Planar #CSP Equality Corresponds to Quantum Isomorphism – A Holant Viewpoint’, <i>ACM Trans. Comput. Theory</i>, vol. 16, no. 3, pp. 1–41, Sep. 2024, doi: <a href='https://doi.org/10.1145/3689486'>10.1145/3689486</a>."
+	},
 	"cerny_caterpillar_2025": {
 		"short": "Černý (2025)",
 		"long": "M. Černý, ‘Caterpillar GNN: Replacing Message Passing with Efficient Aggregation’, Jun. 07, 2025, <i>arXiv</i>: arXiv:2506.06784. doi: <a href='https://doi.org/10.48550/arXiv.2506.06784'>10.48550/arXiv.2506.06784</a>."
