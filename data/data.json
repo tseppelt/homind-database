@@ -1385,6 +1385,8 @@
     },
     {
         "name": "Graphs all whose vertices have even degree",
+        "description": "Disjoint unions of Eulerian graphs.",
+        "wikidata": "Q9275357",
         "statements": [
             {
                 "claim": "characterised as",
