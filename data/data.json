@@ -1380,6 +1380,10 @@
                 "value": "monotone",
                 "wikidata": "Q131934975",
                 "categorical": true
+            },
+            {
+                "claim": "coincides with",
+                "value": "disjoint unions of paths and cycles for $\\Delta = 2$."
             }
         ]
     },
