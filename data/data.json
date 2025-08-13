@@ -481,18 +481,18 @@
             },
             {
                 "claim": "characterised as",
-                "value": "not distinguished by walk-based refinement",
-                "tag": "machine learning",
+                "value": "indistinguishable in the $(\\cdot, {}^*, \\boldsymbol{1})$-fragment of the matrix query languge MATLANG",
+                "tag": "logic",
                 "references": [
-                    "cerny_caterpillar_2025"
+                    "geerts_expressive_2020"
                 ]
             },
             {
                 "claim": "characterised as",
-                "value": "indistinguishable in the $\\cdot, {}^*, 1$-fragment of MATLANG",
-                "tag": "logic",
+                "value": "not distinguished by walk-based refinement",
+                "tag": "machine learning",
                 "references": [
-                    "geerts_expressive_2020"
+                    "cerny_caterpillar_2025"
                 ]
             },
             {
