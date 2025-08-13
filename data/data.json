@@ -465,6 +465,14 @@
         "statements": [
             {
                 "claim": "characterised as",
+                "value": "co-main",
+                "tag": "algebraic graph theory",
+                "references": [
+                    "cvetkovic_introduction_2009"
+                ]
+            },
+            {
+                "claim": "characterised as",
                 "value": "existence of a pseudo-stochastic matrix $X$ such that $XA_G = A_HX$",
                 "tag": "system of equations",
                 "references": [
@@ -477,6 +485,14 @@
                 "tag": "machine learning",
                 "references": [
                     "cerny_caterpillar_2025"
+                ]
+            },
+            {
+                "claim": "characterised as",
+                "value": "indistinguishable in the $\\cdot, {}^*, 1$-fragment of MATLANG",
+                "tag": "logic",
+                "references": [
+                    "geerts_expressive_2020"
                 ]
             },
             {

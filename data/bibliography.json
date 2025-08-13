@@ -23,6 +23,10 @@
 		"short": "Cai and Young (2024)",
 		"long": "J.-Y. Cai and B. Young, ‘Planar #CSP Equality Corresponds to Quantum Isomorphism – A Holant Viewpoint’, <i>ACM Trans. Comput. Theory</i>, vol. 16, no. 3, pp. 1–41, Sep. 2024, doi: <a href='https://doi.org/10.1145/3689486'>10.1145/3689486</a>."
 	},
+	"cvetkovic_introduction_2009": {
+		"short": "Cvetković, Rowlinson, & Simić (2009)",
+		"long": "D. Cvetković, P. Rowlinson, and S. Simić, <i>An Introduction to the Theory of Graph Spectra</i>, 1st edn. Cambridge University Press, 2009. doi: <a href='https://doi.org/10.1017/CBO9780511801518'>10.1017/CBO9780511801518</a>."
+	},
 	"cerny_caterpillar_2025": {
 		"short": "Černý (2025)",
 		"long": "M. Černý, ‘Caterpillar GNN: Replacing Message Passing with Efficient Aggregation’, Jun. 07, 2025, <i>arXiv</i>: arXiv:2506.06784. doi: <a href='https://doi.org/10.48550/arXiv.2506.06784'>10.48550/arXiv.2506.06784</a>."
@@ -46,6 +50,10 @@
 	"gai_homomorphism_2025": {
 		"short": "Gai, Du, Zhang, Maron, & Wang (2025)",
 		"long": "J. Gai, Y. Du, B. Zhang, H. Maron, and L. Wang, ‘Homomorphism Expressivity of Spectral Invariant Graph Neural Networks’, presented at the ICLR 2025, Jan. 2025. [Online]. Available: <a href='https://openreview.net/forum?id=rdv6yeMFpn'>https://openreview.net/forum?id=rdv6yeMFpn</a>"
+	},
+	"geerts_expressive_2020": {
+		"short": "Geerts (2020)",
+		"long": "F. Geerts, ‘On the Expressive Power of Linear Algebra on Graphs’, <i>Theory of Computing Systems</i>, Oktober 2020, doi: <a href='https://doi.org/10.1007/s00224-020-09990-9'>10.1007/s00224-020-09990-9</a>."
 	},
 	"grohe_counting_2020": {
 		"short": "Grohe (2020)",
