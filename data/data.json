@@ -465,7 +465,7 @@
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "co-main",
+                "value": "co-main, i.e. the adjacency matrices have the same multisets of main eigenvalues.",
                 "tag": "algebraic graph theory",
                 "references": [
                     "cvetkovic_introduction_2009"
