@@ -6,7 +6,7 @@ Created on Sat May 10 11:28:23 2025
 @author: tim
 """
 
-from wikidata.client import Client
+import wikidata.client, wikidata.cache
 from hashlib import md5
 import json
 import sys
@@ -14,10 +14,11 @@ import logging
 
 from functools import lru_cache
 
-client = Client() 
+client = wikidata.client.Client(
+    cache_policy = wikidata.cache.MemoryCachePolicy(max_size = 2048)) 
 graph_classes_prop = client.get('P13104')
 
-@lru_cache(maxsize=None)
+
 def cached_get(q):
     if q is None:
         return None
