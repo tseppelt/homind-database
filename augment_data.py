@@ -59,13 +59,16 @@ if __name__ == '__main__':
         # Load the JSON data
         data = json.load(file)
     
-    for cl in data:
-        print("Processing", cl['name'], "…")
-        addGraphClassInfo(cl)
-        if ('wikidata' in cl and cl['wikidata'] is not None):
-           loadGraphClassInfo(cl)
-        for statement in cl['statements']:
-            loadStatementInfo(statement)
+    try:
+        for cl in data:
+            print("Processing", cl['name'], "…")
+            addGraphClassInfo(cl)
+            if ('wikidata' in cl and cl['wikidata'] is not None):
+                loadGraphClassInfo(cl)
+                for statement in cl['statements']:
+                    loadStatementInfo(statement)
+    except:
+        print("Error when augmenting data.")
     
     print("Writing augmented data…")
     with open(outfile, 'w') as file:
