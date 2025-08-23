@@ -11,11 +11,18 @@ from hashlib import md5
 import json
 import sys
 import logging
+import urllib.request
 
-from functools import lru_cache
+
+opener = urllib.request.build_opener()
+# https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_User-Agent_Policy
+opener.addheaders = [('User-agent', 'homind-database/1.0 (https://tseppelt.github.io/homind-database/)')]
 
 client = wikidata.client.Client(
-    cache_policy = wikidata.cache.MemoryCachePolicy(max_size = 2048)) 
+    cache_policy = wikidata.cache.MemoryCachePolicy(max_size = 2048),
+    opener = opener) 
+
+
 graph_classes_prop = client.get('P13104')
 
 
@@ -60,16 +67,17 @@ if __name__ == '__main__':
         # Load the JSON data
         data = json.load(file)
     
-    try:
-        for cl in data:
-            print("Processing", cl['name'], "…")
-            addGraphClassInfo(cl)
+    
+    for cl in data:
+        print("Processing", cl['name'], "…")
+        addGraphClassInfo(cl)
+        try:
             if ('wikidata' in cl and cl['wikidata'] is not None):
                 loadGraphClassInfo(cl)
                 for statement in cl['statements']:
                     loadStatementInfo(statement)
-    except:
-        print("Error when augmenting data.")
+        except:
+            print("Error when augmenting data.")
     
     print("Writing augmented data…")
     with open(outfile, 'w') as file:
