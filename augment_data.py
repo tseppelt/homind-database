@@ -20,7 +20,8 @@ opener.addheaders = [('User-agent', 'homind-database/1.0 (https://tseppelt.githu
 
 client = wikidata.client.Client(
     cache_policy = wikidata.cache.MemoryCachePolicy(max_size = 2048),
-    opener = opener) 
+    opener = opener
+) 
 
 
 graph_classes_prop = client.get('P13104')

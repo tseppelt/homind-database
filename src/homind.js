@@ -167,7 +167,6 @@ function populateView(data) {
 		}
 	});
 	$("#jsonData").append(content);
-	// MathJax.typeset();
 }
 
 function populateBibliography() {
@@ -275,7 +274,7 @@ $(document).ready(function () {
 		populateTagFilters(tags, 'tag');
 		populateTagFilters(categories, 'category');
 
-		MathJax.typeset();
+		MathJax.typesetPromise();
 	}).fail(function () {
 		console.error('One or more requests failed.');
 	});
