@@ -1377,12 +1377,18 @@
         "statements": [
             {
                 "claim": "characterised as",
-                "value": "no characterisation known"
+                "value": "non-empty intersection of the $\\GL_n$-orbit closures of the sets of Holant signatures comprising the adjacency matrices and equality signatures for all $d \\leq \\Delta$",
+                "references": [
+                    "cai_vanishing_2025"
+                ]
             },
             {
                 "claim": "complexity",
                 "categorical": true,
-                "value": "unknown"
+                "value": "decidable",
+                "references": [
+                    "cai_vanishing_2025"
+                ]
             },
             {
                 "claim": "homomorphism distinguishing closed",
