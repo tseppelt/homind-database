@@ -1458,6 +1458,31 @@
         ]
     },
     {
+        "name": "Odd-hole-free graphs",
+        "description": "Graphs which do not contain any odd cycle as an induced subgraph.",
+        "wikidata": "Q136032640",
+        "statements": [
+            {
+                "claim": "characterised as",
+                "value": "unkown",
+                "categorical":true
+            },
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "monotone",
+                "categorical": true
+            }
+        ]
+    },
+    {
         "name": "Cluster graphs",
         "description": "Disjoint unions of complete graphs.",
         "wikidata": "Q24892498",
