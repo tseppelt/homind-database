@@ -1477,7 +1477,8 @@
             },
             {
                 "claim": "has closure property",
-                "value": "monotone",
+                "value": "hereditary",
+                "wikidata": "Q131934975",
                 "categorical": true
             }
         ]
