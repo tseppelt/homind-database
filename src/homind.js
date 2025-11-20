@@ -155,7 +155,7 @@ function populateView(data) {
 					content += `<span class="badge text-bg-secondary">${statement.tag}</span>`
 				}
 				if (statement.description != null) {
-					content += `<br/>${statement.description}`
+					content += `<br/><i class="bi bi-info-circle"></i> ${statement.description}`
 				}
 				if (statement.references != null && statement.references.length > 0) {
 					content += `<br/>${citations(statement.references)}`

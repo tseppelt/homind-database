@@ -1503,7 +1503,7 @@
                 "references": [
                     "roberson_oddomorphisms_2022"
                 ],
-                "description": "This is true in greater generality for everz graph class $\\mathcal{K}_S = \\{K_{i_1} + \\dots + K_{i_n} \\mid i_1, \\dots, i_n \\in S, n \\geq 1 \\}$ for every $S \\subseteq \\mathbb{N}$. In particular, there are uncountably many homomorphism distinguishing closed graph classes."
+                "description": "This is true in greater generality for every graph class $\\mathcal{K}_S = \\{K_{i_1} + \\dots + K_{i_n} \\mid i_1, \\dots, i_n \\in S, n \\geq 1 \\}$ where $S \\subseteq \\mathbb{N}$ is some set of natural numbers. In particular, there are uncountably many homomorphism distinguishing closed graph classes."
             },
             {
                 "claim": "witness function",
