@@ -123,6 +123,18 @@
                 "categorical": true,
                 "wikidata": "Q3502995",
                 "references": [
+                    "mancinska_quantum_2022",
+                    "atserias_quantum_2019",
+                    "slofstra_set_2019"
+                ]
+            },
+            {
+                "claim": "complexity",
+                "value": "coRE-complete",
+                "categorical": true,
+                "wikidata": "Q905621",
+                "references": [
+                    "mancinska_quantum_2022",
                     "atserias_quantum_2019",
                     "slofstra_set_2019"
                 ]
