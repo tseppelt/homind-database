@@ -1327,6 +1327,36 @@
         ]
     },
     {
+        "name": "Circumference $\\leq k$",
+        "description": "Graphs whose longest simple cycle has length at most $k$",
+        "family": true,
+        "wikidata": "Q130377759",
+        "statements": [
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "subclass of",
+                "value": "treewidth $\\leq k-1$",
+                "tag": "bounded treewidth",
+                "references": [
+                    "birmele_treewidth_2003"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "minor-closed",
+                "wikidata": "Q131935074",
+                "categorical": true
+            }
+        ]
+    },
+    {
         "name": "Bipartite graphs",
         "wikidata": "Q174733",
         "statements": [
@@ -1529,13 +1559,39 @@
                 "categorical": true
             },
             {
-		"claim": "essentially profinite",
-		"value": true,
-		"categorical": true,
-		"references": [
-			"seppelt_logical_2024"
-		]
-	    }
+                "claim": "essentially profinite",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "seppelt_logical_2024"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "$K_{1,d}$-induced-subgraph-free graphs",
+        "description": "Graphs that do not contain the $d$-tip star as an induced subgraph.",
+        "family": true,
+        "statements": [
+            {
+                "claim": "homomorphism distinguishing closed",
+                "value": true,
+                "categorical": true,
+                "references": [
+                    "roberson_oddomorphisms_2022"
+                ]
+            },
+            {
+                "claim": "has closure property",
+                "value": "hereditary",
+                "wikidata": "Q131934975",
+                "categorical": true
+            },
+            {
+                "claim": "characterised as",
+                "value": "unkown",
+                "categorical":true
+            }
         ]
     }
 ]

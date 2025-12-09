@@ -11,6 +11,10 @@
 		"short": "Babai (2016)",
 		"long": "L. Babai, ‘Graph Isomorphism in Quasipolynomial Time [Extended Abstract]’, in <i>Proceedings of the Forty-Eighth Annual ACM Symposium on Theory of Computing</i>, in STOC ’16. New York, NY, USA: Association for Computing Machinery, 2016, pp. 684–697. doi: <a href='https://doi.org/10.1145/2897518.2897542'>10.1145/2897518.2897542</a>"
 	},
+	"birmele_treewidth_2003": {
+		"short": "Birmele (2003)",
+		"long": "E. Birmele, ‘Tree‐width and circumference of graphs’, <i>Journal of Graph Theory</i>, vol. 43, no. 1, pp. 24–25, May 2003, doi: <a href='https://doi.org/10.1002/jgt.10099'>10.1002/jgt.10099</a>."
+	},
 	"boeker_complexity_2019": {
 		"short": "Böker, Chen, Grohe, & Rattan (2019)",
 		"long": "J. Böker, Y. Chen, M. Grohe, and G. Rattan, ‘The Complexity of Homomorphism Indistinguishability’, p. 13 pages, 2019, doi: <a href='https://doi.org/10.4230/LIPICS.MFCS.2019.54'>10.4230/LIPICS.MFCS.2019.54</a>."
