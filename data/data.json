@@ -1591,7 +1591,8 @@
                 "claim": "characterised as",
                 "value": "unkown",
                 "categorical":true
-            }{
+            },
+            {
                 "claim": "coincides with",
                 "value": "$K_{1,3}$-induced-subgraph-free graphs"
             }
