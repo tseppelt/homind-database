@@ -39,6 +39,10 @@
 		"short": "Černý (2025)",
 		"long": "M. Černý, ‘Caterpillar GNN: Replacing Message Passing with Efficient Aggregation’, Jun. 07, 2025, <i>arXiv</i>: arXiv:2506.06784. doi: <a href='https://doi.org/10.48550/arXiv.2506.06784'>10.48550/arXiv.2506.06784</a>."
 	},
+	"cerny_homomorphism_2026": {
+		"short": "Černý and Seppelt (2026)",
+		"long": "M. Černý and T. Seppelt, ‘Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing’, Dec. 15, 2025, <i>arXiv</i>: arXiv:2512.13058. doi: <a href='https://doi.org/10.48550/arXiv.2512.13058'>10.48550/arXiv.2512.13058</a>."
+	},
 	"dawar_lovasz_2021": {
 		"short": "Dawar, Jakl, & Reggio (2021)",
 		"long": "A. Dawar, T. Jakl, and L. Reggio, ‘Lovász-Type Theorems and Game Comonads’, in <i>36th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</i>, IEEE, 2021, pp. 1–13. doi: <a href='https://doi.org/10.1109/LICS52264.2021.9470609'>10.1109/LICS52264.2021.9470609</a>."

@@ -359,11 +359,10 @@
             },
             {
                 "claim": "complexity",
-                "value": "polynomial time",
-                "wikidata": "Q1137573",
+                "value": "$\\mathsf{C}_=\\mathsf{L}$",
                 "categorical": true,
                 "references": [
-                    "grohe_homomorphism_2025"
+                    "cerny_homomorphism_2026"
                 ]
             },
             {
@@ -437,11 +436,10 @@
             },
             {
                 "claim": "complexity",
-                "value": "polynomial time",
-                "wikidata": "Q1137573",
+                "value": "$\\mathsf{C}_=\\mathsf{L}$",
                 "categorical": true,
                 "references": [
-                    "folklore"
+                    "cerny_homomorphism_2026"
                 ]
             },
             {
@@ -510,11 +508,10 @@
             },
             {
                 "claim": "complexity",
-                "value": "polynomial time",
+                "value": "$\\mathsf{C}_=\\mathsf{L}$",
                 "categorical": true,
-                "wikidata": "Q1137573",
-                "references": [
-                    "seppelt_algorithmic_2024"
+                "references":[
+                    "cerny_homomorphism_2026"
                 ]
             },
             {
@@ -605,9 +602,9 @@
             },
             {
                 "claim": "complexity",
-                "value": "polynomial time",
-                "wikidata": "Q1137573",
-                "categorical": true
+                "value": "$\\mathsf{C}_=\\mathsf{L}$",
+                "categorical": true,
+                "references":["cerny_homomorphism_2026"]
             },
             {
                 "claim": "homomorphism distinguishing closed",
